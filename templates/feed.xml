@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>{{ site_name }}</title>
+  <link>{{ base }}</link>
+  <description>Weekly changes in retinitis pigmentosa clinical trials and research.</description>
+  <language>en-us</language>
+  {% for i in items %}
+  <item>
+    <title>{{ i.title }}</title>
+    <link>{{ i.link }}</link>
+    <guid>{{ i.link }}</guid>
+    <pubDate>{{ i.date }}</pubDate>
+    <description>{{ i.desc }}</description>
+  </item>
+  {% endfor %}
+</channel>
+</rss>

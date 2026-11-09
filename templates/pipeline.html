@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}Pipeline | {{ site_name }}{% endblock %}
+{% block content %}
+<h1>The pipeline</h1>
+<p class="lede">{{ total }} active treatment trials, grouped by how they work and how far along they are. Phase 3 is the last step before a company can apply for approval.</p>
+
+{% for a in order %}
+<section class="pipe" aria-labelledby="p-{{ loop.index }}">
+  <h2 id="p-{{ loop.index }}">{{ a }}</h2>
+  {% for col in columns %}
+    {% set items = grid[a][col] %}
+    {% if items %}
+    <div class="pipe-row">
+      <h3>{{ col }} <span class="n">{{ items|length }}</span></h3>
+      <ul class="plain">
+      {% for t in items %}
+        <li><a href="{{ u('trial/' ~ t.nct_id ~ '.html') }}">{{ t.interventions[0].name if t.interventions else t.title }}</a> <span class="small">{{ t.sponsor }}{% if t.gene_agnostic %}, any gene{% elif t.genes %}, {{ t.genes|join(', ') }}{% endif %}{% if t.status == 'RECRUITING' %}, recruiting{% endif %}</span></li>
+      {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  {% endfor %}
+</section>
+{% endfor %}
+
+{% if country_counts %}
+<section aria-labelledby="ctry-h">
+  <h2 id="ctry-h">Where active trials have sites</h2>
+  <ul class="bars">
+  {% set maxn = country_counts[0][1] %}
+  {% for c, n in country_counts %}
+    <li><span class="bar-label">{{ c }}</span><span class="bar" style="--w: {{ (n / maxn * 100)|round(1) }}%"></span><span class="bar-n">{{ n }}</span></li>
+  {% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% endblock %}

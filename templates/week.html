@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% from "_macros.html" import trial_item, paper_item with context %}
+{% block content %}
+{% set c = s.counts %}
+
+<section class="hero" aria-labelledby="week-h">
+  <p class="dateline">Week of {{ run.run_at|short_date }}{% if not is_latest %} (archive){% endif %}</p>
+  <h1 id="week-h">{{ headline }}</h1>
+  {% if s.baseline %}
+  <p class="lede">This is the first snapshot. From next week on, this page shows only what changed.</p>
+  {% else %}
+  <p class="lede">{{ c.recruiting }} trials are recruiting now across {{ c.countries_recruiting }} countries. {{ c.phase3_active }} active trials are in Phase 3 or later.</p>
+  {% endif %}
+</section>
+
+{% if s.ai_summary %}
+<section class="digest" aria-labelledby="digest-h">
+  <h2 id="digest-h">In plain English</h2>
+  {{ s.ai_summary|markdown }}
+  <p class="small">Written automatically from the changes below. Check the trial pages for details.</p>
+</section>
+{% endif %}
+
+{% if note %}
+<section class="note" aria-labelledby="note-h">
+  <h2 id="note-h">{{ note.title or "A note from the editor" }}</h2>
+  {{ note.body|markdown }}
+</section>
+{% endif %}
+
+{% if changes %}
+<section aria-labelledby="chg-h">
+  <h2 id="chg-h">Status changes</h2>
+  <ul class="list">
+  {% for ch in changes %}
+    {{ trial_item(ch.trial, "Was: " ~ status_labels.get(ch['from'], ch['from']) ~ ". Now: " ~ status_labels.get(ch.to, ch.to) ~ ".") }}
+  {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if new_results %}
+<section aria-labelledby="res-h">
+  <h2 id="res-h">Results posted</h2>
+  <ul class="list">{% for t in new_results %}{{ trial_item(t) }}{% endfor %}</ul>
+</section>
+{% endif %}
+
+{% if new_trials %}
+<section aria-labelledby="new-h">
+  <h2 id="new-h">Newly registered trials</h2>
+  <ul class="list">{% for t in new_trials %}{{ trial_item(t) }}{% endfor %}</ul>
+</section>
+{% endif %}
+
+{% if papers %}
+<section aria-labelledby="pap-h">
+  <h2 id="pap-h">{{ "Recent papers" if s.baseline else "New papers" }}</h2>
+  <ul class="list">{% for p in papers %}{{ paper_item(p) }}{% endfor %}</ul>
+</section>
+{% endif %}
+
+{% if updated %}
+<section aria-labelledby="upd-h">
+  <details>
+    <summary><h2 id="upd-h">Other trial record updates ({{ updated|length }})</h2></summary>
+    <p class="small">Sponsors edited these records (new sites, contacts, dates) without changing status.</p>
+    <ul class="list">{% for t in updated %}{{ trial_item(t) }}{% endfor %}</ul>
+  </details>
+</section>
+{% endif %}
+
+{% if runs|length > 1 %}
+<section aria-labelledby="arch-h" class="archive">
+  <h2 id="arch-h">Past weeks</h2>
+  <ul>
+  {% for r in runs %}
+    <li>{% if r.id == run.id %}<strong>{{ r.run_at|short_date }}</strong>{% else %}<a href="{{ u('week/' ~ r.id ~ '.html') }}">{{ r.run_at|short_date }}</a>{% endif %}</li>
+  {% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% endblock %}

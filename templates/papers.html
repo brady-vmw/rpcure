@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% from "_macros.html" import paper_item with context %}
+{% block title %}Papers | {{ site_name }}{% endblock %}
+{% block content %}
+<h1>Papers</h1>
+<p class="lede">New peer-reviewed RP research from PubMed. "Lab / animal" work is years from patients; "Human trial" papers report results in people.</p>
+<form class="filters inline" onsubmit="return false">
+  <label>Type
+    <select id="kind">
+      <option value="">All types</option>
+      {% for k in kinds %}<option>{{ k }}</option>{% endfor %}
+    </select>
+  </label>
+</form>
+<ul class="list" id="paper-list">{% for p in rows %}{{ paper_item(p) }}{% else %}<li>No papers yet.</li>{% endfor %}</ul>
+{% endblock %}
+{% block scripts %}
+<script>
+document.getElementById('kind').addEventListener('change', function (e) {
+  var v = e.target.value;
+  document.querySelectorAll('#paper-list > li[data-kind]').forEach(function (li) { li.hidden = v && li.dataset.kind !== v; });
+});
+</script>
+{% endblock %}

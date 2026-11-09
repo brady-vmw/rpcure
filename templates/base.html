@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ site_name }}{% endblock %}</title>
+<meta name="description" content="A weekly, plain-language tracker of retinitis pigmentosa clinical trials and research, worldwide.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ u('static/style.css') }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site_name }} weekly updates" href="{{ u('feed.xml') }}">
+<script>
+  (function () {
+    try {
+      var s = localStorage.getItem('rp-size'), t = localStorage.getItem('rp-theme');
+      if (s) document.documentElement.dataset.size = s;
+      if (t) document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="{{ u('index.html') }}">{{ site_name }}</a>
+    <nav aria-label="Main">
+      {% for key, href, label in [("home","index.html","This week"),("trials","trials.html","Trials"),("pipeline","pipeline.html","Pipeline"),("papers","papers.html","Papers"),("about","about.html","About")] %}
+      <a href="{{ u(href) }}" {% if page == key %}aria-current="page"{% endif %}>{{ label }}</a>
+      {% endfor %}
+    </nav>
+    <div class="view-controls" role="group" aria-label="Display settings">
+      <button type="button" data-size-step="-1" aria-label="Smaller text">A−</button>
+      <button type="button" data-size-step="1" aria-label="Larger text">A+</button>
+      <button type="button" id="theme-toggle" aria-label="Switch light or dark">Light / dark</button>
+    </div>
+  </div>
+</header>
+<main id="main" class="wrap">
+{% block content %}{% endblock %}
+</main>
+<footer class="wrap foot">
+  <p>Data from ClinicalTrials.gov and PubMed, refreshed every Monday. <a href="{{ u('feed.xml') }}">Follow by RSS</a>. This site is for information, not medical advice. Talk to your retina specialist before acting on anything here.</p>
+</footer>
+<script>
+  (function () {
+    var root = document.documentElement, sizes = ['s', 'm', 'l', 'xl'];
+    function save(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+    document.querySelectorAll('[data-size-step]').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var i = sizes.indexOf(root.dataset.size || 'm') + parseInt(b.dataset.sizeStep, 10);
+        i = Math.max(0, Math.min(sizes.length - 1, i));
+        root.dataset.size = sizes[i]; save('rp-size', sizes[i]);
+      });
+    });
+    document.getElementById('theme-toggle').addEventListener('click', function () {
+      var dark = root.dataset.theme ? root.dataset.theme === 'dark'
+               : window.matchMedia('(prefers-color-scheme: dark)').matches;
+      root.dataset.theme = dark ? 'light' : 'dark'; save('rp-theme', root.dataset.theme);
+    });
+  })();
+</script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

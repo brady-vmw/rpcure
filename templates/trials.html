@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+{% from "_macros.html" import trial_item with context %}
+{% block title %}Trials | {{ site_name }}{% endblock %}
+{% block content %}
+<h1>Trials</h1>
+<form class="filters" id="trial-filters" onsubmit="return false">
+  <label>Search <input type="search" name="q" placeholder="Drug, sponsor or NCT number" autocomplete="off"></label>
+  <label>Status
+    <select name="status">
+      <option value="active">Active (recruiting or underway)</option>
+      <option value="recruiting">Recruiting or about to</option>
+      <option value="closed">Finished or stopped</option>
+      <option value="all">All</option>
+    </select>
+  </label>
+  <label>Gene
+    <select name="gene">
+      <option value="">Any gene</option>
+      <option value="_agnostic">Not gene-specific</option>
+      {% for g in genes %}<option>{{ g }}</option>{% endfor %}
+    </select>
+  </label>
+  <label>Approach
+    <select name="approach">
+      <option value="">Any approach</option>
+      {% for a in approaches %}<option>{{ a }}</option>{% endfor %}
+    </select>
+  </label>
+  <label>Phase
+    <select name="phase">
+      <option value="">Any phase</option>
+      <option value="1">Phase 1</option><option value="2">Phase 2</option>
+      <option value="3">Phase 3</option><option value="4">Phase 4</option>
+    </select>
+  </label>
+  <label>Country
+    <select name="country">
+      <option value="">Anywhere</option>
+      {% for c in countries %}<option>{{ c }}</option>{% endfor %}
+    </select>
+  </label>
+</form>
+<p class="count" id="trial-count" role="status" aria-live="polite">{{ rows|length }} trials</p>
+<p id="no-match" hidden>No trials match. Try "All" under Status, or clear the gene filter.</p>
+<ul class="list" id="trial-list">{% for t in rows %}{{ trial_item(t, filterable=True) }}{% endfor %}</ul>
+{% endblock %}
+{% block scripts %}
+<script>
+(function () {
+  var form = document.getElementById('trial-filters'), items = [].slice.call(document.querySelectorAll('#trial-list > li')),
+      count = document.getElementById('trial-count'), none = document.getElementById('no-match'), total = items.length;
+  var params = new URLSearchParams(location.search);
+  ['q', 'status', 'gene', 'approach', 'phase', 'country'].forEach(function (k) {
+    if (params.has(k)) form.elements[k].value = params.get(k);
+  });
+  function has(list, v) { return list.split('|').indexOf(v) !== -1; }
+  function apply() {
+    var f = {}, shown = 0;
+    ['q', 'status', 'gene', 'approach', 'phase', 'country'].forEach(function (k) { f[k] = form.elements[k].value; });
+    var q = f.q.trim().toLowerCase();
+    items.forEach(function (li) {
+      var d = li.dataset, ok = true;
+      if (f.status === 'active' && d.active !== '1') ok = false;
+      if (f.status === 'recruiting' && d.status !== 'RECRUITING' && d.status !== 'NOT_YET_RECRUITING') ok = false;
+      if (f.status === 'closed' && d.active === '1') ok = false;
+      if (f.gene && !has(d.gene, f.gene)) ok = false;
+      if (f.approach && !has(d.approach, f.approach)) ok = false;
+      if (f.phase && d.phase !== f.phase) ok = false;
+      if (f.country && !has(d.country, f.country)) ok = false;
+      if (q && d.text.indexOf(q) === -1) ok = false;
+      li.hidden = !ok; if (ok) shown++;
+    });
+    count.textContent = shown + ' of ' + total + ' trials';
+    none.hidden = shown > 0;
+    var p = new URLSearchParams();
+    Object.keys(f).forEach(function (k) { if (f[k] && !(k === 'status' && f[k] === 'active')) p.set(k, f[k]); });
+    history.replaceState(null, '', location.pathname + (p.toString() ? '?' + p : ''));
+  }
+  form.addEventListener('input', apply);
+  form.addEventListener('change', apply);
+  apply();
+})();
+</script>
+{% endblock %}

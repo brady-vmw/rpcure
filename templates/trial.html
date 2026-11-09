@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% from "_macros.html" import status_badge with context %}
+{% block title %}{{ t.acronym or t.nct_id }} | {{ site_name }}{% endblock %}
+{% block content %}
+<p class="dateline"><a href="{{ u('trials.html') }}">Trials</a> / {{ t.nct_id }}</p>
+<h1 class="trial-h">{{ t.title }}</h1>
+<p class="facts big">{{ status_badge(t.status, t.status_label) }} <span>{{ t.phase_label }}</span> <span>{{ t.approaches|join(', ') }}</span></p>
+{% if t.why_stopped %}<p class="change">Why it stopped: {{ t.why_stopped }}</p>{% endif %}
+
+<dl class="kv">
+  <dt>Sponsor</dt><dd>{{ t.sponsor }}</dd>
+  <dt>Treatment</dt><dd>{% for i in t.interventions %}{{ i.name }}{% if not loop.last %}; {% endif %}{% else %}Not listed{% endfor %}</dd>
+  <dt>Gene</dt><dd>{% if t.gene_agnostic %}Not gene-specific{% if t.genes %} (mentions {{ t.genes|join(', ') }}){% endif %}{% elif t.genes %}{{ t.genes|join(', ') }}{% else %}Not stated{% endif %}</dd>
+  <dt>Conditions</dt><dd>{{ t.conditions|join(', ') }}</dd>
+  <dt>Ages</dt><dd>{{ t.min_age or "Any" }} to {{ t.max_age or "no upper limit" }}</dd>
+  <dt>Enrollment</dt><dd>{{ t.enrollment or "Not stated" }} participants</dd>
+  <dt>Started</dt><dd>{{ t.start_date or "Not stated" }}</dd>
+  <dt>Main results expected</dt><dd>{{ t.primary_completion or "Not stated" }}</dd>
+  <dt>Results posted</dt><dd>{{ "Yes" if t.has_results else "Not yet" }}</dd>
+  <dt>Record last updated</dt><dd>{{ t.last_update }}</dd>
+</dl>
+
+{% if t.summary %}
+<h2>What the study is testing</h2>
+<div class="summary">{{ t.summary|markdown }}</div>
+{% endif %}
+
+<h2>Where it runs</h2>
+{% if by_country %}
+{% for country, locs in by_country.items() %}
+<details {% if loop.length <= 3 %}open{% endif %}>
+  <summary>{{ country }} ({{ locs|length }})</summary>
+  <ul class="plain">
+  {% for l in locs %}<li>{{ l.facility }}{% if l.city %}, {{ l.city }}{% endif %}{% if l.state %}, {{ l.state }}{% endif %}{% if l.status %} <span class="small">({{ status_labels.get(l.status, l.status)|lower }})</span>{% endif %}</li>{% endfor %}
+  </ul>
+</details>
+{% endfor %}
+{% else %}
+<p>No sites listed yet.</p>
+{% endif %}
+
+<p class="cta"><a class="button" href="{{ t.url }}" rel="noopener">Open on ClinicalTrials.gov for contacts and eligibility</a></p>
+{% endblock %}

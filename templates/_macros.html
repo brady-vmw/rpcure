@@ -1,0 +1,23 @@
+{% macro status_badge(code, label) -%}
+<span class="status s-{{ code|lower }}">{% if code == 'RECRUITING' %}<span aria-hidden="true">●</span> {% elif code in ('TERMINATED','WITHDRAWN','SUSPENDED') %}<span aria-hidden="true">■</span> {% elif code == 'COMPLETED' %}<span aria-hidden="true">✓</span> {% endif %}{{ label }}</span>
+{%- endmacro %}
+
+{% macro trial_item(t, extra=None, filterable=False) -%}
+<li class="trial"{% if filterable %} data-status="{{ t.status }}" data-active="{{ 1 if t.active else 0 }}" data-phase="{{ t.phase_rank }}" data-approach="{{ t.approaches|pipes }}" data-gene="{{ (t.genes + (['_agnostic'] if t.gene_agnostic else []))|pipes }}" data-country="{{ t.countries|pipes }}" data-text="{{ (t.title ~ ' ' ~ t.sponsor ~ ' ' ~ t.nct_id ~ ' ' ~ t.acronym ~ ' ' ~ t.interventions|map(attribute='name')|join(' ') ~ ' ' ~ t.conditions|join(' '))|lower }}"{% endif %}>
+  <h3><a href="{{ u('trial/' ~ t.nct_id ~ '.html') }}">{{ t.title }}</a></h3>
+  {% if extra %}<p class="change">{{ extra }}</p>{% endif %}
+  <p class="facts">
+    {{ status_badge(t.status, t.status_label) }}
+    <span>{{ t.phase_label }}</span>
+    <span>{{ t.approaches|join(', ') }}</span>
+  </p>
+  <p class="who">{{ t.sponsor }}{% if t.gene_agnostic %}. Not gene-specific{% elif t.genes %}. Gene: {{ t.genes|join(', ') }}{% endif %}{% if t.countries %}. {{ t.countries[:4]|join(', ') }}{% if t.countries|length > 4 %} and {{ t.countries|length - 4 }} more{% endif %}{% endif %}</p>
+</li>
+{%- endmacro %}
+
+{% macro paper_item(p) -%}
+<li class="paper" data-kind="{{ p.kind }}">
+  <h3><a href="{{ p.url }}" rel="noopener">{{ p.title }}</a></h3>
+  <p class="who"><span class="kind">{{ p.kind }}</span> {{ p.journal }}, {{ p.pub_date }}. {{ p.authors }}</p>
+</li>
+{%- endmacro %}
