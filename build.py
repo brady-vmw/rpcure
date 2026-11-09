@@ -125,7 +125,7 @@ def build(out):
 
     runs = store.list_runs(limit=500)
     note = read_note()
-    trials = store.all_trials()
+    trials = [fetcher.reclassify(t) for t in store.all_trials()]
 
     # home + weekly archive
     if runs:

@@ -6,7 +6,7 @@ on:
   workflow_dispatch:        # "Run workflow" button in the Actions tab
   push:
     branches: [main]
-    paths: ["content/**", "templates/**", "static/**", "build.py", "CNAME"]
+    paths: ["content/**", "templates/**", "static/**", "build.py", "fetcher.py", "CNAME"]
 
 permissions:
   contents: write

@@ -61,7 +61,7 @@ PHASE_RANK = {"EARLY_PHASE1": 0, "PHASE1": 1, "PHASE2": 2, "PHASE3": 3, "PHASE4"
 # Ordered: first match wins for the "primary" approach, but all matches are kept.
 APPROACH_RULES = [
     ("Gene editing", r"crispr|gene[- ]edit|base[- ]edit|prime[- ]edit|edit-101"),
-    ("Optogenetics", r"optogenetic|channelrhodopsin|mco-010|sonpiretigene|gs030|rst-001|kio-301"),
+    ("Optogenetics", r"optogenetic|channelrhodopsin|mco-010|sonpiretigene|gs030|rst-001|kio-301|rtx-015|ray therapeutics"),
     ("Gene therapy", r"\baav|raav|gene therapy|gene transfer|subretinal|vector|retigene|ocu400|4d-125|ocugen"),
     ("RNA / antisense", r"antisense|oligonucleotide|\baon\b|sepofarsen|ultevursen|\bsirna|\bmrna"),
     ("Cell therapy", r"stem cell|progenitor|cell therapy|jcell|ipsc|\besc\b|photoreceptor precursor|cell transplant|bone marrow"),
@@ -79,7 +79,7 @@ GENES = ["RPGR", "RHO", "USH2A", "USH1C", "MYO7A", "CDH23", "PCDH15", "CLRN1", "
 GENE_RE = re.compile(r"\b(" + "|".join(GENES) + r")\b")
 GENE_AGNOSTIC_RE = re.compile(
     r"gene[- ]agnostic|mutation[- ]agnostic|regardless of (genetic|gene|mutation)|optogenetic|"
-    r"acetylcysteine|\bnac\b|ocu400|mco-010|sonpiretigene|jcell", re.I)
+    r"acetylcysteine|\bnac\b|npi-001|ocu400|mco-010|sonpiretigene|rtx-015|ray therapeutics|jcell", re.I)
 
 
 def _get(url, params, tries=3):
@@ -144,6 +144,8 @@ def classify(text, interventions, study_type):
             approaches = ["Drug / neuroprotection"]
         else:
             approaches = ["Other"]
+    if re.search(r"natural history|\bcohort\b|\bregistry\b", t) and not any(i.get("type") in ("DRUG", "BIOLOGICAL", "GENETIC") for i in interventions):
+        approaches = ["Natural history / observational"]
     if study_type == "OBSERVATIONAL" and "Natural history / observational" not in approaches:
         approaches = ["Natural history / observational"]
     return approaches
@@ -197,6 +199,7 @@ def normalize_trial(s):
         "sponsor": (spons.get("leadSponsor") or {}).get("name", ""),
         "sponsor_class": (spons.get("leadSponsor") or {}).get("class", ""),
         "conditions": conditions,
+        "keywords": cond.get("keywords") or [],
         "study_type": study_type,
         "phases": phases,
         "phase_label": " / ".join(PHASE_LABELS.get(p, p) for p in phases) or
@@ -283,3 +286,14 @@ def normalize_paper(r):
         "genes": sorted(set(GENE_RE.findall(title))),
         "url": f"https://pubmed.ncbi.nlm.nih.gov/{r.get('uid')}/",
     }
+
+
+def reclassify(t):
+    """Recompute labels on a stored trial (after rule changes)."""
+    blob = " ".join([t.get("title", ""), t.get("official_title", ""), t.get("summary", ""),
+                     " ".join(t.get("conditions", [])), " ".join(t.get("keywords", [])),
+                     " ".join(i["name"] + " " + i["description"] for i in t.get("interventions", []))])
+    t["approaches"] = classify(blob, t.get("interventions", []), t.get("study_type", ""))
+    t["genes"] = sorted(set(GENE_RE.findall(blob)))
+    t["gene_agnostic"] = bool(GENE_AGNOSTIC_RE.search(blob))
+    return t
