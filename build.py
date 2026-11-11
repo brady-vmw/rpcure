@@ -189,6 +189,7 @@ def build(out):
     trial_notes = therapy_data.get("trial_notes", {})
     news = sorted(load_json("news.json", {"items": []}).get("items", []), key=lambda n: n["date"], reverse=True)
     papers_plain = load_json("papers_plain.json", {"papers": {}}).get("papers", {})
+    week_summaries = load_json("summaries.json", {"weeks": {}}).get("weeks", {})
     therapy_by_nct = {n: th for th in therapies for n in th.get("ncts", [])}
     therapy_by_id = {th["id"]: th for th in therapies}
     for n in news:
@@ -243,6 +244,7 @@ def build(out):
                            key=lambda p: (PAPER_KIND_ORDER.get(p["kind"], 9), p.get("sort_date", "")))
         return dict(
             run=run, runs=runs, s=s, headline=headline(s), is_latest=is_latest,
+            plain_summary=week_summaries.get(run["id"]) or s.get("ai_summary", ""),
             new_trials=[tmap[i] for i in s["new_trials"] if i in tmap],
             changes=[c for c in changes if c not in stopped], stopped=stopped,
             new_results=[tmap[i] for i in s["new_results"] if i in tmap],

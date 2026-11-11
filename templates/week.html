@@ -27,10 +27,10 @@
 </section>
 {% endif %}
 
-{% if s.ai_summary %}
+{% if plain_summary %}
 <section class="digest" aria-labelledby="digest-h">
-  <h2 id="digest-h">In plain English</h2>
-  {{ s.ai_summary|markdown }}
+  <h2 id="digest-h">This week in plain English</h2>
+  {{ plain_summary|markdown }}
 </section>
 {% endif %}
 
