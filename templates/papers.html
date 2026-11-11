@@ -3,8 +3,9 @@
 {% block title %}Papers | {{ site_name }}{% endblock %}
 {% block content %}
 <h1>Papers</h1>
-<p class="lede">New peer-reviewed RP research from PubMed. "Lab / animal" work is years from patients; "Human trial" papers report results in people.</p>
-<form class="filters inline" onsubmit="return false">
+<p class="lede">New RP research indexed in PubMed. Each paper is labeled by type: "Lab or animal study" is years from patients, "Human trial results" report results in people, and preprints have not been peer-reviewed yet.</p>
+<form class="filters" onsubmit="return false" id="paper-filters">
+  <label>Search <input type="search" id="pq" placeholder="Gene, topic or journal" autocomplete="off"></label>
   <label>Type
     <select id="kind">
       <option value="">All types</option>
@@ -12,13 +13,24 @@
     </select>
   </label>
 </form>
+<p class="count" id="paper-count" role="status" aria-live="polite" aria-atomic="true">{{ rows|length }} papers</p>
 <ul class="list" id="paper-list">{% for p in rows %}{{ paper_item(p) }}{% else %}<li>No papers yet.</li>{% endfor %}</ul>
 {% endblock %}
 {% block scripts %}
 <script>
-document.getElementById('kind').addEventListener('change', function (e) {
-  var v = e.target.value;
-  document.querySelectorAll('#paper-list > li[data-kind]').forEach(function (li) { li.hidden = v && li.dataset.kind !== v; });
-});
+(function () {
+  var kind = document.getElementById('kind'), q = document.getElementById('pq'), count = document.getElementById('paper-count'),
+      items = [].slice.call(document.querySelectorAll('#paper-list > li[data-kind]')), timer;
+  function apply() {
+    var k = kind.value, s = q.value.trim().toLowerCase(), n = 0;
+    items.forEach(function (li) {
+      var ok = (!k || li.dataset.kind === k) && (!s || li.dataset.text.indexOf(s) !== -1);
+      li.hidden = !ok; if (ok) n++;
+    });
+    clearTimeout(timer);
+    timer = setTimeout(function () { count.textContent = 'Showing ' + n + ' of ' + items.length + ' papers'; }, 250);
+  }
+  kind.addEventListener('change', apply); q.addEventListener('input', apply);
+})();
 </script>
 {% endblock %}

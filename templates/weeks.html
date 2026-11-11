@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Past weekly updates | {{ site_name }}{% endblock %}
+{% block content %}
+<h1>Past weekly updates</h1>
+<ul class="list">
+{% for w in weeks %}
+  <li><h2 class="h3"><a href="{{ u('week/' ~ w.id ~ '.html') }}">{{ w.run_at|nice_date(weekday=True) }}</a></h2><p>{{ w.headline }}</p></li>
+{% endfor %}
+</ul>
+{% endblock %}

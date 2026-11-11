@@ -1,23 +1,34 @@
 {% macro status_badge(code, label) -%}
-<span class="status s-{{ code|lower }}">{% if code == 'RECRUITING' %}<span aria-hidden="true">●</span> {% elif code in ('TERMINATED','WITHDRAWN','SUSPENDED') %}<span aria-hidden="true">■</span> {% elif code == 'COMPLETED' %}<span aria-hidden="true">✓</span> {% endif %}{{ label }}</span>
+<span class="status s-{{ code|lower }}">{% if code == 'RECRUITING' %}<span aria-hidden="true">● </span>{% elif code in ('TERMINATED','WITHDRAWN','SUSPENDED') %}<span aria-hidden="true">■ </span>{% elif code == 'COMPLETED' %}<span aria-hidden="true">✓ </span>{% endif %}{{ label }}</span>
 {%- endmacro %}
 
+{% macro approved_badge() -%}<span class="status s-approved">FDA-approved treatment</span>{%- endmacro %}
+
 {% macro trial_item(t, extra=None, filterable=False) -%}
-<li class="trial"{% if filterable %} data-status="{{ t.status }}" data-active="{{ 1 if t.active else 0 }}" data-phase="{{ t.phase_rank }}" data-approach="{{ t.approaches|pipes }}" data-gene="{{ (t.genes + (['_agnostic'] if t.gene_agnostic else []))|pipes }}" data-country="{{ t.countries|pipes }}" data-text="{{ (t.title ~ ' ' ~ t.sponsor ~ ' ' ~ t.nct_id ~ ' ' ~ t.acronym ~ ' ' ~ t.interventions|map(attribute='name')|join(' ') ~ ' ' ~ t.conditions|join(' '))|lower }}"{% endif %}>
+<li class="trial"{% if filterable %} data-status="{{ t.status }}" data-active="{{ 1 if t.active else 0 }}" data-type="{{ 'treatment' if t.is_treatment else 'observational' }}" data-phase="{{ t.phase_rank }}" data-approach="{{ t.approaches|pipes }}" data-gene="{{ (t.genes + (['_agnostic'] if t.gene_agnostic else []))|pipes }}" data-country="{{ t.countries|pipes }}" data-state="{{ t.us_states|pipes }}" data-min="{{ t.min_age_years if t.min_age_years is not none else '' }}" data-max="{{ t.max_age_years if t.max_age_years is not none else '' }}" data-text="{{ (t.title ~ ' ' ~ t.sponsor ~ ' ' ~ t.nct_id ~ ' ' ~ t.acronym ~ ' ' ~ t.lead ~ ' ' ~ t.interventions|map(attribute='name')|join(' ') ~ ' ' ~ t.conditions|join(' ') ~ ' ' ~ (t.therapy.name if t.therapy else ''))|lower }}"{% endif %}>
   <h3><a href="{{ u('trial/' ~ t.nct_id ~ '.html') }}">{{ t.title }}</a></h3>
   {% if extra %}<p class="change">{{ extra }}</p>{% endif %}
   <p class="facts">
     {{ status_badge(t.status, t.status_label) }}
+    {% if t.approved %}{{ approved_badge() }}{% endif %}
     <span>{{ t.phase_label }}</span>
     <span>{{ t.approaches|join(', ') }}</span>
   </p>
-  <p class="who">{{ t.sponsor }}{% if t.gene_agnostic %}. Not gene-specific{% elif t.genes %}. Gene: {{ t.genes|join(', ') }}{% endif %}{% if t.countries %}. {{ t.countries[:4]|join(', ') }}{% if t.countries|length > 4 %} and {{ t.countries|length - 4 }} more{% endif %}{% endif %}</p>
+  <p class="who">
+    <span class="sr-only">Sponsor: </span>{{ t.sponsor }}.
+    {% if t.gene_agnostic %}Not gene-specific.{% elif t.genes %}Gene: {{ t.genes|join(', ') }}.{% endif %}
+    Ages {{ t|age_text }}.
+    {% if t.countries %}Sites in {{ t.countries[:4]|join(', ') }}{% if t.countries|length > 4 %} and {{ t.countries|length - 4 }} more countries{% endif %}.{% endif %}
+  </p>
+  {% if t.therapy %}<p class="plain-line"><span class="sr-only">In plain English: </span>{{ t.therapy.name }}: {{ t.therapy.stage }}.</p>{% endif %}
 </li>
 {%- endmacro %}
 
 {% macro paper_item(p) -%}
-<li class="paper" data-kind="{{ p.kind }}">
+<li class="paper" data-kind="{{ p.kind }}" data-text="{{ (p.title ~ ' ' ~ p.journal ~ ' ' ~ (p.plain or '') ~ ' ' ~ p.genes|join(' '))|lower }}">
+  <p class="kind-tag">{{ p.kind }}</p>
   <h3><a href="{{ p.url }}" rel="noopener">{{ p.title }}</a></h3>
-  <p class="who"><span class="kind">{{ p.kind }}</span> {{ p.journal }}, {{ p.pub_date }}. {{ p.authors }}</p>
+  {% if p.plain %}<p class="plain-line"><span class="sr-only">In plain English: </span>{{ p.plain }}</p>{% endif %}
+  <p class="who">{{ p.journal }}. {{ p.date_text }}. {{ p.authors }}</p>
 </li>
 {%- endmacro %}

@@ -1,0 +1,59 @@
+{
+  "_about": "Verified news items, newest first. Each needs a date (YYYY-MM-DD), a plain-language summary, at least one source, and optionally the therapy id from therapies.json. Include setbacks as well as good news.",
+  "items": [
+    {
+      "date": "2026-10-28",
+      "therapy": "npi-001",
+      "kind": "trial started",
+      "title": "NPI-001 Phase 3 trial doses its first patient",
+      "summary": "Nacuity's twice-daily tablet for RP caused by Usher syndrome began its 2-year confirmatory trial. It will enroll up to 80 adults in the US and Australia.",
+      "url": "https://www.ophthalmologytimes.com/view/first-patient-dosed-in-phase-3-npi-001-trial-for-usher-syndrome-rp",
+      "source": "Ophthalmology Times"
+    },
+    {
+      "date": "2026-09-21",
+      "therapy": "laru-zova",
+      "kind": "results",
+      "title": "Laru-zova meets its main goal in X-linked RP",
+      "summary": "In Beacon's pivotal VISTA trial, 31% of high-dose patients gained at least 3 lines of dim-light reading vision after a year, versus none of the untreated group. It is the first X-linked RP trial to succeed.",
+      "url": "https://www.biopharminternational.com/view/beacon-therapeutics-laru-zova-primary-endpoint-pivotal-xlrp-trial",
+      "source": "BioPharm International"
+    },
+    {
+      "date": "2026-09-09",
+      "therapy": "mco-010",
+      "kind": "regulatory",
+      "title": "FDA accepts application for MCO-010 (MOGENRY)",
+      "summary": "The FDA will review Nanoscope's gene-agnostic optogenetic therapy for RP with severe vision loss. A decision is expected in the first half of 2027.",
+      "url": "https://www.healio.com/news/ophthalmology/20260909/fda-accepts-biologics-license-application-for-nanoscopes-mogenry",
+      "source": "Healio"
+    },
+    {
+      "date": "2026-04-07",
+      "therapy": "rtx-015",
+      "kind": "regulatory",
+      "title": "RTx-015 gets RMAT status from the FDA",
+      "summary": "The designation gives Ray Therapeutics' optogenetic therapy closer FDA guidance and a possible faster review. No efficacy data have been published yet.",
+      "url": "https://www.healio.com/news/ophthalmology/20260407/retinitis-pigmentosa-candidate-receives-regenerative-medicine-advanced-therapy-designation",
+      "source": "Healio"
+    },
+    {
+      "date": "2026-03-02",
+      "therapy": "ocu400",
+      "kind": "trial milestone",
+      "title": "OCU400 Phase 3 finishes enrolling 140 people",
+      "summary": "Ocugen's gene-agnostic gene therapy trial includes children aged 3 and up. First results are expected in early 2027.",
+      "url": "https://retinauk.org.uk/news/ocugen-announce-phase-3-enrolment-completion-for-ocu400-the-largest-gene-agnostic-therapy-trial-for-rp/",
+      "source": "Retina UK"
+    },
+    {
+      "date": "2025-05-05",
+      "therapy": "bota-vec",
+      "kind": "setback",
+      "title": "Bota-vec Phase 3 misses its main goal",
+      "summary": "The LUMEOS trial of this RPGR gene therapy did not improve the maze-navigation test it was judged on, though some other vision measures improved.",
+      "url": "https://www.ophthalmologytimes.com/view/j-j-gene-therapy-treatment-fails-primary-endpoints",
+      "source": "Ophthalmology Times"
+    }
+  ]
+}

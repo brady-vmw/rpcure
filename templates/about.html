@@ -3,18 +3,21 @@
 {% block content %}
 <h1>About this tracker</h1>
 <div class="prose">
-<p>This site is built by a family living with retinitis pigmentosa, for others in the same spot. Every week it checks the public trial registries and research databases and shows what changed, so you don't have to dig through them yourself.</p>
+<p>This site is built by a family living with retinitis pigmentosa, for others in the same spot. Every Friday it checks the public trial registry and research databases and shows what changed, so you don't have to dig through them yourself. It is meant to sit alongside the Foundation Fighting Blindness and national charities, not replace them.</p>
 
 <h2>Where the data comes from</h2>
-<p><strong>ClinicalTrials.gov</strong>, the US registry. Nearly every company-sponsored RP trial worldwide registers here, including trials run only in Europe, Asia or Australia. We track these conditions: {{ conditions|join(', ') }}.</p>
-<p><strong>PubMed</strong>, the US National Library of Medicine's index of peer-reviewed research.</p>
+<p><strong>ClinicalTrials.gov</strong>, the U.S. registry. Nearly every company-sponsored RP trial worldwide registers here, including trials run only in Europe, Asia or Australia. We search for these conditions: {{ conditions|join(', ') }}. Records that only mention these conditions in passing, such as an obesity drug trial for Bardet-Biedl syndrome or a cancer trial for a drug coincidentally named "RP2", are filtered out.</p>
+<p><strong>PubMed</strong>, the U.S. National Library of Medicine's index of research papers. Papers that only mention RP in passing are filtered out. Preprints, which have not been peer-reviewed, are labeled as such.</p>
+
+<h2>How the plain-language summaries are written</h2>
+<p>Summaries of treatments, news and papers are drafted with the help of an AI assistant and checked against the sources listed with each one. Each treatment summary shows the date its facts were last checked. We include setbacks as well as good news, because you can only trust the good news if the bad news is there too.</p>
 
 <h2>What it misses</h2>
-<p>Some academic trials register only in national registries (China's ChiCTR, the EU's CTIS, ISRCTN in the UK, ANZCTR in Australia and New Zealand) and won't appear here. Company press releases and conference presentations often come months before anything shows up in a registry or journal.</p>
+<p>Some academic trials register only in national registries (China's ChiCTR, the EU's CTIS, ISRCTN in the U.K., ANZCTR in Australia and New Zealand) and won't appear here. Company press releases and conference presentations often come months before anything shows up in a registry or journal.</p>
 <p>Labels like "Gene therapy" and the gene names are assigned automatically from the trial text, so they are occasionally wrong. The trial page on ClinicalTrials.gov is always the official record.</p>
 
-<h2>How to read a trial</h2>
-<p>Phase 1 tests safety in a small group. Phase 2 looks for signs it works. Phase 3 is a larger study that, if positive, supports an application for approval. Most treatments that start Phase 1 never reach approval.</p>
+<h2>Corrections</h2>
+<p>If you spot a mistake, an off-topic trial, or something missing, {% if feedback_url %}<a href="{{ feedback_url }}" rel="noopener">tell us here</a>{% else %}let us know{% endif %}. Reports are reviewed every week and fixes go out with the Friday update.</p>
 
 <h2>Not medical advice</h2>
 <p>Nothing here is a recommendation. Talk to your retina specialist or genetic counselor before joining a trial or changing treatment.</p>

@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}Start here | {{ site_name }}{% endblock %}
+{% block content %}
+<h1>Start here</h1>
+<p class="lede">If you or someone you love has just been diagnosed with RP, these are the steps that matter most before any trial. Every link below goes to a nonprofit or government source.</p>
+
+<section aria-labelledby="s1">
+  <h2 id="s1">1. Get a genetic diagnosis</h2>
+  <p>More than 100 genes can cause RP, and almost every treatment in development is aimed at specific genes or needs a confirmed genetic diagnosis to enroll you. Genetic testing can also change the diagnosis itself. Some people learn that what they were told was one condition is actually another.</p>
+  <p>In the U.S., the Foundation Fighting Blindness runs the <a href="https://www.fightingblindness.org/open-access-genetic-testing-program" rel="noopener">My Retina Tracker Genetic Testing Program</a>. It offers genetic testing and genetic counseling at no cost to people with a clinical diagnosis of an inherited retinal disease. Your eye doctor orders it, so bring the link to your next appointment.</p>
+  <p>If your result says "variant of uncertain significance" (VUS), it means the lab found a gene change but cannot yet say whether it causes disease. That is not a diagnosis. Ask the genetic counselor whether testing family members could help, and ask to be recontacted if the variant is reclassified.</p>
+</section>
+
+<section aria-labelledby="s2">
+  <h2 id="s2">2. Join the patient registry</h2>
+  <p><a href="https://www.myretinatracker.org/" rel="noopener">My Retina Tracker</a> is a free registry run by the Foundation Fighting Blindness. Companies running trials use it to find eligible people, so joining is one of the simplest ways to hear about trials that fit your gene.</p>
+</section>
+
+<section aria-labelledby="s3">
+  <h2 id="s3">3. See a retina specialist who manages inherited retinal disease</h2>
+  <p>A general eye doctor can diagnose RP, but trial referrals, Luxturna (for the RPE65 gene) and monitoring usually go through a retina specialist with an inherited retinal disease clinic, often at a university hospital. Ask for a referral.</p>
+</section>
+
+<section aria-labelledby="stem-cells" id="stem-cells">
+  <h2>4. Be careful with stem cell clinics</h2>
+  <p>Families facing vision loss are a target for clinics selling unproven stem cell injections. In 2017, three women in Florida lost their sight after a clinic injected cells made from their own fat into their eyes. The FDA has repeatedly warned about clinics that advertise stem cell "trials" without FDA review.</p>
+  <p>Warning signs include:</p>
+  <ul>
+    <li>You are asked to pay for the treatment or to "join the trial".</li>
+    <li>The same treatment is offered for many unrelated diseases.</li>
+    <li>There is no ClinicalTrials.gov number (it starts with NCT), or the clinic cannot give you one.</li>
+    <li>Both eyes are treated on the same day.</li>
+  </ul>
+  <p>Real cell therapy trials, like the ones listed under <a href="{{ u('trials.html?approach=Cell+therapy') }}">Cell therapy</a> on this site, are registered, supervised, and do not charge participants.</p>
+</section>
+
+<section aria-labelledby="s5">
+  <h2 id="s5">5. Find trials that fit you</h2>
+  <p>On the <a href="{{ u('trials.html?status=recruiting') }}">Trials page</a>, filter by gene, age and U.S. state. If you do not know your gene yet, choose "Not gene-specific". Those treatments are designed to work regardless of which gene causes RP. Each trial page lists questions to ask the study coordinator.</p>
+  <p>To understand the terms you will see, use the <a href="{{ u('glossary.html') }}">glossary</a>.</p>
+</section>
+
+<section aria-labelledby="s6">
+  <h2 id="s6">Outside the U.S.</h2>
+  <p>In the U.K., <a href="https://retinauk.org.uk/" rel="noopener">Retina UK</a> publishes plain-language research news and support services. Many countries have a national RP or retina charity, and they are the best place to ask about local genetic testing.</p>
+</section>
+{% endblock %}

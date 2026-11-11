@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% block title %}{{ site_name }}{% endblock %}</title>
-<meta name="description" content="A weekly, plain-language tracker of retinitis pigmentosa clinical trials and research, worldwide.">
+<title>{% block title %}{{ site_name }}: weekly retinitis pigmentosa research updates{% endblock %}</title>
+<meta name="description" content="A weekly, plain-language tracker of retinitis pigmentosa clinical trials, treatments and research, for patients and families.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;800&display=swap" rel="stylesheet">
@@ -20,45 +20,64 @@
   })();
 </script>
 </head>
-<body>
-<a class="skip" href="#main">Skip to content</a>
+<body id="top">
+<a class="skip" href="#main">Skip to main content</a>
 <header class="masthead">
   <div class="wrap">
     <a class="brand" href="{{ u('index.html') }}">{{ site_name }}</a>
     <nav aria-label="Main">
-      {% for key, href, label in [("home","index.html","This week"),("trials","trials.html","Trials"),("pipeline","pipeline.html","Pipeline"),("papers","papers.html","Papers"),("about","about.html","About")] %}
+      {% for key, href, label in [("home","index.html","This week"),("trials","trials.html","Trials"),("pipeline","pipeline.html","Pipeline"),("papers","papers.html","Papers"),("start","start.html","Start here"),("glossary","glossary.html","Glossary"),("about","about.html","About")] %}
       <a href="{{ u(href) }}" {% if page == key %}aria-current="page"{% endif %}>{{ label }}</a>
       {% endfor %}
     </nav>
     <div class="view-controls" role="group" aria-label="Display settings">
-      <button type="button" data-size-step="-1" aria-label="Smaller text">A−</button>
-      <button type="button" data-size-step="1" aria-label="Larger text">A+</button>
-      <button type="button" id="theme-toggle" aria-label="Switch light or dark">Light / dark</button>
+      <button type="button" data-size-step="-1">Smaller text</button>
+      <button type="button" data-size-step="1">Larger text</button>
+      <button type="button" id="theme-toggle" aria-pressed="false">Dark mode: off</button>
+      <span class="size-readout" id="size-readout" aria-live="polite"></span>
     </div>
   </div>
 </header>
 <main id="main" class="wrap">
 {% block content %}{% endblock %}
+<p class="to-top"><a href="#top">Back to top</a></p>
 </main>
 <footer class="wrap foot">
-  <p>Data from ClinicalTrials.gov and PubMed, refreshed every Monday. <a href="{{ u('feed.xml') }}">Follow by RSS</a>. This site is for information, not medical advice. Talk to your retina specialist before acting on anything here.</p>
+  {% if last_updated %}<p><strong>Data last updated {{ last_updated }}.</strong> Next update {{ next_update }}.</p>{% endif %}
+  <p>Trial data comes from ClinicalTrials.gov and papers from PubMed. Plain-language summaries are written from verified sources, which are listed with each one. This site is for information, not medical advice. Talk to your retina specialist before acting on anything here.</p>
+  <p>
+    {% if feedback_url %}<a href="{{ feedback_url }}" rel="noopener">Report a mistake or suggest something</a>.{% endif %}
+    <a href="{{ u('weeks.html') }}">Past weekly updates</a>.
+    <a href="{{ u('feed.xml') }}">Follow by RSS</a>.
+  </p>
 </footer>
 <script>
   (function () {
-    var root = document.documentElement, sizes = ['s', 'm', 'l', 'xl'];
+    var root = document.documentElement, sizes = ['s', 'm', 'l', 'xl', 'xxl', 'xxxl'],
+        pct = {s: 90, m: 100, l: 120, xl: 145, xxl: 170, xxxl: 200},
+        readout = document.getElementById('size-readout'), toggle = document.getElementById('theme-toggle');
     function save(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+    function isDark() {
+      return root.dataset.theme ? root.dataset.theme === 'dark'
+           : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    }
+    function syncTheme() {
+      var d = isDark();
+      toggle.textContent = 'Dark mode: ' + (d ? 'on' : 'off');
+      toggle.setAttribute('aria-pressed', d ? 'true' : 'false');
+    }
     document.querySelectorAll('[data-size-step]').forEach(function (b) {
       b.addEventListener('click', function () {
         var i = sizes.indexOf(root.dataset.size || 'm') + parseInt(b.dataset.sizeStep, 10);
         i = Math.max(0, Math.min(sizes.length - 1, i));
         root.dataset.size = sizes[i]; save('rp-size', sizes[i]);
+        readout.textContent = 'Text size ' + pct[sizes[i]] + '%';
       });
     });
-    document.getElementById('theme-toggle').addEventListener('click', function () {
-      var dark = root.dataset.theme ? root.dataset.theme === 'dark'
-               : window.matchMedia('(prefers-color-scheme: dark)').matches;
-      root.dataset.theme = dark ? 'light' : 'dark'; save('rp-theme', root.dataset.theme);
+    toggle.addEventListener('click', function () {
+      root.dataset.theme = isDark() ? 'light' : 'dark'; save('rp-theme', root.dataset.theme); syncTheme();
     });
+    syncTheme();
   })();
 </script>
 {% block scripts %}{% endblock %}

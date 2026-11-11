@@ -1,23 +1,36 @@
 {% extends "base.html" %}
-{% from "_macros.html" import trial_item, paper_item with context %}
+{% from "_macros.html" import trial_item, paper_item, approved_badge with context %}
 {% block content %}
-{% set c = s.counts %}
+{% set c = counts %}
 
 <section class="hero" aria-labelledby="week-h">
-  <p class="dateline">Week of {{ run.run_at|short_date }}{% if not is_latest %} (archive){% endif %}</p>
+  <p class="dateline">{% if is_latest %}Updated {{ run.run_at|nice_date(weekday=True) }}{% else %}Archive: week of {{ run.run_at|nice_date }}{% endif %}</p>
   <h1 id="week-h">{{ headline }}</h1>
-  {% if s.baseline %}
-  <p class="lede">This is the first snapshot. From next week on, this page shows only what changed.</p>
-  {% else %}
-  <p class="lede">{{ c.recruiting }} trials are recruiting now across {{ c.countries_recruiting }} countries. {{ c.phase3_active }} active trials are in Phase 3 or later.</p>
-  {% endif %}
+  {% if s.baseline %}<p class="lede">This is the first snapshot. From the next update on, this page leads with what changed.</p>{% endif %}
 </section>
+
+{% if is_latest %}
+<section class="summary-block" aria-label="Trials at a glance">
+  <p class="glance">
+    <a href="{{ u('trials.html?status=recruiting') }}"><strong>{{ c.recruiting }} trials are recruiting now</strong></a>, with sites in {{ c.recruiting_countries }} countries.
+    Of {{ c.active }} active trials, <a href="{{ u('trials.html?type=treatment') }}">{{ c.treatment }} are testing a treatment</a>
+    ({{ c.phase3 }} in Phase 3) and <a href="{{ u('trials.html?type=observational') }}">{{ c.observational }} are natural-history or registry studies</a>.
+  </p>
+  <p class="start-callout"><a href="{{ u('start.html') }}">New to RP research? Start with genetic testing and how to judge a trial</a></p>
+  <nav class="jump" aria-label="On this page">
+    <span>On this page:</span>
+    {% if not s.baseline %}<a href="#changes">What changed</a>{% endif %}
+    <a href="#treatments">Treatments to watch</a>
+    <a href="#news">News</a>
+    <a href="#papers">Papers</a>
+  </nav>
+</section>
+{% endif %}
 
 {% if s.ai_summary %}
 <section class="digest" aria-labelledby="digest-h">
   <h2 id="digest-h">In plain English</h2>
   {{ s.ai_summary|markdown }}
-  <p class="small">Written automatically from the changes below. Check the trial pages for details.</p>
 </section>
 {% endif %}
 
@@ -28,56 +41,85 @@
 </section>
 {% endif %}
 
-{% if changes %}
-<section aria-labelledby="chg-h">
-  <h2 id="chg-h">Status changes</h2>
+{% if not s.baseline %}
+<section id="changes" aria-labelledby="chg-h">
+  <h2 id="chg-h">What changed this week</h2>
+  {% if not (changes or new_results or new_trials or stopped) %}<p>No trial changed status, posted results or registered this week.</p>{% endif %}
+
+  {% if changes %}
+  <h3 class="sub">Status changes</h3>
   <ul class="list">
   {% for ch in changes %}
     {{ trial_item(ch.trial, "Was: " ~ status_labels.get(ch['from'], ch['from']) ~ ". Now: " ~ status_labels.get(ch.to, ch.to) ~ ".") }}
   {% endfor %}
   </ul>
-</section>
-{% endif %}
+  {% endif %}
 
-{% if new_results %}
-<section aria-labelledby="res-h">
-  <h2 id="res-h">Results posted</h2>
+  {% if new_results %}
+  <h3 class="sub">Results posted to the registry</h3>
   <ul class="list">{% for t in new_results %}{{ trial_item(t) }}{% endfor %}</ul>
+  {% endif %}
+
+  {% if new_trials %}
+  <h3 class="sub">Newly registered trials</h3>
+  <ul class="list">{% for t in new_trials %}{{ trial_item(t) }}{% endfor %}</ul>
+  {% endif %}
+
+  {% if stopped %}
+  <h3 class="sub">Stopped, paused or withdrawn</h3>
+  <ul class="list">
+  {% for ch in stopped %}
+    {{ trial_item(ch.trial, "Now: " ~ status_labels.get(ch.to, ch.to) ~ "." ~ (" Reason given: " ~ ch.trial.why_stopped if ch.trial.why_stopped else "")) }}
+  {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% if updated %}
+  <details>
+    <summary>Other trial record updates ({{ updated|length }})</summary>
+    <p class="small">Sponsors edited these records (new sites, contacts or dates) without changing status.</p>
+    <ul class="list">{% for t in updated %}{{ trial_item(t) }}{% endfor %}</ul>
+  </details>
+  {% endif %}
 </section>
 {% endif %}
 
-{% if new_trials %}
-<section aria-labelledby="new-h">
-  <h2 id="new-h">Newly registered trials</h2>
-  <ul class="list">{% for t in new_trials %}{{ trial_item(t) }}{% endfor %}</ul>
+{% if is_latest %}
+<section id="treatments" aria-labelledby="tx-h">
+  <h2 id="tx-h">Treatments families ask about</h2>
+  <p class="small">Plain-language summaries, checked against the sources listed on each page. Facts last checked {{ therapies[0].verified|nice_date if therapies else '' }}.</p>
+  <ul class="list therapy-list">
+  {% for th in therapies %}
+    <li>
+      <h3><a href="{{ u('trial/' ~ th.primary_nct ~ '.html') }}#plain">{{ th.name }}</a></h3>
+      <p class="facts">{% if th.approved %}{{ approved_badge() }}{% endif %}<span>{{ th.stage }}</span></p>
+      <p class="who">{{ th.approach }}. {{ th.gene }}. {{ th.sponsor }}.</p>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+
+<section id="news" aria-labelledby="news-h">
+  <h2 id="news-h">Recent news</h2>
+  <p class="small">Good news and setbacks, each linked to its source.</p>
+  <ul class="list">
+  {% for n in news %}
+    <li class="news">
+      <p class="kind-tag">{{ n.date|nice_date }}</p>
+      <h3><a href="{{ n.url }}" rel="noopener">{{ n.title }}</a></h3>
+      <p>{{ n.summary }}</p>
+      <p class="who">Source: {{ n.source }}.{% if n.therapy_obj %} <a href="{{ u('trial/' ~ n.therapy_obj.primary_nct ~ '.html') }}#plain">More about {{ n.therapy_obj.name }}</a>.{% endif %}</p>
+    </li>
+  {% endfor %}
+  </ul>
 </section>
 {% endif %}
 
 {% if papers %}
-<section aria-labelledby="pap-h">
-  <h2 id="pap-h">{{ "Recent papers" if s.baseline else "New papers" }}</h2>
-  <ul class="list">{% for p in papers %}{{ paper_item(p) }}{% endfor %}</ul>
-</section>
-{% endif %}
-
-{% if updated %}
-<section aria-labelledby="upd-h">
-  <details>
-    <summary><h2 id="upd-h">Other trial record updates ({{ updated|length }})</h2></summary>
-    <p class="small">Sponsors edited these records (new sites, contacts, dates) without changing status.</p>
-    <ul class="list">{% for t in updated %}{{ trial_item(t) }}{% endfor %}</ul>
-  </details>
-</section>
-{% endif %}
-
-{% if runs|length > 1 %}
-<section aria-labelledby="arch-h" class="archive">
-  <h2 id="arch-h">Past weeks</h2>
-  <ul>
-  {% for r in runs %}
-    <li>{% if r.id == run.id %}<strong>{{ r.run_at|short_date }}</strong>{% else %}<a href="{{ u('week/' ~ r.id ~ '.html') }}">{{ r.run_at|short_date }}</a>{% endif %}</li>
-  {% endfor %}
-  </ul>
+<section id="papers" aria-labelledby="pap-h">
+  <h2 id="pap-h">{{ "Recent papers" if s.baseline else "New papers this week" }}</h2>
+  <ul class="list">{% for p in papers[:10] %}{{ paper_item(p) }}{% endfor %}</ul>
+  {% if papers|length > 10 %}<p><a href="{{ u('papers.html') }}">See all {{ papers|length }} papers, with search and filters</a></p>{% endif %}
 </section>
 {% endif %}
 {% endblock %}

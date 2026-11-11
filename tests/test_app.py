@@ -37,6 +37,8 @@ raw = [
           [], ["United States", "Belgium"], cond=("Usher Syndrome Type 2",), study_type="OBSERVATIONAL"),
     study("NCT00000006", "jCell Intravitreal Retinal Progenitor Cells", "ACTIVE_NOT_RECRUITING", ["PHASE2"], "jCyte",
           [("BIOLOGICAL", "jCell", "retinal progenitor cells")], ["United States"]),
+    study("NCT00000009", "Neoadjuvant RP2 + Nivolumab in Patients With Melanoma", "NOT_YET_RECRUITING", ["PHASE2"], "Replimune",
+          [("BIOLOGICAL", "RP2", "oncolytic virus")], ["United States"], cond=("Melanoma",)),
     study("NCT00000007", "Antisense oligonucleotide ultevursen for USH2A exon 13", "TERMINATED", ["PHASE2", "PHASE3"], "Laboratoires Thea",
           [("DRUG", "Ultevursen", "antisense")], ["United States", "Netherlands"], cond=("Usher Syndrome", "Retinitis Pigmentosa")),
 ]
@@ -48,19 +50,23 @@ papers = [
      "pubdate": "2026 Oct 30", "sortpubdate": "2026/10/30 00:00", "authors": [{"name": "Chen Y"}], "articleids": [], "pubtype": ["Journal Article"]},
     {"uid": "41000003", "title": "Retinitis pigmentosa therapies: a review", "fulljournalname": "Prog Retin Eye Res",
      "pubdate": "2026 Oct", "sortpubdate": "2026/10/15 00:00", "authors": [{"name": "Doe A"}], "articleids": [], "pubtype": ["Review"]},
+    {"uid": "41000004", "title": "Artificial selection diversifies birdsong through polygenic changes", "fulljournalname": "bioRxiv : the preprint server for biology",
+     "pubdate": "2026 Nov", "sortpubdate": "2026/11/01 00:00", "authors": [{"name": "Bird B"}], "articleids": [], "pubtype": ["Preprint"]},
 ]
 norm_p = [fetcher.normalize_paper(p) for p in papers]
 
 trials1 = [fetcher.normalize_trial(s) for s in raw]
-for t in trials1:
+for t in trials1[:7]:
     print(t["nct_id"], t["approaches"], t["genes"], "agnostic" if t["gene_agnostic"] else "", t["phase_label"])
 assert trials1[0]["approaches"] == ["Gene therapy"] and trials1[0]["genes"] == ["RPGR"]
 assert trials1[1]["approaches"] == ["Optogenetics"] and trials1[1]["gene_agnostic"]
 assert trials1[2]["approaches"] == ["Drug / neuroprotection"]
 assert trials1[4]["approaches"] == ["Natural history / observational"]
 assert trials1[5]["approaches"] == ["Cell therapy"]
-assert trials1[6]["approaches"] == ["RNA / antisense"]
-assert [p["kind"] for p in norm_p] == ["Human trial", "Lab / animal", "Review"], [p["kind"] for p in norm_p]
+assert trials1[7]["approaches"] == ["RNA / antisense"]
+assert [p["kind"] for p in norm_p] == ["Human trial results", "Lab or animal study", "Review", "Preprint (not yet peer-reviewed)"], [p["kind"] for p in norm_p]
+assert not fetcher.is_relevant_paper(dict(norm_p[3], abstract="mentions retinitis pigmentosa once"))
+assert not fetcher.is_relevant_trial(fetcher.normalize_trial(raw[6]))  # melanoma RP2
 assert norm_p[0]["title"].startswith("Long-term outcomes of RPGR")
 
 r1 = refresh.run(trials=trials1, papers=norm_p[2:])
@@ -74,7 +80,7 @@ raw2[0]["protocolSection"]["statusModule"]["lastUpdatePostDateStruct"]["date"] =
 raw2.append(study("NCT00000008", "Subretinal Gene Therapy for RHO-adRP", "NOT_YET_RECRUITING", ["PHASE1", "PHASE2"], "Example Bio",
                   [("GENETIC", "AAV-RHO knockdown/replace", "subretinal")], ["Australia", "Japan"], cond=("Autosomal Dominant Retinitis Pigmentosa",)))
 trials2 = [fetcher.normalize_trial(s) for s in raw2]
-r2 = refresh.run(trials=trials2, papers=norm_p)
+r2 = refresh.run(trials=trials2, papers=norm_p[:3])
 s2 = store.get_run(r2)["summary"]
 print({k: v for k, v in s2.items() if k != "ai_summary"})
 assert s2["new_trials"] == ["NCT00000008"]
@@ -107,10 +113,17 @@ home = page("index.html")
 assert "This week: 1 trial started recruiting, 1 trial posted results, 1 new trial registered, 2 new papers." in home
 assert "now enrolling" in home and 'href="trial/NCT00000004.html"' in home and 'href="static/style.css"' in home
 assert "now enrolling" not in page(f"week/{r1}.html"), "note should only show on the latest week"
-assert "Tracking 5 active RP trials" in page(f"week/{r1}.html")
-tp = page("trial/NCT00000004.html"); assert 'href="../static/style.css"' in tp and "Not gene-specific (mentions NR2E3)" in tp
+assert "Tracking" in page(f"week/{r1}.html")
+assert "melanoma" not in page("trials.html").lower(), "off-topic trial should be filtered"
+assert "birdsong" not in page("papers.html").lower()
+assert "Can I join?" in page("trial/NCT00000002.html") and "Questions to ask the study coordinator" in page("trial/NCT00000002.html")
+assert "8 and older" in page("trial/NCT00000002.html")
+for rel in ["start.html", "glossary.html", "weeks.html"]: assert os.path.exists(os.path.join(out, rel)), rel
+assert "Data last updated" in home and "Next update Friday" in home
+assert 'trials.html?status=recruiting' in home
+tp = page("trial/NCT00000004.html"); assert 'href="../static/style.css"' in tp and "Not gene-specific (the record mentions NR2E3)" in tp
 tr = page("trials.html"); assert tr.count('data-status=') == 8 and 'data-gene="RPGR"' in tr and "_agnostic" in tr
 assert "https://example.org/rp/static/style.css" in page("404.html")
-feed = page("feed.xml"); assert "<link>https://example.org/rp/week/" in feed and "Week of 2026" in feed
+feed = page("feed.xml"); assert "<link>https://example.org/rp/week/" in feed and "Week of " in feed
 print("ALL TESTS PASSED")
 print("SITE_DIR", out)

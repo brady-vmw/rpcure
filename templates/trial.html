@@ -1,35 +1,84 @@
 {% extends "base.html" %}
-{% from "_macros.html" import status_badge with context %}
-{% block title %}{{ t.acronym or t.nct_id }} | {{ site_name }}{% endblock %}
+{% from "_macros.html" import status_badge, approved_badge with context %}
+{% block title %}{{ (t.therapy.name ~ ': ') if t.therapy else '' }}{{ t.acronym or t.nct_id }} | {{ site_name }}{% endblock %}
 {% block content %}
 <p class="dateline"><a href="{{ u('trials.html') }}">Trials</a> / {{ t.nct_id }}</p>
 <h1 class="trial-h">{{ t.title }}</h1>
-<p class="facts big">{{ status_badge(t.status, t.status_label) }} <span>{{ t.phase_label }}</span> <span>{{ t.approaches|join(', ') }}</span></p>
+<p class="facts big">{{ status_badge(t.status, t.status_label) }}{% if t.approved %} {{ approved_badge() }}{% endif %} <span>{{ t.phase_label }}</span> <span>{{ t.approaches|join(', ') }}</span></p>
+{% if t.note %}<p class="change">Note: {{ t.note }}</p>{% endif %}
 {% if t.why_stopped %}<p class="change">Why it stopped: {{ t.why_stopped }}</p>{% endif %}
 
+{% if t.therapy %}
+<section class="plain-box" id="plain" aria-labelledby="plain-h">
+  <h2 id="plain-h">{{ t.therapy.name }} in plain English</h2>
+  <p class="facts">{% if t.therapy.approved %}{{ approved_badge() }}{% endif %}<span>{{ t.therapy.stage }}</span></p>
+  <p>{{ t.therapy.plain }}</p>
+  <h3>Who it is for</h3>
+  <p>{{ t.therapy.eligibility }}</p>
+  {% if t.therapy.ncts|length > 1 %}
+  <p class="small">Related trial records:
+    {% for n in t.therapy.ncts if n != t.nct_id %}<a href="{{ u('trial/' ~ n ~ '.html') }}">{{ n }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>
+  {% endif %}
+  <details>
+    <summary>Sources (facts checked {{ t.therapy.verified|nice_date }})</summary>
+    <ul class="plain">{% for s in t.therapy.sources %}<li><a href="{{ s.url }}" rel="noopener">{{ s.title }}</a></li>{% endfor %}</ul>
+  </details>
+</section>
+{% endif %}
+
+<section class="join-box" aria-labelledby="join-h">
+  <h2 id="join-h">{% if t.status in ('RECRUITING', 'NOT_YET_RECRUITING', 'ENROLLING_BY_INVITATION') %}Can I join?{% else %}Who was in this study{% endif %}</h2>
+  <dl class="kv">
+    <dt>Status</dt><dd>{{ t.status_label }}{% if t.status == 'ENROLLING_BY_INVITATION' %} (only people invited by the study team){% endif %}</dd>
+    <dt>Ages</dt><dd>{{ t|age_text }}</dd>
+    <dt>Sex</dt><dd>{{ t.sex|sex_text }}</dd>
+    <dt>Gene</dt><dd>{% if t.gene_agnostic %}Not gene-specific{% if t.genes %} (the record mentions {{ t.genes|join(', ') }}){% endif %}{% elif t.genes %}{{ t.genes|join(', ') }}{% else %}Not stated in the record{% endif %}</dd>
+    <dt>Conditions</dt><dd>{{ t.conditions|join('; ') }}</dd>
+    <dt>Number of people</dt><dd>{{ t.enrollment or "Not stated" }}</dd>
+    {% if t.us_states %}<dt>U.S. states with sites</dt><dd>{{ t.us_states|join(', ') }}</dd>{% endif %}
+  </dl>
+  {% if t.eligibility_text %}
+  <details>
+    <summary>Full eligibility rules from the registry</summary>
+    <div class="registry-text">{{ t.eligibility_text|markdown }}</div>
+  </details>
+  {% endif %}
+  {% if t.status in ('RECRUITING', 'NOT_YET_RECRUITING') %}
+  <h3>Questions to ask the study coordinator</h3>
+  <ul>
+    <li>Do I qualify, given my gene, age and current vision? Which tests decide that, and who pays for them?</li>
+    <li>Is there a placebo or sham group? If I am in it, can I get the real treatment later?</li>
+    <li>How many visits are there, where, and over how long? Are travel and lodging covered?</li>
+    <li>What are the known risks, and what happens if I have a side effect?</li>
+    <li>Would joining stop me from joining other gene or cell therapy trials later?</li>
+    <li>Will I be told my own results and the overall results?</li>
+    <li>Will anything be billed to me or my insurance?</li>
+  </ul>
+  <p class="small">Real clinical trials almost never charge you to take part. A clinic that asks you to pay for a stem cell or "trial" treatment is a warning sign. <a href="{{ u('start.html') }}#stem-cells">Why that matters</a>.</p>
+  {% endif %}
+  <p class="cta"><a class="button" href="{{ t.url }}" rel="noopener">Open on ClinicalTrials.gov for contacts</a></p>
+</section>
+
+<h2>Study details</h2>
 <dl class="kv">
   <dt>Sponsor</dt><dd>{{ t.sponsor }}</dd>
   <dt>Treatment</dt><dd>{% for i in t.interventions %}{{ i.name }}{% if not loop.last %}; {% endif %}{% else %}Not listed{% endfor %}</dd>
-  <dt>Gene</dt><dd>{% if t.gene_agnostic %}Not gene-specific{% if t.genes %} (mentions {{ t.genes|join(', ') }}){% endif %}{% elif t.genes %}{{ t.genes|join(', ') }}{% else %}Not stated{% endif %}</dd>
-  <dt>Conditions</dt><dd>{{ t.conditions|join(', ') }}</dd>
-  <dt>Ages</dt><dd>{{ t.min_age or "Any" }} to {{ t.max_age or "no upper limit" }}</dd>
-  <dt>Enrollment</dt><dd>{{ t.enrollment or "Not stated" }} participants</dd>
-  <dt>Started</dt><dd>{{ t.start_date or "Not stated" }}</dd>
-  <dt>Main results expected</dt><dd>{{ t.primary_completion or "Not stated" }}</dd>
-  <dt>Results posted</dt><dd>{{ "Yes" if t.has_results else "Not yet" }}</dd>
-  <dt>Record last updated</dt><dd>{{ t.last_update }}</dd>
+  <dt>Started</dt><dd>{{ t.start_date|nice_date or "Not stated" }}</dd>
+  <dt>Main results expected</dt><dd>{{ t.primary_completion|nice_date or "Not stated" }}</dd>
+  <dt>Results posted</dt><dd>{{ "Yes, on ClinicalTrials.gov" if t.has_results else "Not yet" }}</dd>
+  <dt>Record last updated</dt><dd>{{ t.last_update|nice_date }}</dd>
 </dl>
 
 {% if t.summary %}
-<h2>What the study is testing</h2>
+<h2>What the study is testing (registry summary)</h2>
 <div class="summary">{{ t.summary|markdown }}</div>
 {% endif %}
 
 <h2>Where it runs</h2>
 {% if by_country %}
 {% for country, locs in by_country.items() %}
-<details {% if loop.length <= 3 %}open{% endif %}>
-  <summary>{{ country }} ({{ locs|length }})</summary>
+<details {% if loop.length <= 3 or country == 'United States' %}open{% endif %}>
+  <summary>{{ country }} ({{ locs|length }} {{ "site" if locs|length == 1 else "sites" }})</summary>
   <ul class="plain">
   {% for l in locs %}<li>{{ l.facility }}{% if l.city %}, {{ l.city }}{% endif %}{% if l.state %}, {{ l.state }}{% endif %}{% if l.status %} <span class="small">({{ status_labels.get(l.status, l.status)|lower }})</span>{% endif %}</li>{% endfor %}
   </ul>
@@ -39,5 +88,5 @@
 <p>No sites listed yet.</p>
 {% endif %}
 
-<p class="cta"><a class="button" href="{{ t.url }}" rel="noopener">Open on ClinicalTrials.gov for contacts and eligibility</a></p>
+{% if feedback_url %}<p class="small">See something wrong on this page? <a href="{{ feedback_url }}{% if feedback_field %}{{ '&' if '?' in feedback_url else '?' }}{{ feedback_field }}={{ t.nct_id }}{% endif %}" rel="noopener">Report a mistake</a>.</p>{% endif %}
 {% endblock %}

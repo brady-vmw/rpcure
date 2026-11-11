@@ -2,19 +2,28 @@
 {% block title %}Pipeline | {{ site_name }}{% endblock %}
 {% block content %}
 <h1>The pipeline</h1>
-<p class="lede">{{ total }} active treatment trials, grouped by how they work and how far along they are. Phase 3 is the last step before a company can apply for approval.</p>
+<p class="lede">{{ total }} active trials are testing {{ treatments }} different treatments. They are grouped by how they work and how far along they are. Phase 3 is the last step before a company can ask for approval. Natural-history and registry studies are not shown here.</p>
+
+<nav class="jump" aria-label="Approaches on this page">
+  <span>Jump to:</span>
+  {% for a in order %}<a href="#p-{{ loop.index }}">{{ a }}</a>{% endfor %}
+</nav>
 
 {% for a in order %}
-<section class="pipe" aria-labelledby="p-{{ loop.index }}">
-  <h2 id="p-{{ loop.index }}">{{ a }}</h2>
+<section class="pipe" aria-labelledby="p-{{ loop.index }}-h" id="p-{{ loop.index }}">
+  <h2 id="p-{{ loop.index }}-h">{{ a }}</h2>
   {% for col in columns %}
-    {% set items = grid[a][col] %}
-    {% if items %}
+    {% set groups = grid[a][col] %}
+    {% if groups %}
     <div class="pipe-row">
-      <h3>{{ col }} <span class="n">{{ items|length }}</span></h3>
+      <h3>{{ col }}: {{ groups.values()|map('length')|sum }} {{ "trial" if groups.values()|map('length')|sum == 1 else "trials" }}</h3>
       <ul class="plain">
-      {% for t in items %}
-        <li><a href="{{ u('trial/' ~ t.nct_id ~ '.html') }}">{{ t.interventions[0].name if t.interventions else t.title }}</a> <span class="small">{{ t.sponsor }}{% if t.gene_agnostic %}, any gene{% elif t.genes %}, {{ t.genes|join(', ') }}{% endif %}{% if t.status == 'RECRUITING' %}, recruiting{% endif %}</span></li>
+      {% for lead, ts in groups|dictsort %}
+        <li>
+          <strong>{{ lead }}</strong>{% if ts[0].approved %} (FDA-approved){% endif %}
+          <span class="small">{{ ts[0].sponsor }}{% if ts[0].gene_agnostic %}, any gene{% elif ts[0].genes %}, {{ ts[0].genes|join(', ') }}{% endif %}.</span>
+          {% for t in ts %}<a href="{{ u('trial/' ~ t.nct_id ~ '.html') }}">{{ t.nct_id }}</a>{% if t.status == 'RECRUITING' %} (recruiting){% endif %}{% if not loop.last %}, {% endif %}{% endfor %}
+        </li>
       {% endfor %}
       </ul>
     </div>
@@ -25,7 +34,7 @@
 
 {% if country_counts %}
 <section aria-labelledby="ctry-h">
-  <h2 id="ctry-h">Where active trials have sites</h2>
+  <h2 id="ctry-h">Countries with the most active treatment trials</h2>
   <ul class="bars">
   {% set maxn = country_counts[0][1] %}
   {% for c, n in country_counts %}

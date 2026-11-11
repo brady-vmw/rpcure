@@ -3,7 +3,7 @@
 A weekly, plain-language tracker of retinitis pigmentosa research for patients and families,
 hosted free on GitHub Pages.
 
-Every Monday a GitHub Action pulls every RP-related trial from ClinicalTrials.gov and new papers
+Every Friday a GitHub Action pulls every RP-related trial from ClinicalTrials.gov and new papers
 from PubMed, compares them with last week's snapshot (`data/state.json`), commits the new snapshot,
 and rebuilds the site. The home page leads with what changed: trials that started recruiting,
 results posted, new trials, new papers.
@@ -22,9 +22,21 @@ results posted, new trials, new papers.
 Built for low vision: one central column, Atkinson Hyperlegible font, navy/amber contrast,
 text-size buttons, dark mode.
 
+## Content files (edit on github.com; the site rebuilds in about a minute)
+
+| File | What it controls |
+|---|---|
+| `content/therapies.json` | Plain-language summaries, eligibility and sources for the treatments families ask about |
+| `content/news.json` | Verified news items (good news and setbacks) |
+| `content/papers_plain.json` | One plain-English sentence per paper, keyed by PubMed ID |
+| `content/note.md` | Optional editor's note at the top of the home page |
+| `content/site.json` | Feedback form link |
+
+Feedback from the site's form lands in the Google Sheet "rpcure.com feedback (responses)".
+
 ## Your weekly routine
 
-Nothing is required: the data updates itself every Monday morning.
+Nothing is required: the data updates itself every Friday morning.
 
 To add a note to the top of the home page, edit `content/note.md` on github.com (pencil icon),
 write a few lines, and commit. The site rebuilds in about a minute. Start with `# Title` for a

@@ -1,0 +1,5 @@
+{
+  "_about": "Site settings. feedback_url is the public Google Form; responses land in the 'rpcure.com feedback (responses)' sheet (Drive file 1ODz8VqfuF7YFOLuAWpWTJWOaGMcvPGAvPr0lyshNX6U, account brady@vmwoundcare.com). feedback_page_field pre-fills the 'Which page or trial' question.",
+  "feedback_url": "https://docs.google.com/forms/d/e/1FAIpQLSfpATxZcMhTXfpgRsUEJTx4pTYNhoNRpkdZ9hK9OhNDicuYVw/viewform",
+  "feedback_page_field": "entry.850019814"
+}

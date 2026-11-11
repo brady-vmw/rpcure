@@ -1,0 +1,189 @@
+{
+  "_about": "Plain-language summaries of the treatments families ask about most. Every factual claim must be backed by a listed source. 'verified' is the date the facts were last checked. Edit carefully: this text appears on the home page and on each listed trial's page.",
+  "therapies": [
+    {
+      "id": "mco-010",
+      "name": "MCO-010 (MOGENRY)",
+      "sponsor": "Nanoscope Therapeutics",
+      "approach": "Optogenetics",
+      "gene": "Any gene",
+      "stage": "FDA decision expected in the first half of 2027",
+      "approved": false,
+      "primary_nct": "NCT04945772",
+      "ncts": ["NCT04945772", "NCT06162585"],
+      "plain": "A one-time injection into the eye, given in a doctor's office, that gives surviving inner retinal cells a light-sensing protein so they can respond to light after rods and cones are gone. It does not depend on which gene caused your RP. In the 27-person RESTORE trial of people with severe vision loss, treated eyes gained vision on the eye chart at one year, which met the trial's main goal. The FDA accepted Nanoscope's application on 9 September 2026 and is expected to decide in the first half of 2027. It is not approved yet.",
+      "eligibility": "No trial is enrolling now. RESTORE (completed) enrolled adults with advanced RP and severe vision loss, regardless of gene.",
+      "verified": "2026-11-11",
+      "sources": [
+        {"title": "Healio: FDA accepts application for Nanoscope's Mogenry (9 Sep 2026)", "url": "https://www.healio.com/news/ophthalmology/20260909/fda-accepts-biologics-license-application-for-nanoscopes-mogenry"},
+        {"title": "Eyewire News: FDA accepts Nanoscope's BLA; decision date in first half of 2027", "url": "https://eyewire.news/news/fda-accepts-nanoscopes-bla-for-optogenetic-gene-therapy-mogenry-in-retinitis-pigmentosa"},
+        {"title": "Optometry Times: RESTORE enrolled 27 patients with advanced RP", "url": "https://www.optometrytimes.com/view/fda-accepts-nanoscope-s-bla-mco-010-retinitis-pigmentosa"}
+      ]
+    },
+    {
+      "id": "ocu400",
+      "name": "OCU400",
+      "sponsor": "Ocugen",
+      "approach": "Gene therapy (modifier)",
+      "gene": "Any gene",
+      "stage": "Phase 3 fully enrolled; first results expected early 2027",
+      "approved": false,
+      "primary_nct": "NCT06388200",
+      "ncts": ["NCT06388200", "NCT05203939", "NCT06574997"],
+      "plain": "A one-time gene therapy injected under the retina. Instead of replacing your faulty gene, it adds a 'master regulator' gene (NR2E3) meant to rebalance the retina and keep it healthier, so it is being tested in RP caused by many different genes. The Phase 3 liMeliGhT trial finished enrolling 140 people, including children aged 3 and up, in March 2026. Ocugen expects the first results in early 2027. It is not approved.",
+      "eligibility": "The Phase 3 trial is closed to new patients. It enrolled people aged 3 and older with RP from a wide range of genes, plus a separate group with RHO-related RP.",
+      "verified": "2026-11-11",
+      "sources": [
+        {"title": "Ocugen: Phase 3 liMeliGhT enrollment complete (2 Mar 2026)", "url": "https://www.biospace.com/press-releases/ocugen-announces-phase-3-limelight-enrollment-completion-for-ocu400-a-novel-modifier-gene-therapy-for-broad-retinitis-pigmentosa"},
+        {"title": "Retina UK: OCU400 Phase 3 enrolment complete, results expected early 2027", "url": "https://retinauk.org.uk/news/ocugen-announce-phase-3-enrolment-completion-for-ocu400-the-largest-gene-agnostic-therapy-trial-for-rp/"}
+      ]
+    },
+    {
+      "id": "laru-zova",
+      "name": "Laru-zova (AGTC-501)",
+      "sponsor": "Beacon Therapeutics",
+      "approach": "Gene therapy",
+      "gene": "RPGR (X-linked RP)",
+      "stage": "Pivotal trial met its main goal; FDA application planned",
+      "approved": false,
+      "primary_nct": "NCT04850118",
+      "ncts": ["NCT04850118", "NCT06275620", "NCT06333249", "NCT07174726"],
+      "plain": "A one-time gene therapy injected under the retina that delivers a working copy of the RPGR gene, for X-linked RP caused by RPGR, which mostly affects boys and men. In the pivotal VISTA trial of 85 males aged 12 to 48, reported on 21 September 2026, 31% of the high-dose group gained at least 15 letters (3 lines) of reading vision in dim light after a year, compared with none in the untreated group. It is the first X-linked RP trial to meet its main goal. Beacon plans to begin its FDA application in late 2026. It is not approved.",
+      "eligibility": "VISTA is fully enrolled. It took males aged 12 to 50 with a disease-causing RPGR variant. One VISTA site was in Arizona (Retina Macula Institute of Arizona, Scottsdale).",
+      "verified": "2026-11-11",
+      "sources": [
+        {"title": "BioPharm International: Laru-zova hits primary endpoint in pivotal XLRP trial (21 Sep 2026)", "url": "https://www.biopharminternational.com/view/beacon-therapeutics-laru-zova-primary-endpoint-pivotal-xlrp-trial"},
+        {"title": "Ophthalmology Times: Laru-zova meets primary endpoint in VISTA", "url": "https://www.ophthalmologytimes.com/view/laru-zova-meets-primary-endpoint-in-pivotal-vista-trial-for-x-linked-retinitis-pigmentosa"}
+      ]
+    },
+    {
+      "id": "npi-001",
+      "name": "NPI-001",
+      "sponsor": "Nacuity Pharmaceuticals",
+      "approach": "Oral drug (antioxidant)",
+      "gene": "Any gene, Usher syndrome RP in this trial",
+      "stage": "Phase 3 recruiting",
+      "approved": false,
+      "primary_nct": "NCT07710196",
+      "ncts": ["NCT07710196", "NCT07290530", "NCT04355689"],
+      "plain": "A tablet taken twice a day. It is a form of N-acetylcysteine (NAC) called NAC amide, meant to slow the oxidative 'wear and tear' that kills photoreceptors, so it does not depend on your gene. In an earlier 2-year trial in Usher syndrome, it slowed photoreceptor loss on retinal scans by more than half compared with placebo. The Phase 3 SLO-RP Preserve trial dosed its first patient on 28 October 2026 and will enroll up to 80 adults for 2 years at sites in the US and Australia. It is not approved.",
+      "eligibility": "Adults 18 and older with RP caused by Usher syndrome. You cannot have taken NAC-containing supplements in the 30 days before joining. A different study, NAC Attack (NCT05537220), tests ordinary NAC in RP from any gene and is now fully enrolled.",
+      "verified": "2026-11-11",
+      "sources": [
+        {"title": "Ophthalmology Times: First patient dosed in Phase 3 NPI-001 trial (28 Oct 2026)", "url": "https://www.ophthalmologytimes.com/view/first-patient-dosed-in-phase-3-npi-001-trial-for-usher-syndrome-rp"},
+        {"title": "Clinical Trials Arena: up to 80 adults, 24 months, US and Australia", "url": "https://www.clinicaltrialsarena.com/?p=261106"},
+        {"title": "Eyes On Eyecare: earlier trial slowed photoreceptor loss by over 50%", "url": "https://glance.eyesoneyecare.com/stories/2026-11-05/nacuity-doses-first-patient-in-phase-3-trial-on-oral-therapy-for-rp-associated-with-usher-syndrome/"}
+      ]
+    },
+    {
+      "id": "jcell",
+      "name": "jCell (famzeretcel)",
+      "sponsor": "jCyte",
+      "approach": "Cell therapy",
+      "gene": "Any gene",
+      "stage": "Phase 2; larger trials planned",
+      "approved": false,
+      "primary_nct": "NCT06912633",
+      "ncts": ["NCT06912633", "NCT04604899", "NCT02320812"],
+      "plain": "A single injection of donated retinal 'progenitor' cells into the gel of the eye. The cells do not become new photoreceptors; they release growth factors meant to keep your remaining photoreceptors alive and working, so it is not tied to one gene. In the 83-person Phase 2b trial, the higher dose gained about 7 letters on the eye chart after a year versus about 3 letters with a sham injection. That was encouraging but not a statistically clear result. People with better-preserved vision did much better, and later trials are focused on them. It is not approved.",
+      "eligibility": "The current Phase 2 study is not enrolling. The Phase 2b trial took adults whose vision was between about 20/80 and 20/800.",
+      "verified": "2026-11-11",
+      "sources": [
+        {"title": "Foundation Fighting Blindness: jCyte Phase 2b results", "url": "https://www.fightingblindness.org/research/jcyte-reports-promising-results-for-phase-2b-clinical-trial-of-its-cellular-therapy-for-rp-132"},
+        {"title": "Ophthalmology Times: 83 participants; differences vs sham did not reach significance", "url": "https://www.ophthalmologytimes.com/view/retinal-progenitor-cells-targeting-retinitis-pigmentosa"}
+      ]
+    },
+    {
+      "id": "sepofarsen",
+      "name": "Sepofarsen",
+      "sponsor": "Sepul Bio (Laboratoires Théa)",
+      "approach": "RNA / antisense",
+      "gene": "CEP290 (LCA10), one specific mutation",
+      "stage": "Phase 3 recruiting",
+      "approved": false,
+      "primary_nct": "NCT06891443",
+      "ncts": ["NCT06891443", "NCT03913143", "NCT04855045"],
+      "plain": "An RNA-based injection into the eye, given every 6 months, that works around one specific CEP290 mutation (c.2991+1655A>G) that causes LCA type 10. An earlier Phase 2/3 trial, ILLUMINATE, missed its main goal, although some participants improved. The new HYPERION trial tests it again, with one eye treated and the other eye as a comparison. It is recruiting about 32 people aged 6 and up in the US, Canada and Europe.",
+      "eligibility": "LCA10 with the c.2991+1655A>G CEP290 mutation on both gene copies, or that mutation plus another CEP290 mutation. Age 6 or older, with similar vision in both eyes.",
+      "verified": "2026-11-11",
+      "sources": [
+        {"title": "Foundation Fighting Blindness: sepofarsen moves into Phase 3 HYPERION", "url": "https://www.fightingblindness.org/news/sepul-bio-s-lca10-rna-therapy-moves-into-phase-3-clinical-trial-2983"},
+        {"title": "ClinicalTrials.gov record NCT06891443", "url": "https://clinicaltrials.gov/study/NCT06891443"}
+      ]
+    },
+    {
+      "id": "rtx-015",
+      "name": "RTx-015",
+      "sponsor": "Ray Therapeutics",
+      "approach": "Optogenetics",
+      "gene": "Any gene",
+      "stage": "Phase 2/3 recruiting",
+      "approved": false,
+      "primary_nct": "NCT07901751",
+      "ncts": ["NCT07901751", "NCT06460844"],
+      "plain": "An optogenetic gene therapy given as one injection into the gel of the eye. It adds a light-sensitive protein to surviving retinal cells so they can respond to light after photoreceptors are lost, regardless of gene. The FDA gave it Regenerative Medicine Advanced Therapy (RMAT) status in April 2026, which means closer FDA guidance and a possible faster review. A Phase 2/3 trial is recruiting adults in the US, including at a Phoenix site. No efficacy results have been published yet.",
+      "eligibility": "Adults 18 and older with RP from any gene. Vision cut-offs are listed in the trial record. Earlier RTx-015 studies excluded anyone who had already received a gene therapy, retinal implant or eye cell therapy.",
+      "verified": "2026-11-11",
+      "sources": [
+        {"title": "Healio: RTx-015 receives RMAT designation (7 Apr 2026)", "url": "https://www.healio.com/news/ophthalmology/20260407/retinitis-pigmentosa-candidate-receives-regenerative-medicine-advanced-therapy-designation"},
+        {"title": "ClinicalTrials.gov record NCT07901751", "url": "https://clinicaltrials.gov/study/NCT07901751"}
+      ]
+    },
+    {
+      "id": "kio-301",
+      "name": "KIO-301",
+      "sponsor": "Kiora Pharmaceuticals (with Théa)",
+      "approach": "Photoswitch (small molecule)",
+      "gene": "Any gene",
+      "stage": "Phase 2 recruiting (Australia)",
+      "approved": false,
+      "primary_nct": "NCT06628947",
+      "ncts": ["NCT06628947", "NCT05282953"],
+      "plain": "A small-molecule 'photoswitch' injected into the eye that makes the retina's ganglion cells respond to light after rods and cones are gone. It is not a gene therapy and does not depend on your gene. Its effect wears off, so it is given repeatedly: three injections, 6 weeks apart, in this trial. The Phase 2 ABACUS-2 trial is recruiting 36 adults with late-stage RP in Australia. No efficacy results have been published yet.",
+      "eligibility": "Adults with late-stage RP (very low vision or no light perception), from any gene. Sites are in Australia only.",
+      "verified": "2026-11-11",
+      "sources": [
+        {"title": "Foundation Fighting Blindness: Kiora Phase 2 photoswitch trial for advanced RP", "url": "https://www.fightingblindness.org/news/kiora-receives-authorization-for-phase-2-clinical-trial-of-its-photoswitch-for-advanced-rp-1399"},
+        {"title": "ClinicalTrials.gov record NCT06628947", "url": "https://clinicaltrials.gov/study/NCT06628947"}
+      ]
+    },
+    {
+      "id": "bota-vec",
+      "name": "Bota-vec (botaretigene sparoparvovec)",
+      "sponsor": "MeiraGTx",
+      "approach": "Gene therapy",
+      "gene": "RPGR (X-linked RP)",
+      "stage": "Phase 3 missed its main goal",
+      "approved": false,
+      "primary_nct": "NCT04794101",
+      "ncts": ["NCT04794101", "NCT05926583"],
+      "plain": "Another one-time RPGR gene therapy for X-linked RP. Its Phase 3 LUMEOS trial of 95 patients did not meet its main goal, a test of finding your way through a maze, although some other vision measures improved. MeiraGTx has since bought the rights back from Johnson & Johnson and says the results show real benefit for many patients. There is nothing to enroll in now.",
+      "eligibility": "Not enrolling. The follow-up study only includes people from the earlier trials.",
+      "verified": "2026-11-11",
+      "sources": [
+        {"title": "Ophthalmology Times: J&J gene therapy fails primary endpoint (5 May 2025)", "url": "https://www.ophthalmologytimes.com/view/j-j-gene-therapy-treatment-fails-primary-endpoints"}
+      ]
+    },
+    {
+      "id": "luxturna",
+      "name": "Luxturna (voretigene neparvovec)",
+      "sponsor": "Spark Therapeutics",
+      "approach": "Gene therapy",
+      "gene": "RPE65 only",
+      "stage": "FDA-approved (2017)",
+      "approved": true,
+      "primary_nct": "NCT00999609",
+      "ncts": ["NCT00999609", "NCT00516477", "NCT01208389", "NCT03597399", "NCT03602820"],
+      "plain": "The only FDA-approved gene therapy for an inherited retinal disease, approved in 2017. It is a one-time injection under the retina that delivers a working copy of the RPE65 gene. It only helps people with disease-causing mutations in both copies of RPE65 who still have enough living retinal cells. Most people with RP, around 98%, are not candidates. If RPE65 is your gene, ask a retina specialist about a referral to a treatment center.",
+      "eligibility": "Approved treatment, not a trial. Requires confirmed mutations in both copies of RPE65 and enough remaining retinal cells, judged by your retina specialist.",
+      "verified": "2026-11-11",
+      "sources": [
+        {"title": "Optometry Times: Luxturna approved in 2017 for biallelic RPE65 disease", "url": "https://www.optometrytimes.com/view/fda-accepts-nanoscope-s-bla-mco-010-retinitis-pigmentosa"},
+        {"title": "Ocugen investigator quote: about 98% of people with RP are not candidates for the approved gene therapy", "url": "https://synapse.patsnap.com/organization/5073929da4eefc782385827d6159a426"}
+      ]
+    }
+  ],
+  "trial_notes": {
+    "NCT07290530": "This record appears to be an earlier registration of the same Phase 3 NPI-001 study now listed as NCT07710196 (same title, sponsor and size). Check NCT07710196 for current status."
+  }
+}

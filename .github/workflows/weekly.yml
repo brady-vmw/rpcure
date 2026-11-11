@@ -2,7 +2,7 @@ name: Weekly update
 
 on:
   schedule:
-    - cron: "23 12 * * 1"   # Mondays 12:23 UTC = 5:23 AM Arizona
+    - cron: "23 12 * * 5"   # Fridays 12:23 UTC = 5:23 AM Arizona
   workflow_dispatch:        # "Run workflow" button in the Actions tab
   push:
     branches: [main]

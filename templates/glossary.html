@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Glossary | {{ site_name }}{% endblock %}
+{% block content %}
+<h1>Glossary</h1>
+<p class="lede">Plain-English meanings for words you will see in trial records and research news.</p>
+{% set terms = [
+  ("Antisense oligonucleotide (AON)", "A short strand of genetic material injected into the eye that changes how a faulty gene's message is read. Sepofarsen and ultevursen are examples. It usually has to be repeated every few months."),
+  ("Autosomal dominant", "An inheritance pattern where one changed copy of a gene is enough to cause disease. An affected parent has a 50% chance of passing it to each child."),
+  ("Autosomal recessive", "An inheritance pattern where both copies of a gene must be changed. Parents are usually unaffected carriers."),
+  ("Biallelic", "Changes in both copies of a gene. Luxturna, for example, requires biallelic RPE65 mutations."),
+  ("BCVA (best-corrected visual acuity)", "How well you read an eye chart with your best glasses or contacts. Trials often report it in letters: 5 letters is about one line on the chart."),
+  ("BLA (Biologics License Application)", "The application a company submits to the FDA to approve a gene or cell therapy. Acceptance means the FDA will review it, not that it is approved."),
+  ("Cell therapy", "Treatment that injects living cells. In RP trials, cells are usually meant to protect remaining photoreceptors or, in early research, replace lost ones."),
+  ("Charles Bonnet syndrome", "Seeing vivid images, patterns or people that are not there, caused by vision loss rather than mental illness. It is common with advanced RP and worth telling your doctor about."),
+  ("Expanded access", "A way for some patients to get an unapproved treatment outside a trial, usually when no trial fits and the disease is serious."),
+  ("Gene-agnostic (mutation-agnostic)", "Designed to work regardless of which gene causes your RP. Optogenetics, photoswitches, some cell therapies and antioxidant drugs are examples."),
+  ("Gene therapy", "Delivering genetic material into retinal cells, usually with a harmless virus (AAV). Most replace a faulty gene; some add a helper gene instead."),
+  ("Intravitreal injection", "An injection into the gel in the middle of the eye, done in a clinic. Less invasive than subretinal surgery."),
+  ("LLVA (low-luminance visual acuity)", "Eye chart reading in dim light. It often shows changes earlier than normal-light testing in RP."),
+  ("Natural history study", "A study that follows people over time without treatment, to learn how the disease progresses. Companies use these to design trials and to find participants."),
+  ("Optogenetics", "Gene therapy that adds a light-sensitive protein to surviving inner retinal cells so they can respond to light after rods and cones are gone."),
+  ("PDUFA date", "The deadline the FDA sets for deciding on an application."),
+  ("Peer review", "Checking of a paper by independent scientists before a journal publishes it. Preprints have not been through this yet."),
+  ("Phase 1, 2 and 3", "Phase 1 tests safety in a small group. Phase 2 looks for signs it works and the right dose. Phase 3 is a larger study that, if positive, supports an application for approval. Most treatments that start Phase 1 never reach approval."),
+  ("Photoreceptors", "The light-sensing cells of the retina: rods (night and side vision, lost first in RP) and cones (detail and color)."),
+  ("Photoswitch", "A small molecule injected into the eye that makes remaining retinal cells respond to light. Its effect wears off, so it is repeated."),
+  ("Pivotal trial", "The trial a company expects to use as its main evidence for approval, usually Phase 3 or a combined Phase 2/3."),
+  ("Placebo and sham", "A placebo is an inactive look-alike treatment. A sham is a pretend procedure, such as pressing a syringe against the eye without injecting. Both let researchers compare treated and untreated groups fairly."),
+  ("Primary endpoint", "The main measure a trial is judged on. A trial that misses its primary endpoint can still show improvement on other measures, but that is weaker evidence."),
+  ("Registry", "A database people join so researchers can find them for studies. My Retina Tracker is the main one for inherited retinal disease in the U.S."),
+  ("RMAT, Fast Track, Orphan Drug", "FDA designations that give a treatment more FDA guidance, possible faster review, or business incentives for rare diseases. None of them mean the treatment works or is approved."),
+  ("Subretinal injection", "Surgery that places treatment under the retina. Most gene replacement therapies, including Luxturna, are given this way."),
+  ("VUS (variant of uncertain significance)", "A gene change the lab cannot yet classify as harmful or harmless. It is not a diagnosis and may be reclassified as more is learned."),
+  ("X-linked", "An inheritance pattern carried on the X chromosome. X-linked RP, often caused by the RPGR gene, mainly affects males. Female carriers can have milder symptoms."),
+] %}
+<dl class="glossary">
+{% for term, meaning in terms %}
+  <dt id="{{ term|lower|replace(' ', '-')|replace('(', '')|replace(')', '')|replace(',', '') }}">{{ term }}</dt>
+  <dd>{{ meaning }}</dd>
+{% endfor %}
+</dl>
+{% endblock %}
