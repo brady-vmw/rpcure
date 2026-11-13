@@ -1429,6 +1429,26 @@
  },
  "runs": [
   {
+   "id": "2026-11-13-2",
+   "run_at": "2026-11-13T19:53:46+00:00",
+   "summary": {
+    "ai_summary": "",
+    "baseline": false,
+    "counts": {
+     "active_trials": 127,
+     "countries_recruiting": 26,
+     "phase3_active": 14,
+     "recruiting": 56,
+     "total_trials": 341
+    },
+    "new_papers": [],
+    "new_results": [],
+    "new_trials": [],
+    "status_changes": [],
+    "updated": []
+   }
+  },
+  {
    "id": "2026-11-13",
    "run_at": "2026-11-13T17:18:38+00:00",
    "summary": {
