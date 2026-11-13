@@ -2,6 +2,40 @@
   "_about": "Verified news items, newest first. Each needs a date (YYYY-MM-DD), a plain-language summary, at least one source, and optionally the therapy id from therapies.json. Include setbacks as well as good news.",
   "items": [
     {
+      "date": "2026-11-12",
+      "therapy": "bota-vec",
+      "kind": "regulatory",
+      "title": "MeiraGTx plans to file bota-vec for approval in Europe and the US",
+      "summary": "MeiraGTx says it intends to submit its X-linked RP gene therapy to European regulators in December 2026 and to the FDA early in 2027, even though the Phase 3 LUMEOS trial missed its main goal in 2025. Regulators have not reviewed it yet.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001735438/000110465926125910/mgtx-ex99d1.htm",
+      "source": "MeiraGTx third-quarter 2026 results (SEC filing)"
+    },
+    {
+      "date": "2026-11-12",
+      "therapy": "ocu400",
+      "kind": "business",
+      "title": "Ocugen licenses OCU400 to Celairis for Australia, New Zealand and Southeast Asia",
+      "summary": "Celairis Therapeutics gets rights to sell OCU400 in Australia, New Zealand and ASEAN countries if it is approved. Ocugen still expects first Phase 3 results in the first quarter of 2027, followed by a US application.",
+      "url": "https://biotechdispatch.com.au/news/celairis-signs-first-major-licensing-deal-with-ocugens-gene-therapy-for-retinitis-pigmentosa",
+      "source": "Biotech Dispatch"
+    },
+    {
+      "date": "2026-11-12",
+      "kind": "research",
+      "title": "Natural history study adds a group for FAM161A-related RP",
+      "summary": "The Foundation Fighting Blindness and the Eye & Ear Foundation of Pittsburgh are adding people with FAM161A gene changes to the Uni-Rare natural history study, which tracks how rare forms of inherited retinal disease change over time. Studies like this are needed before treatment trials can be designed.",
+      "url": "https://www.fightingblindness.org/news/foundation-fighting-blindness-and-eye-ear-foundation-of-pittsburgh-partner-to-add-fam161a-cohort-to-uni-rare-natural-history-study-4930",
+      "source": "Foundation Fighting Blindness"
+    },
+    {
+      "date": "2026-11-12",
+      "kind": "early research",
+      "title": "Celliaz's gene-agnostic RP gene therapy CLZ002 moves toward first human trial",
+      "summary": "South Korean company Celliaz has hired Andelyn Biosciences to make CLZ002, a gene therapy meant to help the retina repair itself regardless of which gene caused RP. It is still in pre-clinical (lab and animal) testing, and no trial start date has been given.",
+      "url": "https://www.prnewswire.com/news-releases/andelyn-biosciences-to-develop-and-manufacture-aav-gene-therapy-for-celliaz-to-treat-retinitis-pigmentosa-302938018.html",
+      "source": "PR Newswire (company release)"
+    },
+    {
       "date": "2026-10-28",
       "therapy": "npi-001",
       "kind": "trial started",

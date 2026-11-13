@@ -1,4 +1,6 @@
 {
   "_about": "Plain-English summary of each weekly update, keyed by the run id in data/state.json (usually the date, e.g. 2026-11-13). Written by the Friday review. 120-220 words, no hype, setbacks included, no medical advice.",
-  "weeks": {}
+  "weeks": {
+    "2026-11-13": "A quiet week for trials. No RP trials started recruiting, changed status or posted results on ClinicalTrials.gov, and no new trials were added. Two existing records were updated: a National Eye Institute study of rod and cone function in retinal disease (recruiting in Maryland) and a small Mahidol University trial in Thailand testing injections of stem-cell-derived vesicles.\n\nIn company news, MeiraGTx said it plans to apply for approval of bota-vec, its gene therapy for X-linked RP, in Europe in December and in the US early in 2027. This follows a Phase 3 trial that missed its main goal in 2025, so regulators will have to weigh mixed results. Ocugen licensed OCU400 to Celairis for Australia, New Zealand and Southeast Asia and still expects its first Phase 3 results in the first quarter of 2027. The Foundation Fighting Blindness added a FAM161A group to its Uni-Rare natural history study.\n\nNine new papers were found. Most are lab, animal or gene-description studies; one found that people with identical EYS or USH2A gene changes can progress at very different rates. None changes treatment options today."
+  }
 }
