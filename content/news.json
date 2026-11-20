@@ -2,6 +2,15 @@
   "_about": "Verified news items, newest first. Each needs a date (YYYY-MM-DD), a plain-language summary, at least one source, and optionally the therapy id from therapies.json. Include setbacks as well as good news.",
   "items": [
     {
+      "date": "2026-11-16",
+      "therapy": "mco-010",
+      "kind": "results",
+      "title": "MCO-010 vision gains held for about four years in follow-up study",
+      "summary": "Long-term follow-up of the RESTORE trial (the REMAIN study), presented at the American Academy of Ophthalmology meeting, found that vision gains seen at one year were maintained through about four years, with no serious side effects reported. Some patients had mild, treatable eye inflammation. The FDA has not yet decided on approval.",
+      "url": "https://www.healio.com/news/ophthalmology/20261116/mco010-improves-vision-in-patients-with-retinitis-pigmentosa-through-4-years",
+      "source": "Healio"
+    },
+    {
       "date": "2026-11-12",
       "therapy": "bota-vec",
       "kind": "regulatory",

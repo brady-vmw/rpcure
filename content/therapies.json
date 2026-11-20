@@ -14,9 +14,9 @@
         "NCT04945772",
         "NCT06162585"
       ],
-      "plain": "A one-time injection into the eye, given in a doctor's office, that gives surviving inner retinal cells a light-sensing protein so they can respond to light after rods and cones are gone. It does not depend on which gene caused your RP. In the 27-person RESTORE trial of people with severe vision loss, treated eyes gained vision on the eye chart at one year, which met the trial's main goal. The FDA accepted Nanoscope's application on 9 September 2026 and is expected to decide in the first half of 2027. It is not approved yet.",
+      "plain": "A one-time injection into the eye, given in a doctor's office, that gives surviving inner retinal cells a light-sensing protein so they can respond to light after rods and cones are gone. It does not depend on which gene caused your RP. In the 27-person RESTORE trial of people with severe vision loss, treated eyes gained vision on the eye chart at one year, which met the trial's main goal. Follow-up data presented in October 2026 showed those gains were maintained through about four years, with no serious side effects reported. The FDA accepted Nanoscope's application on 9 September 2026 and is expected to decide in the first half of 2027. It is not approved yet.",
       "eligibility": "No trial is enrolling now. RESTORE (completed) enrolled adults with advanced RP and severe vision loss, regardless of gene.",
-      "verified": "2026-11-11",
+      "verified": "2026-11-20",
       "sources": [
         {
           "title": "Healio: FDA accepts application for Nanoscope's Mogenry (9 Sep 2026)",
@@ -29,6 +29,10 @@
         {
           "title": "Optometry Times: RESTORE enrolled 27 patients with advanced RP",
           "url": "https://www.optometrytimes.com/view/fda-accepts-nanoscope-s-bla-mco-010-retinitis-pigmentosa"
+        },
+        {
+          "title": "Healio: MCO-010 vision gains maintained through 4 years in REMAIN follow-up (16 Nov 2026)",
+          "url": "https://www.healio.com/news/ophthalmology/20261116/mco010-improves-vision-in-patients-with-retinitis-pigmentosa-through-4-years"
         }
       ]
     },
