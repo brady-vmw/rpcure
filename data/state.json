@@ -1358,11 +1358,11 @@
    "journal": "Genetic testing and molecular biomarkers",
    "kind": "Research",
    "pmid": "43019019",
-   "pub_date": "2026 Nov 12",
+   "pub_date": "2026 Dec",
    "pubtypes": [
     "Journal Article"
    ],
-   "sort_date": "2026-11-12",
+   "sort_date": "2026-12-01",
    "title": "Identification of MYO7A Variants in Consanguineous Pakistani Families with Syndromic Hearing Loss.",
    "url": "https://pubmed.ncbi.nlm.nih.gov/43019019/"
   },
@@ -1425,9 +1425,349 @@
    "sort_date": "2026-10-14",
    "title": "Targeting cryptic splicing variants in SDCCAG8, CEP290, and ABCA4: A translational workflow from diagnosis to ASO-based therapy.",
    "url": "https://pubmed.ncbi.nlm.nih.gov/43022838/"
+  },
+  "43027289": {
+   "abstract": "Vertebrate rod and cone photoreceptors are among the most morphologically extreme cells in human biology, resembling very thin sticks with elongated outer segments connected to the inner segments by a narrow connecting cilium (CC) of approximately 200-300 nm in diameter. This specialized organelle serves as the sole conduit for the massive daily protein and membrane trafficking required for outer segment renewal, while simultaneously providing structural anchorage. Dysfunction of the CC and its associated molecular machinery, most directly the failure of protein and lipid trafficking across the cilium, underlies numerous retinal ciliopathies, including retinitis pigmentosa (RP) and Leber congenital amaurosis (LCA). Recent ultrastructural studies have revealed an inner protein scaffold within the CC comprising FAM161A, POC5, and centrin that acts as a \"structural zipper\" maintaining microtubule cohesion. Despite these advances, the mechanical properties of the CC remain uncharacterized, and whether biomechanical compromise of the CC contributes to ciliopathy progression is unknown. This review critically synthesizes current knowledge of photoreceptor CC structure, biomechanics, and dysfunction; evaluates existing and repurposed pharmacological agents that may protect photoreceptors through ciliary or non-ciliary mechanisms; and assesses the speculative but intriguing concept of exogenous organelle-scale mechanical stabilization. We identify critical gaps at the intersection of mechanobiology, nanobiomaterials, and retinal therapeutics, proposing a research agenda for testing whether biomechanical insights can be translated into clinically actionable strategies.",
+   "added_date": "2026-11-14",
+   "authors": "Weener M, Kotliar K",
+   "doi": "10.3390/cells15211931",
+   "epub_date": "2026 Oct 23",
+   "first_seen": "2026-11-20T17:18:44+00:00",
+   "genes": [],
+   "journal": "Cells",
+   "kind": "Review",
+   "pmid": "43027289",
+   "pub_date": "2026 Oct 23",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
+   "sort_date": "2026-10-23",
+   "title": "Possible Mechanical Stabilization of the Photoreceptor Connecting Cilium: From Molecular Scaffolds to Drug Repurposing.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43027289/"
+  },
+  "43027993": {
+   "abstract": "To investigate different wide-field fundus autofluorescence (FAF) patterns in a large cohort of Polish patients with inherited retinal dystrophies (IRDs) of different genotypes sorted into groups of at least 5 patients. A total of 103 patients with IRDs and phenotype of retinitis pigmentosa, Usher syndrome and cone-rod dystrophy were included and divided into groups of at least 5 patients based on the outcome of genetic analysis. Ultra-wide field FAF imaging was reviewed to determine patterns of FAF. Ten groups of the same genotype and three patterns of FAF have been distinguished. In the most prevalent USH2A group (26 cases), macular hyperautofluorescence (AF) ring combined with mottled hypo-AF in the periphery was present in 19 cases, the hyper-AF ring alone (including one double ring) was present in 5 cases, while the peripapillary sparing appeared in 2 cases. In the ABCA4 group (22 cases), mottled hypo-AF pattern in the posterior pole and mid-periphery was most prevalent (13 cases), additional peripapillary sparing was present in 4 cases, central hyper-AF ring was present in 3 cases, and characteristic flecks were present in 2 cases. In the RPGR group (15 patients), the most prevalent pattern was a combination of hyper-AF ring and mottled hypo-AF in the periphery (13 cases), while in 2 cases only hypo-AF mottling was present. In PROM1 gene variants (7 patients), mottled hypo-AF in the posterior pole was again the most dominant pattern (6 patients), and there was one case of combined hyper-AF ring and hypo-AF in the periphery. All NR2E3 (5 patients), RP1 (5 patients), RHO (7 patients), CDHR1 (5 patients), PRPF31 (5 patients) and EYS (6 patients) gene pathogenic variants also manifested with hyper-AF ring in the center and patchy hypo-AF spots in the periphery. Only one of the NR2E3 patients demonstrated a double ring. The most prevalent pattern across all groups, excluding ABCA4 and PROM1 groups, is central hyper-AF ring together with patchy hypo-AF in the periphery (72 cases-70%). ABCA4 and PROM1-related RP groups revealed mostly hypo-AF mottled patterns in the posterior pole and periphery, without hyper-AF ring. FAF patterns are very heterogenous, but there are some distinctive features in different genotypes of IRDs.",
+   "added_date": "2026-11-14",
+   "authors": "Pietras-Baczewska A, Gajda-Deryło B, Ognik K et al.",
+   "doi": "10.3390/ijms27219744",
+   "epub_date": "2026 Oct 30",
+   "first_seen": "2026-11-20T17:18:44+00:00",
+   "genes": [],
+   "journal": "International journal of molecular sciences",
+   "kind": "Research",
+   "pmid": "43027993",
+   "pub_date": "2026 Oct 30",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-10-30",
+   "title": "Wide-Field Fundus Autofluorescence Patterns in a Polish Cohort of Genotyped Patients with Phenotype of Retinitis Pigmentosa, Usher Syndrome and Cone-Rod Dystrophy.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43027993/"
+  },
+  "43030448": {
+   "abstract": "Background/Objectives: Dysregulated ocular and cochlear blood flow are proposed pathways in the pathogenesis of type 2 Usher syndrome (USH2). This study aimed to evaluate the safety and preliminary efficacy of ophthalmic nerve stimulation (ONS) combined with intravenous ascorbic acid (AA) in patients with USH2. Methods: Nine participants with USH2 were enrolled in a prospective, open-label, interventional case series. All participants received daily ONS combined with intravenous AA over a two-week period. The primary endpoint was the 6-month change in self-reported scotopic function, assessed using the 10-item Low luminance questionnaire (LLQ-10; 0-100 scale). Responders were defined as participants demonstrating a ≥25-point increase in LLQ-10 score. Secondary outcomes included changes in best-corrected visual acuity (BCVA), contrast sensitivity (CS), and subjective hearing function. Results: ONS-based therapy resulted in a significant improvement in LLQ-10 scotopic scores at 6 months (mean change: +42.1 ± 11.3 points, p = 0.0001), with seven of nine participants (77.8%) classified as responders. Clinically meaningful improvements in BCVA (≥0.2 logMAR) and CS (≥0.3 log units) were observed in 22.2% of tested eyes. Additionally, subjective hearing improvement was reported by one-third (33.3%) of participants. No severe adverse events were reported. Conclusions: ONS combined with AA demonstrated safety and yielded significant subjective improvements in night vision quality among patients with USH2, alongside minor improvements in visual acuity, contrast sensitivity, and hearing in a subset of participants. Controlled trials incorporating objective scotopic and audiometric testing are warranted.",
+   "added_date": "2026-11-14",
+   "authors": "Musallam IM",
+   "doi": "10.3390/jcm15218302",
+   "epub_date": "2026 Oct 25",
+   "first_seen": "2026-11-20T17:18:44+00:00",
+   "genes": [],
+   "journal": "Journal of clinical medicine",
+   "kind": "Case report",
+   "pmid": "43030448",
+   "pub_date": "2026 Oct 25",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-10-25",
+   "title": "Co-Targeting the Dysregulated Ocular and Cochlear Blood Flow via Ophthalmic Nerve Stimulation for the Treatment of Type 2 Usher Syndrome: Prospective Case Series.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43030448/"
+  },
+  "43040567": {
+   "abstract": "INTRODUCTION: Retinitis pigmentosa (RP) is an inherited disease of the retina. It is characterized by progressive degeneration of the retinal photoreceptor cells. This pathology is due to mutations in CRB1 gene that is encoded by the crumbs homolog 1 (CRB1) protein. The aim of this study is to identify the mutations in Algerian patients with Retinitis Pigmentosa and to assess their structural, and functional implications as well as their correlation with clinico-pathology features.  PATIENTS AND METHODS: This study was performed in collaboration with the ophthalmological department of Farhat Hached Hospital, Sousse, Tunisia. Whole-exome sequencing was performed on an Algerian female patient (IV.3) presenting RP. Polymerase chain reaction (PCR) followed by Direct Sanger sequencing were performed in all family's members (III3, III4, IV.3, IV4 and IV5,) to validate the mode of inheritance and confirm the disease segregation. Bioinformatics tools, including PolyPhen, were used to predict the pathogenicity through a scoring system, while SWISS-MODEL, PyMOL, InterProt and AlphaFold Server were performed for CRB1 structural modeling and to assess the impact of the mutations on its three-dimensional structure stability and flexibility.  RESULTS: Based on the ophthalmological investigation, including fundus examination, Fluorescein Angiography (FA), and Optical Coherence Tomography (OCT), the two affected sisters (IV.3 and IV.4) exhibited a mottled fundus appearance with widespread areas of Retinal Pigment Epithelium (RPE) atrophy. FA demonstrated multiple hyperfluorescent areas consistent with window defects due to RPE loss, interspersed with relatively hypofluorescent regions corresponding to advanced chorioretinal atrophy. A relatively preserved central hyperfluorescent island was observed. OCT revealed marked degeneration of the outer retinal layers, with thinning of the photoreceptor layer, particularly in the peripheral retina. These findings initially suggested a choroideremia-like phenotype. Whole-exome sequencing identified a homozygous pathogenic variant in CRB1 gene (p.Glu710Val) in two affected sisters (IV.3 and IV4) by the autosomal recessive Retinitis Pigmentosa form, while no pathogenic variants were detected in CHM gene. The structural analysis revealed that the residue 710 is located in a domain Laminin G-like (LG) of the crumbs homolog 1 (CRB1) protein rather than in a calcium-binding EGF-like domain. The p.Glu710Val substitution abolishes a stabilizing hydrogen bond with Gln853, thereby disrupting the local interaction network within the Laminin G-like domain. The loss of this polar interaction may reduce local structural stability and alter the microenvironment of this domain. CONCLUSION: This is the first ophthalmological and molecular report of autosomal recessive Retinitis Pigmentosa in Algerian patients. Although ophthalmological investigation initially suggested a choroideremia-like phenotype, whole-exome sequencing identified a pathogenic CRB1variant, while only benign variants were detected in CHM gene. This case highlights the phenotypic overlap between inherited retinal dystrophies and underscores the importance of combining comprehensive ophthalmic assessment with molecular genetic testing for accurate diagnosis.",
+   "added_date": "2026-11-16",
+   "authors": "Chkioua L, Ltaifa R, Sahli C et al.",
+   "doi": "10.1186/s40246-026-01027-5",
+   "epub_date": "2026 Aug 20",
+   "first_seen": "2026-11-20T17:18:44+00:00",
+   "genes": [
+    "CRB1"
+   ],
+   "journal": "Human genomics",
+   "kind": "Research",
+   "pmid": "43040567",
+   "pub_date": "2026 Aug 20",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-08-20",
+   "title": "Ophthalmological and genetic findings associated with CRB1 dysfunction in autosomal recessive retinitis pigmentosa.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43040567/"
+  },
+  "43041752": {
+   "abstract": "BACKGROUND: Deep intronic variants (DIVs) are an increasingly recognized cause of inherited retinal dystrophy (IRD), accounting for a substantial fraction of cases that remain unsolved after exon-focused sequencing. Dozens of in silico tools predict variant pathogenicity or splicing impact, but they have rarely been benchmarked on patient-derived DIVs, and the most recent generation of predictors, including AlphaGenome and the phylogeny-aware genomic language model GPN-Star, has never been evaluated in this setting. METHODS: We assembled a cohort of 103 patient-derived candidate DIVs across 26 IRD genes (native GRCh38) and 103 benign intronic gnomAD variants (allele frequency > 0.01, all classified as benign/likely-benign in ClinVar). Ground truth was defined in two ways: 10 experimentally confirmed pathogenic DIVs and an expanded set of 36 positives obtained by adding allele-verified ClinVar pathogenic/likely-pathogenic variants. We scored all variants with seven tools spanning three methodological classes: splice-aware deep learning (SpliceAI, Pangolin, AlphaGenome, and OpenSpliceAI), general deleteriousness (CADD), and evolutionary constraint (GERP and GPN-Star). We computed AUROC, auPRC, and optimal thresholds, with a gnomAD-wide false-positive screen and a distance-matched sensitivity benchmark as robustness checks. RESULTS: Splice-aware deep-learning tools clearly outperformed all others: SpliceAI (AUROC 0.917), Pangolin (0.916), and AlphaGenome (0.902) were statistically indistinguishable, whereas OpenSpliceAI underperformed (0.842), and the constraint-based predictors GPN-Star (0.554) and GERP (0.559) performed near chance. The optimal SpliceAI threshold for DIVs was 0.06 three-fold lower than the standard recommendation of 0.2, which detected only 24 of 35 scorable positives; a formal test found no significant score-by-distance interaction; therefore, we recommend the pooled threshold, with distance-stratified estimates reported as exploratory. A screen of 4,787 common intronic gnomAD variants showed the relaxed threshold kept the population false-positive rate low (1.3% at 0.05 vs. 0.13% at 0.2), and a distance-matched sensitivity benchmark left all AUROCs and rankings unchanged. Three experimentally confirmed pathogenic DIVs scored ≤0.01 on SpliceAI, revealing a \"deep intronic blind spot\" for variants acting through non-splice-creation mechanisms. Consensus ranking of the 93 unlabeled patient DIVs nominated 26 novel, high-concordance candidates with no ClinVar entry. CONCLUSION: For patient-derived IRD DIVs, splice-aware deep-learning predictors are the tools of choice, but they require deep-intronic-specific thresholds an order of magnitude below standard defaults. General constraint-based genomic language models should not be used as proxies for splice impact. We provide an actionable threshold approach and a prioritized candidate list for functional follow-up.",
+   "added_date": "2026-11-17",
+   "authors": "Shitik E, Zolotikov U, Mehrotra S et al.",
+   "doi": "10.3389/fbinf.2026.1966173",
+   "epub_date": "2026 Nov 2",
+   "first_seen": "2026-11-20T17:18:44+00:00",
+   "genes": [],
+   "journal": "Frontiers in bioinformatics",
+   "kind": "Research",
+   "pmid": "43041752",
+   "pub_date": "2026",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-11-02",
+   "title": "Benchmarking in silico predictors of deep intronic variant pathogenicity on a patient-derived cohort of inherited retinal dystrophy genes.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43041752/"
+  },
+  "43043464": {
+   "abstract": "BACKGROUND: Infantile nystagmus is frequently a main symptom of genetically determined ocular and neuro-ophthalmological disorders and often indicates a hereditary cause particularly in infancy and early childhood. OBJECTIVE: The aim of this article is to review the genetic basis of infantile nystagmus and recent advances in molecular genetic diagnostics and to discuss their relevance for the clinical classification. RESULTS AND DISCUSSION: Molecular genetic investigations have been shown to facilitate a more precise etiological classification of infantile nystagmus. The indications and timing of genetic testing should be guided by the clinical phenotype and the potential consequences of establishing the diagnosis. The identification of hereditary causes improves the prognostic assessment, supports genetic counselling and is becoming increasingly more important for gene therapy approaches. ZUSAMMENFASSUNG: HINTERGRUND: Der frühkindliche Nystagmus ist häufig ein Leitsymptom vieler genetisch bedingter okulärer und neuroophthalmologischer Erkrankungen und weist insbesondere im Säuglings- und Kleinkindalter oft auf eine hereditäre Ursache hin. FRAGESTELLUNG: Ziel dieser Arbeit ist es, die genetischen Grundlagen des frühkindlichen Nystagmus unter Berücksichtigung aktueller Fortschritte in der molekulargenetischen Diagnostik darzustellen und deren Bedeutung für die klinische Einordnung zu erörtern. ERGEBNISSE UND DISKUSSION: Molekulargenetische Untersuchungen ermöglichen eine präzisere ätiologische Zuordnung des frühkindlichen Nystagmus. Die Indikation und der Zeitpunkt sollten sich am klinischen Phänotyp und den möglichen Konsequenzen der Diagnosestellung orientieren. Die Identifikation hereditärer Ursachen verbessert die Prognoseeinschätzung, unterstützt die genetische Beratung und gewinnt zunehmend Bedeutung für gentherapeutische Ansätze.",
+   "added_date": "2026-11-17",
+   "authors": "Lentzsch AM, Bolz HJ, Hedergott A",
+   "doi": "10.1007/s00347-026-02562-1",
+   "epub_date": "2026 Nov 17",
+   "first_seen": "2026-11-20T17:18:44+00:00",
+   "genes": [],
+   "journal": "Die Ophthalmologie",
+   "kind": "Review",
+   "pmid": "43043464",
+   "pub_date": "2026 Nov 17",
+   "pubtypes": [
+    "English Abstract",
+    "Journal Article",
+    "Review"
+   ],
+   "sort_date": "2026-11-17",
+   "title": "[Genetic aspects of infantile nystagmus].",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43043464/"
+  },
+  "43044212": {
+   "abstract": "Retinitis pigmentosa (RP) caused by mutations in pre-mRNA processing factors (PRPFs) has long been classified as a spliceosomopathy, a disease of global splicing dysfunction with unexplained retinal specificity. This review synthesizes current evidence supporting a dual role for PRPF proteins in both RNA splicing and photoreceptor ciliogenesis, providing an integrated framework for understanding disease pathogenesis. The first pathogenic axis reflects the canonical nuclear activity of PRPF proteins. Pathogenic variants in PRPF31, PRPF8, and PRPF6 disrupt spliceosomal function, resulting in aberrant processing of retina-enriched transcripts, including genes encoding key components of the intraflagellar transport (IFT) machinery and ciliary architecture, such as IFT88, IFT122, and RPGRIP1. The second axis encompasses an emerging non-canonical mechanism. Beyond their established roles in pre-mRNA splicing, PRPF6, PRPF8, and PRPF31 localize to the photoreceptor basal body and connecting cilium, where they contribute directly to ciliogenesis and ciliary maintenance through mechanisms that are at least partially independent of their spliceosomal functions. Together, these complementary pathways indicate that photoreceptor degeneration in PRPF-associated RP is driven by both aberrant RNA splicing and direct disruption of ciliary structure and function. Additionally, this review highlight key unresolved questions, including the relative contribution of each pathway to disease initiation and progression, and discuss the therapeutic implications of strategies that target both splicing defects and ciliary dysfunction. Finally, it considers how this emerging framework places PRPF-associated RP at the intersection of spliceosomopathies and ciliopathies within the broader spectrum of inherited retinal disorders.",
+   "added_date": "2026-11-17",
+   "authors": "Ulhaq ZS",
+   "doi": "10.1016/j.diff.2026.101005",
+   "epub_date": "2026 Oct 21",
+   "first_seen": "2026-11-20T17:18:44+00:00",
+   "genes": [],
+   "journal": "Differentiation; research in biological diversity",
+   "kind": "Review",
+   "pmid": "43044212",
+   "pub_date": "2026 Oct 21",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
+   "sort_date": "2026-10-21",
+   "title": "The spliceosome-cilium axis in retinitis pigmentosa: A dual-mechanism linking nuclear splicing to ciliary failure in photoreceptor degeneration.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43044212/"
+  },
+  "43045468": {
+   "abstract": "",
+   "added_date": "2026-11-17",
+   "authors": "Ramani S, Girish S, Prabhu P et al.",
+   "doi": "10.1136/bcr-2026-274833",
+   "epub_date": "2026 Nov 17",
+   "first_seen": "2026-11-20T17:18:44+00:00",
+   "genes": [
+    "EYS"
+   ],
+   "journal": "BMJ case reports",
+   "kind": "Research",
+   "pmid": "43045468",
+   "pub_date": "2026 Nov 17",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-11-17",
+   "title": "Two heterozygous nonsense variants in EYS in a patient with retinitis pigmentosa, lamellar cataract and high myopia.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43045468/"
+  },
+  "43046077": {
+   "abstract": "BACKGROUND: Leber congenital amaurosis encompasses a genetically heterogeneous spectrum of inherited retinal disorders, typically following an autosomal recessive inheritance pattern, with onset in infancy or early childhood. Several genes have been associated with LCA, including GUCY2D, which encodes retinal membrane guanylyl cyclase involved in phototransduction. METHODS: Whole-exome sequencing was employed to identify candidate variants in an Iranian proband from a consanguineous family presenting with severe visual impairment consistent with LCA. Variant interpretation was performed using database resources and in silico prediction tools. Sanger sequencing was performed in the proband, both parents, and the clinically unaffected sister to confirm the variant and assess its segregation within the family. Structural modeling of wild-type and p.(Gly982Ser) GUCY2D proteins was performed, followed by molecular docking analysis with GTP using AutoDock Vina. Docking results were evaluated to explore potential structural differences between the wild-type and mutant proteins. RESULTS: A homozygous missense variant in GUCY2D, NM_000180.4:c.2944G > A, p.(Gly982Ser), was identified in the proband and confirmed by Sanger sequencing. This variant has previously been reported in a Kurdish child with LCA1, and the present study represents an independent observation in a Kurdish family. Exploratory molecular docking revealed model-dependent differences in GTP pose sampling between wild-type and G982S GUCY2D. However, the observed Vina-score differences were small relative to the uncertainty of the scoring function, and no retained pose simultaneously satisfied all predefined catalytic-geometry criteria. CONCLUSION: This study reports an independent observation of the homozygous GUCY2D p.(Gly982Ser) variant in a patient with a clinical presentation consistent with LCA. The genetic findings and computational analyses provide additional context for understanding the potential molecular effects of this variant. However, further experimental functional studies are required to determine its biological consequences and contribution to LCA1 pathogenesis.",
+   "added_date": "2026-11-17",
+   "authors": "Alimoradi E, Tabar SS, Khosravi T et al.",
+   "doi": "10.1186/s12920-026-02500-9",
+   "epub_date": "2026 Oct 29",
+   "first_seen": "2026-11-20T17:18:44+00:00",
+   "genes": [
+    "GUCY2D"
+   ],
+   "journal": "BMC medical genomics",
+   "kind": "Research",
+   "pmid": "43046077",
+   "pub_date": "2026 Oct 29",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-10-29",
+   "title": "A homozygous missense variant in the GUCY2D gene associated with Leber congenital amaurosis in an Iranian family: molecular docking insights and genetic analysis.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43046077/"
+  },
+  "43046657": {
+   "abstract": "INTRODUCTION: This case report describes the longitudinal clinical course from infancy to 17 years of age in a male patient of Central European origin with Jalili syndrome (JS) harboring a novel CNNM4 variant. METHODS: Longitudinal ophthalmological follow-up included best-corrected visual acuity, refraction, color vision, fundus examination, fundus autofluorescence, optical coherence tomography, perimetry, and full-field electroretinography, along with dental and systemic evaluation. Targeted next-generation sequencing and Sanger-based segregation analysis in both parents were performed. RESULTS: The patient exhibited early-onset photophobia, severely impaired color vision, and progressive cone-rod dystrophy. Imaging revealed progressive outer retinal degeneration with ellipsoid zone loss and the development of bull's-eye maculopathy. Bilateral high hyperopia, early posterior vitreous separation, and a lesion at each optic disc suggestive of drusen were identified. Dental examination confirmed generalized hypoplastic amelogenesis imperfecta. Genetic testing identified a novel homozygous CNNM4 frameshift variant (NM_020184.4:c.788_814delinsCCTCCTCCACCAT; p.(Asn263ThrfsTer54)), classified as pathogenic. Both parents were found to be heterozygous for the variant, supporting autosomal recessive inheritance. CONCLUSIONS: This longitudinal follow-up documents progression of cone-rod dystrophy and additional vitreoretinal interface and optic disc abnormalities alongside a novel pathogenic CNNM4 variant, expanding the spectrum of ocular and genetic findings reported in patients with JS and highlighting the value of longitudinal multidisciplinary assessment.",
+   "added_date": "2026-11-18",
+   "authors": "Hodálová K, Bušányová B, Jungová P et al.",
+   "doi": "10.1080/13816810.2026.2764979",
+   "epub_date": "2026 Nov 17",
+   "first_seen": "2026-11-20T17:18:44+00:00",
+   "genes": [],
+   "journal": "Ophthalmic genetics",
+   "kind": "Research",
+   "pmid": "43046657",
+   "pub_date": "2026 Nov 17",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-11-17",
+   "title": "Jalili syndrome in a Central European patient harboring a novel CNNM4 variant: longitudinal follow-up of an atypical phenotype.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43046657/"
+  },
+  "43046662": {
+   "abstract": "INTRODUCTION: Inherited retinal dystrophies demonstrate extensive clinical and genetic heterogeneity. A striking example is a single pleiotropic variant in the hexokinase-1 (HK1) gene causing retinitis pigmentosa (RP), macular dystrophy, pigmented paravenous retinochoroidal atrophy and several ocular syndromes, suggesting other genetic and/or environmental factors influence the phenotype. METHODS: This was a retrospective cohort analysis with a literature review. Clinical information, multimodal imaging, genetic testing results, in silico modeling and evolutionary conservation were assessed. RESULTS: We describe the findings in 7 families with confirmed variants in the HK1 gene. Four families had the HK1 c.2539 G > A p.(Glu847Lys) pleiotropic variant segregating with either RP or macular dystrophy. One additional family also had this pleiotropic variant but had a very unusual phenotype demonstrating variable expressivity. In 2 families, novel variants were identified in HK1 [c.1333T > A, p.(Ser445Thr) and c.691 G > A, p.(Gly231Ser)] associated with RP or hyperautofluorescent macular dystrophy. Based upon in silico modeling, evolutionary conservation, clinical correlation and segregation analysis these variants are likely to be disease-causing. CONCLUSION: HK1-related retinal dystrophy is an example of a pleiotropic phenotypic trait with a wide range of symptomology and clinical features. We identified 2 novel variants in the HK1 gene and expanded the phenotypic spectrum associated with HK1-related retinal dystrophy.",
+   "added_date": "2026-11-18",
+   "authors": "Kang M, Gregory-Evans CY, Kirby M et al.",
+   "doi": "10.1080/13816810.2026.2762913",
+   "epub_date": "2026 Nov 17",
+   "first_seen": "2026-11-20T17:18:44+00:00",
+   "genes": [],
+   "journal": "Ophthalmic genetics",
+   "kind": "Research",
+   "pmid": "43046662",
+   "pub_date": "2026 Nov 17",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-11-17",
+   "title": "Novel autosomal dominant variants in the HK1-associated retinal dystrophy gene with intrafamilial phenotypic variability.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43046662/"
+  },
+  "43051311": {
+   "abstract": "OBJECTIVE: To assess the correlation between kinetic and static perimetry measurements in patients with retinitis pigmentosa and to develop thresholds that translate 1) mean retinal sensitivity (MRS) from static perimetry and 2) Visual field (VF) area from kinetic perimetry, into kinetic perimetry-derived VF diameter using the International Council of Ophthalmology (ICO) Visual Standards classification of vision loss severity. DESIGN: Retrospective cross-sectional study. SUBJECTS: Data were obtained from charts of 100 adults with retinitis pigmentosa who had undergone full-field static and kinetic perimetry within a 30-day interval during routine practice at Casey Eye Institute, Oregon Health & Science University, US. TESTING: Full-field static and kinetic perimetry using the Octopus 900 perimetry device. MAIN OUTCOME MEASURES: Static perimetry full MRS and kinetic perimetry VF area cut-off values were derived from Receiver Operating Characteristic (ROC) analysis by mapping the ICO kinetic perimetry VF diameter cut-offs to classify patients into vision loss severity groups. Youden Index and Area Under the Curve were used to determine optimal cutoff values that maximized diagnostic performance. Weighted Kappa statistics assessed the level of agreement between the derived severity classifications, and the ICO VF diameter classification standards. RESULTS: Among the 100 patients, median age was 48.5 years, disease onset at median 28 years, 52% male, 16% with XLRP. MRS correlated strongly with kinetic VF diameter (Spearman's rho 0.83) and with kinetic VF area (rho 0.81); diameter and area were correlated at rho 0.94. ROC analysis derived MRS (dB) cut-offs for vision loss severity were: ≥7.4=mild, 5.3- <7.4=moderate, 3.2- <5.3=severe, 0.6- <3.2=profound, and <0.6=near-blindness/blindness (weighted Kappa coefficient 0.59). Optimal VF area (deg2) cutoffs for distinguishing severity levels were ≥5706=mild impairment, 410 - <5706=moderate, 688- <4100= severe, 71 -<688=profound, <71=near-blindness/blindness (weighted Kappa coefficient 0.73). CONCLUSIONS: Strong correlations between MRS and VF diameter measures support the feasibility of mapping static perimetry to kinetic VF diameter ICO standard to classify vision loss severity. This study addresses a critical gap in interpreting retinitis pigmentosa research findings in visual field loss assessment.",
+   "added_date": "2026-11-18",
+   "authors": "Zhang Q, Shi L, Patch L et al.",
+   "doi": "10.1016/j.ajo.2026.11.009",
+   "epub_date": "2026 Nov 18",
+   "first_seen": "2026-11-20T17:18:44+00:00",
+   "genes": [],
+   "journal": "American journal of ophthalmology",
+   "kind": "Research",
+   "pmid": "43051311",
+   "pub_date": "2026 Nov 18",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-11-18",
+   "title": "Developing Static Perimetry Thresholds to Assess Visual Field Loss Severity in Patients with Retinitis Pigmentosa.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43051311/"
+  },
+  "43054537": {
+   "abstract": "[This corrects the article DOI: 10.3389/fcell.2026.1818625.].",
+   "added_date": "2026-11-19",
+   "authors": "Ripolles-Garcia A, Raposo A, Le SM et al.",
+   "doi": "10.3389/fcell.2026.2015690",
+   "epub_date": "2026 Nov 4",
+   "first_seen": "2026-11-20T17:18:44+00:00",
+   "genes": [],
+   "journal": "Frontiers in cell and developmental biology",
+   "kind": "Research",
+   "pmid": "43054537",
+   "pub_date": "2026",
+   "pubtypes": [
+    "Published Erratum"
+   ],
+   "sort_date": "2026-11-04",
+   "title": "Correction: A WHRN mutation impacts ocular morphology in rhesus macaques.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43054537/"
+  },
+  "43058883": {
+   "abstract": "BACKGROUND: Rod-cone dystrophy, also known as retinitis pigmentosa (RP), is a genetically heterogeneous group of retinal disorders with progressive rod then cone photoreceptor loss, leading to severe visual impairment. Approximately forty genes have been associated with autosomal dominant RP, yet nearly 10% of individuals in our French cohort remain genetically unsolved. Recently, heterozygous and biallelic inherited variants and de novo variants in small nuclear RNA (snRNA) genes have been identified in individuals with recessive neurodevelopmental disorders as well as with RP. U4 and U6 snRNAs associate with U5 snRNA and other proteins to form the tri-small nuclear ribonucleoproteins (tri-snRNPs) complex, a central component of the major spliceosome. Notably, RP-associated variants cluster in regions distinct from those implicated in neurodevelopmental disorders and affect domains involved in tri-snRNP assembly with PRPF3, PRPF8 and PRPF31, which are also associated with RP. METHODS: Genome and direct Sanger sequ encing combined with a candidate gene approach was performed in a French cohort of 395 autosomal dominant RP families and 418 genetically unsolved cases with RP, who underwent comprehensive ophthalmic examinations, including standard-of-care retinal imaging and functional assessments. RESULTS: We identified heterozygous inherited variants in RNU4-2 and RNU6 paralogs in eight unrelated non-syndromic autosomal dominant RP families, which co-segregated with the phenotype in available family members. CONCLUSIONS: Our findings revealed that 2% of our genetically solved individuals with autosomal dominant RP carry variants in RNU4-2 or RNU6 paralogs. This represents 6% of all individuals having variants in gene s coding for the spliceosome multi-subunit complex, highlighting the importance of screening snRNA genes in individuals of RP.",
+   "added_date": "2026-11-19",
+   "authors": "Audo I, Navarro J, Bianco L et al.",
+   "doi": "10.1186/s13073-026-01743-6",
+   "epub_date": "2026 Sep 22",
+   "first_seen": "2026-11-20T17:18:44+00:00",
+   "genes": [],
+   "journal": "Genome medicine",
+   "kind": "Research",
+   "pmid": "43058883",
+   "pub_date": "2026 Sep 22",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-09-22",
+   "title": "Variants in RNU4-2 or RNU6 paralogs account for 2% of individuals with non-syndromic autosomal dominant retinitis pigmentosa in a large French cohort.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43058883/"
   }
  },
  "runs": [
+  {
+   "id": "2026-11-20",
+   "run_at": "2026-11-20T17:18:44+00:00",
+   "summary": {
+    "ai_summary": "",
+    "baseline": false,
+    "counts": {
+     "active_trials": 129,
+     "countries_recruiting": 26,
+     "phase3_active": 14,
+     "recruiting": 56,
+     "total_trials": 344
+    },
+    "new_papers": [
+     "43051311",
+     "43046662",
+     "43046657",
+     "43045468",
+     "43043464",
+     "43054537",
+     "43041752",
+     "43027993",
+     "43046077",
+     "43030448",
+     "43027289",
+     "43044212",
+     "43058883",
+     "43040567"
+    ],
+    "new_results": [],
+    "new_trials": [
+     "NCT07944170",
+     "NCT07941544",
+     "NCT07943312"
+    ],
+    "status_changes": [
+     {
+      "from": "ACTIVE_NOT_RECRUITING",
+      "nct_id": "NCT06517940",
+      "to": "COMPLETED"
+     },
+     {
+      "from": "NOT_YET_RECRUITING",
+      "nct_id": "NCT07298174",
+      "to": "RECRUITING"
+     },
+     {
+      "from": "RECRUITING",
+      "nct_id": "NCT06591793",
+      "to": "ACTIVE_NOT_RECRUITING"
+     },
+     {
+      "from": "RECRUITING",
+      "nct_id": "NCT05976139",
+      "to": "ACTIVE_NOT_RECRUITING"
+     }
+    ],
+    "updated": [
+     "NCT07228793",
+     "NCT06891885",
+     "NCT06789445"
+    ]
+   }
+  },
   {
    "id": "2026-11-13-2",
    "run_at": "2026-11-13T19:53:46+00:00",
@@ -26687,7 +27027,7 @@
    "approaches": [
     "Device"
    ],
-   "completion": "2025-07-30",
+   "completion": "2026-12-30",
    "conditions": [
     "Macular Edema",
     "Inherited Retinal Dystrophy",
@@ -26718,7 +27058,7 @@
     "IRD",
     "Macular Edema"
    ],
-   "last_update": "2025-02-28",
+   "last_update": "2026-11-16",
    "lead": "subthreshold treatment with micropulsed laser",
    "locations": [
     {
@@ -26726,7 +27066,7 @@
      "country": "Italy",
      "facility": "IRCSS Fondazione G:B:Bietti",
      "state": "RM",
-     "status": "RECRUITING"
+     "status": ""
     }
    ],
    "max_age": "80 Years",
@@ -26740,16 +27080,16 @@
    "phases": [
     "NA"
    ],
-   "prev_status": null,
-   "primary_completion": "2025-07-30",
+   "prev_status": "RECRUITING",
+   "primary_completion": "2026-12-30",
    "results_seen_at": null,
    "sex": "ALL",
    "sponsor": "Fondazione G.B. Bietti, IRCCS",
    "sponsor_class": "OTHER",
    "start_date": "2023-09-06",
-   "status": "RECRUITING",
-   "status_changed_at": null,
-   "status_label": "Recruiting now",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "status_changed_at": "2026-11-20T17:18:44+00:00",
+   "status_label": "Underway, not enrolling",
    "study_type": "INTERVENTIONAL",
    "summary": "The purpose of this study is to investigate whether subthreshold treatment with micropulsed laser can be effective in resolving macular edema in patients with inherited retinal dystrophy.\n\nVisits will be performed after 1, 3, 6, 9, 12, 18, and 24 months after treatment. Laser treatment will be performed on the day of the first visit, and its repetition at subsequent visits between months 3 and 12 will be evaluated.\n\nEvaluations of treatment effects will include:\n\n* comprehensive ophthalmologic examination\n* multifocal electroretinogram\n* OCT examination\n* OCT-angiography examination\n* retinography\n\nPrimary endpoint.\n\n\\- central retinal thickness, measured by OCT",
    "title": "Micropulsed Laser in Patients With Macular Oedema in Retinal Dystrophies",
@@ -28819,11 +29159,11 @@
   },
   "NCT06517940": {
    "acronym": "",
-   "active": true,
+   "active": false,
    "approaches": [
     "Natural history / observational"
    ],
-   "completion": "2026-04-24",
+   "completion": "2026-05-15",
    "conditions": [
     "Retinitis Pigmentosa"
    ],
@@ -28831,7 +29171,7 @@
     "United States"
    ],
    "eligibility_text": "Inclusion Criteria:\n\n* Subject is able to provide written informed consent and is willing and able to comply with the protocol.\n* Subject is ≥ 18 years of age at the time of informed consent.\n* Subject has a clinical diagnosis of nonsyndromic retinitis pigmentosa.\n* Subject is willing to consent to genetic testing, if not already done.\n* Subject has BCVA in the worse eye between hand motion and 35 Early Treatment of Diabetic Retinopathy Study (ETDRS) letter score (approximately ≤ 20/200 Snellen equivalent), inclusive at Screening.\n* For subjects who are able to reliably perform kinetic perimetry in the opinion of the Investigator and the assessment provides accurate information, the central visual field diameter (ie, excluding temporal islands) of any visual field diameter is \\< 20 degrees in the worse eye as measured with the III-4e stimulus using Octopus 900 perimetry at Screening.\n* On OCT, inner retinal layers are observed and are retained in the worse eye.\n\nExclusion Criteria:\n\n* Subject has an eye disease or visual disorder other than retinitis pigmentosa that impairs visual function.\n* Subject has any other eye condition, which in the opinion of the Investigator, would preclude an accurate evaluation at any time during the study.\n* On OCT, subject has cystoid macular edema in the worse eye in the opinion of the Investigator or is currently receiving treatment for cystoid macular edema in the worse eye.\n* Subject has unstable intraocular lens.\n* Subject has a clinically significant epiretinal membrane based on the Investigator's judgment that will interfere with the assessments of visual function.\n* Subject with a prior vitrectomy in the worse eye will be evaluated on a case-by-case basis by the Investigator to determine if the subject is eligible for the study.\n* Subject has any clinically significant unstable medical condition or any clinically significant chronic disease that in the opinion of the Investigator, would limit the subject's ability to complete and/or participate in the study.\n* Subject has received treatment with any nonapproved, experimental, or investigational therapy in either eye (systemic, topical, intravitreal) and/or received treatment in an interventional clinical trial for an eye disease or disorder within 90 days or 5 half-lives, whichever is longer, prior to Screening or anticipates the need to receive treatment in an interventional clinical trial during their participation in this study.\n* Subject has previously received cell therapy, gene augmentation therapy, genome editing therapy, or any subretinal administered therapy for an eye disease or disorder or anticipates the need for these therapies during their participation in this study.\n* Subject has previously received LUXTURNA (voretigene neparvovec-rzyl) or anticipates the need for this therapy during their participation in this study.\n* Subject is in the opinion of the Investigator unsuitable in any other way to participate in this study.",
-   "enrollment": 12,
+   "enrollment": 9,
    "first_posted": "2024-07-24",
    "first_seen": "2026-11-11T00:52:50+00:00",
    "gene_agnostic": false,
@@ -28843,7 +29183,7 @@
    "keywords": [
     "Retinitis Pigmentosa. Natural history"
    ],
-   "last_update": "2026-02-27",
+   "last_update": "2026-11-20",
    "lead": "A Prospective, Observational Study in Adults With Retinitis Pigmentosa (RP)",
    "locations": [
     {
@@ -28863,16 +29203,16 @@
    "phase_label": "Observational",
    "phase_rank": -1,
    "phases": [],
-   "prev_status": null,
-   "primary_completion": "2026-04-24",
+   "prev_status": "ACTIVE_NOT_RECRUITING",
+   "primary_completion": "2026-05-08",
    "results_seen_at": null,
    "sex": "ALL",
    "sponsor": "Sumitomo Pharma America, Inc.",
    "sponsor_class": "INDUSTRY",
    "start_date": "2024-10-03",
-   "status": "ACTIVE_NOT_RECRUITING",
-   "status_changed_at": null,
-   "status_label": "Underway, not enrolling",
+   "status": "COMPLETED",
+   "status_changed_at": "2026-11-20T17:18:44+00:00",
+   "status_label": "Completed",
    "study_type": "OBSERVATIONAL",
    "summary": "The natural history in individuals with severe retinitis pigmentosa (RP) is variable and there remains an unmet need to better understand disease progression in this population. The goal of this study is to determine which visual assessments individuals with RP and low visual acuity can reliably perform and to evaluate the annual decline of visual function in severe RP.",
    "title": "A Prospective, Observational Study in Adults With Retinitis Pigmentosa (RP)",
@@ -29130,7 +29470,7 @@
    "approaches": [
     "Gene therapy"
    ],
-   "completion": "2029-07",
+   "completion": "2031-07",
    "conditions": [
     "Usher Syndrome, Type 1B"
    ],
@@ -29162,7 +29502,7 @@
     "USH1B",
     "Retinitis Pigmentosa"
    ],
-   "last_update": "2025-05-02",
+   "last_update": "2026-11-18",
    "lead": "AAVB-081",
    "locations": [
     {
@@ -29170,45 +29510,45 @@
      "country": "Italy",
      "facility": "University of Campania Luigi Vanvitelli",
      "state": "",
-     "status": "RECRUITING"
+     "status": ""
     },
     {
      "city": "London",
      "country": "United Kingdom",
      "facility": "Moorfields Eye Hospital",
      "state": "",
-     "status": "RECRUITING"
+     "status": ""
     },
     {
      "city": "London",
      "country": "United Kingdom",
      "facility": "Retina Clinic London",
      "state": "",
-     "status": "RECRUITING"
+     "status": ""
     }
    ],
-   "max_age": "50 Years",
-   "max_age_years": 50,
+   "max_age": "60 Years",
+   "max_age_years": 60,
    "min_age": "18 Years",
    "min_age_years": 18,
    "nct_id": "NCT06591793",
-   "official_title": "A Phase 1/2 Multicenter, Open-label, Dose Escalation, Safety and Efficacy Study of Subretinal Administration of Dual AAV8.MYO7A, AAVB-081 in Subjects With Usher Syndrome Type IB (USH1B) Retinitis Pigmentosa",
+   "official_title": "A Phase 1/2 Multicenter, Open-label, Dose Escalation, Safety and Efficacy Study of Subretinal Administration of Dual AAV8.MYO7A, AAVB-081 in Participants With Usher Syndrome Type 1B (USH1B) Retinitis Pigmentosa",
    "phase_label": "Phase 1 / Phase 2",
    "phase_rank": 2,
    "phases": [
     "PHASE1",
     "PHASE2"
    ],
-   "prev_status": null,
-   "primary_completion": "2025-07",
+   "prev_status": "RECRUITING",
+   "primary_completion": "2031-01",
    "results_seen_at": null,
    "sex": "ALL",
    "sponsor": "AAVantgarde Bio Srl",
    "sponsor_class": "INDUSTRY",
    "start_date": "2024-07-02",
-   "status": "RECRUITING",
-   "status_changed_at": null,
-   "status_label": "Recruiting now",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "status_changed_at": "2026-11-20T17:18:44+00:00",
+   "status_label": "Underway, not enrolling",
    "study_type": "INTERVENTIONAL",
    "summary": "The purpose of the 081-101 study is to evaluate the safety and tolerability of a single subretinal injection of AAVB-081 in USH1B patients with retinitis pigmentosa due to a mutation in the MYO7A gene. The study will also assess the initial efficacy following AAVB-081 administration.",
    "title": "Study of Subretinally Injected AAVB-081 in Patients With Usher Syndrome Type IB (USH1B) Retinitis Pigmentosa",
@@ -29916,7 +30256,7 @@
     "Rod-Con Disease (R-CD)",
     "Cone-Rose disease (C-RD)"
    ],
-   "last_update": "2026-10-15",
+   "last_update": "2026-11-20",
    "lead": "OpCT-001",
    "locations": [
     {
@@ -30439,7 +30779,7 @@
    ],
    "is_treatment": true,
    "keywords": [],
-   "last_update": "2026-04-17",
+   "last_update": "2026-11-20",
    "lead": "DSP-3077 Retinal Sheet Cohort 1",
    "locations": [
     {
@@ -31651,7 +31991,7 @@
     "RP",
     "Retinitis pigmentosa"
    ],
-   "last_update": "2026-04-28",
+   "last_update": "2026-11-16",
    "lead": "Whole exome/genome sequencing",
    "locations": [
     {
@@ -32252,7 +32592,9 @@
     "Vitreoretinal Disease",
     "Retinal Vein Occlusion"
    ],
-   "countries": [],
+   "countries": [
+    "Italy"
+   ],
    "eligibility_text": "Inclusion Criteria:\n\n* Age \\> 18 years\n* Both genders\n* Confirmed diagnosis of one of the above diseases\n* Age-related macular degeneration\n* Diabetic retinopathy\n* Myopia\n* Pachychoroid spectrum disease\n* Inherited retinal dystrophy\n* Uveitis\n* Dry eye\n* Visual acuity of at least 1/20\n* Signed informed consent for the participation to the trial.\n\nExclusion Criteria:\n\n* Media opacities\n* Any other eye or systemic condition that may irreversibly impair the results of the study\n* Surgery in the eye in the study, including cataract extraction, in the three months prior to recruitment",
    "enrollment": 200,
    "first_posted": "2025-12-23",
@@ -32271,9 +32613,17 @@
     "macular disease",
     "ocular surface disease"
    ],
-   "last_update": "2025-12-30",
+   "last_update": "2026-11-20",
    "lead": "WOOD-2025",
-   "locations": [],
+   "locations": [
+    {
+     "city": "Milan",
+     "country": "Italy",
+     "facility": "IRCCS San Raffaele Scientific Institute",
+     "state": "MI",
+     "status": "RECRUITING"
+    }
+   ],
    "max_age": "",
    "max_age_years": null,
    "min_age": "18 Years",
@@ -32283,16 +32633,16 @@
    "phase_label": "Observational",
    "phase_rank": -1,
    "phases": [],
-   "prev_status": null,
-   "primary_completion": "2028-01",
+   "prev_status": "NOT_YET_RECRUITING",
+   "primary_completion": "2026-01-07",
    "results_seen_at": null,
    "sex": "ALL",
    "sponsor": "IRCCS San Raffaele",
    "sponsor_class": "OTHER",
-   "start_date": "2026-01",
-   "status": "NOT_YET_RECRUITING",
-   "status_changed_at": null,
-   "status_label": "Not yet recruiting",
+   "start_date": "2026-01-07",
+   "status": "RECRUITING",
+   "status_changed_at": "2026-11-20T17:18:44+00:00",
+   "status_label": "Recruiting now",
    "study_type": "OBSERVATIONAL",
    "summary": "The main retinal diseases, whether or not associated with specific mutations genetic, cause progressive degeneration of vascular retinal structures and not vascular, resulting in decreased visual function. Often, such diseases affect the noblest part of the retina, called macula. Many retinal diseases can be complicated by choroidal neovascularization which causes frequent bleeding and fluid leakage that accumulates in the subretinal and intraretinal spaces. Although the investigators know many details of each disease affecting the retina, very often the correct diagnostic framework can be complicated, given the presence of morphological elements common to the different pathologies. Similarly, predicting the effect of treatment and the patient's outcome is a constant challenge for the ophthalmologists. Most of the current research has been focused on the assessment of vascular alterations localized in the macula. However, growing evidence highlight the importance of peripheral vascular changes on the outcome of retinal diseases. These changes can be detected only be wide field OCT devices.\n\nOn the other hand, ocular inflammation and hyperemia represent major assessments in anterior segment disorders, such as dry eye disease. The current grading systems of ocular inflammation, redness and hyperemia are characterized by several limitations, thus making these evaluations still mainly confined to the subjective assessment performed by the ophthalmologist. However, the new generation OCT devices may include also an anterior segment module which can reconstruct anterior segment vessels, non-invasively, using the same technology described for retinal diseases.\n\nThe main goal of the study is to evaluate the diagnostic contribution of a new generation wide field OCTA device in ocular diseases, which has recently received CE marking. In particular, the investigators will evaluate this new generation device both in retinal and anterior segments diseases, testing for common points and differences with the standard of care non-invasive diagnostic devices. Secondary outcomes include the assessment of the correlation between the patient's visual function (visual acuity) and morphological changes (standard of care imaging assessment) highlighted by the wide field OCT device, with particular attention to microstructural differences between major ocular diseases and the possible development of non-invasive biomarkers, useful for the diagnosis and follow-up of such pathologies.",
    "title": "Wide Field OCTA in Ocular Diseases",
@@ -33935,6 +34285,246 @@
    "us_states": [
     "Massachusetts"
    ],
+   "why_stopped": ""
+  },
+  "NCT07941544": {
+   "acronym": "",
+   "active": true,
+   "approaches": [
+    "Natural history / observational"
+   ],
+   "completion": "2032-12-30",
+   "conditions": [
+    "Retinitis Pigmentosa (RP)",
+    "Autism Disorder",
+    "Diminished Ovarian Reserve",
+    "Azoospermia",
+    "Amenorrhea Secondary",
+    "Azoospermia, Nonobstructive"
+   ],
+   "countries": [
+    "Pakistan"
+   ],
+   "eligibility_text": "Inclusion Criteria:\n\n* The clinical record documents a diagnosis in at least one registry cohort: retinitis pigmentosa, autism spectrum disorder, a female fertility condition, or azoospermia.\n* The participant received at least one routine-care administration of cultured umbilical cord mesenchymal stromal cells, autologous uncultured stromal vascular fraction, or both at Njinsky Medical Centre during the registry period.\n* Retrospective records are included only when use of the data is covered by consent or other authorization approved by the Institutional Review Board.\n* Prospective participants agree to registry inclusion under the approved consent process.\n* For minors, guardian permission and age-appropriate assent are obtained as required by the approved process.\n\nExclusion Criteria:\n\n* No qualifying diagnosis is documented.\n* No eligible routine-care administration can be verified.\n* There is no valid consent or other Institutional Review Board-approved basis to use the participant's data.",
+   "enrollment": 1200,
+   "first_posted": "2026-11-17",
+   "first_seen": "2026-11-20T17:18:44+00:00",
+   "gene_agnostic": false,
+   "genes": [],
+   "has_results": false,
+   "healthy_volunteers": false,
+   "interventions": [
+    {
+     "description": "Routine-care exposure observed by the registry. The study does not assign treatment. Cultured umbilical cord mesenchymal stromal cells are administered at 1 million cells/kg total. Half is given intravenously and half by the indication-specific route: sub-Tenon for retinitis pigmentosa, intrathecal for autism spectrum disorder, intraovarian for female infertility, or intratesticular for azoospermia. The treating clinician selects the route and schedule. Actual dose, route, dates, and sessions are recorded.",
+     "name": "Umbilical Cord Mesenchymal Stem Cells",
+     "type": "BIOLOGICAL"
+    },
+    {
+     "description": "Routine-care exposure observed by the registry. The study does not assign treatment. Autologous uncultured stromal vascular fraction is prepared from approximately 100 to 120 mL of adipose tissue. The resulting pellet is resuspended in saline. Half is administered intravenously and half by the indication-specific route: sub-Tenon for retinitis pigmentosa, intrathecal for autism spectrum disorder, intraovarian for female infertility, or intratesticular for azoospermia. The treating clinician selects the route and schedule. Actual preparation, route, dates, and sessions are recorded.",
+     "name": "Stromal Vascular fraction",
+     "type": "BIOLOGICAL"
+    }
+   ],
+   "is_treatment": false,
+   "keywords": [
+    "Umbilical Cord Mesenchymal Stem Cells",
+    "SVF",
+    "UCMSCs",
+    "Cell-based Interventions",
+    "Ambispective Cohort",
+    "Real-World Safety",
+    "Retinitis Pigmentosa",
+    "Autism",
+    "Autism Spectrum Disorder",
+    "Diminished Ovarian Reserve",
+    "Low Ovarian Reserve",
+    "Amenorrhea",
+    "Azoospermia",
+    "Stromal Vascular Fraction"
+   ],
+   "last_update": "2026-11-17",
+   "lead": "Umbilical Cord Mesenchymal Stem Cells",
+   "locations": [
+    {
+     "city": "Lahore",
+     "country": "Pakistan",
+     "facility": "Njinsky Medical Centre",
+     "state": "Punjab Province",
+     "status": ""
+    }
+   ],
+   "max_age": "",
+   "max_age_years": null,
+   "min_age": "",
+   "min_age_years": null,
+   "nct_id": "NCT07941544",
+   "official_title": "Safety and Disease-Specific Outcomes Following Routine-Care Use of Cultured UCMSCs and/or Autologous Uncultured SVF Across Multiple Indications: An Ambispective Observational Registry",
+   "phase_label": "Observational",
+   "phase_rank": -1,
+   "phases": [],
+   "prev_status": null,
+   "primary_completion": "2030-12-30",
+   "results_seen_at": null,
+   "sex": "ALL",
+   "sponsor": "Njinsky Medical Centre",
+   "sponsor_class": "OTHER",
+   "start_date": "2026-12-01",
+   "status": "NOT_YET_RECRUITING",
+   "status_changed_at": null,
+   "status_label": "Not yet recruiting",
+   "study_type": "OBSERVATIONAL",
+   "summary": "This ambispective observational registry will describe safety events, treatment patterns, and disease-specific clinical assessments among patients receiving cultured umbilical cord mesenchymal stromal cells (UCMSCs), autologous uncultured stromal vascular fraction (SVF), or both as part of routine care at Njinsky Medical Centre. The registry includes separate cohorts for retinitis pigmentosa, autism spectrum disorder, female infertility conditions, and azoospermia. The retrospective component will use eligible routine-care records from 1 January 2020 through 30 November 2026. Prospective enrollment is planned from 1 December 2026 through 31 December 2030, with follow-up at 1, 3, 6, 12 and 24 months after the last treatment session. Patients may be followed by phone or in person. The study will not assign treatment or require additional tests; it will record measures obtained in routine care and information reported or documented at follow-up. Results will be described separately by condition and actual product exposure. The registry is not designed by itself to establish that a product caused a clinical outcome.",
+   "title": "Njinsky Ambispective Cellular Product Safety and Outcomes Registry",
+   "url": "https://clinicaltrials.gov/study/NCT07941544",
+   "us_states": [],
+   "why_stopped": ""
+  },
+  "NCT07943312": {
+   "acronym": "",
+   "active": true,
+   "approaches": [
+    "Other"
+   ],
+   "completion": "2031-11-25",
+   "conditions": [
+    "Retinitis Pigmentosa (RP)"
+   ],
+   "countries": [
+    "China"
+   ],
+   "eligibility_text": "Inclusion Criteria:\n\n1. Male or female participants aged 18 to 70 years.\n2. Clinical diagnosis of advanced retinitis pigmentosa (RP).\n3. Best corrected visual acuity at or below the protocol-defined threshold in the study eye.\n4. Ability to understand and sign informed consent (and assent, when applicable).\n5. Laboratory test results are within the protocol-defined threshold range.\n\nExclusion Criteria:\n\n1. Presence of other ocular conditions that could interfere with study assessments.\n2. History of significant ocular surgery in the study eye within a protocol-defined period.\n3. Active ocular infection or inflammation.\n4. Clinically significant systemic disease that could increase study risk or interfere with assessments.\n5. Positive screening for clinically significant infectious diseases, as defined in the protocol.\n6. Any condition that, in the investigator's judgment, would make the participant unsuitable for study participation.\n7. Pregnant or breastfeeding individuals.",
+   "enrollment": 12,
+   "first_posted": "2026-11-17",
+   "first_seen": "2026-11-20T17:18:44+00:00",
+   "gene_agnostic": false,
+   "genes": [],
+   "has_results": false,
+   "healthy_volunteers": false,
+   "interventions": [
+    {
+     "description": "Single unilateral IVT injection of GA001 Injection in the study eye",
+     "name": "GA001",
+     "type": "GENETIC"
+    },
+    {
+     "description": "Sham IVT procedure in the study eye",
+     "name": "Sham injection",
+     "type": "PROCEDURE"
+    }
+   ],
+   "is_treatment": true,
+   "keywords": [],
+   "last_update": "2026-11-17",
+   "lead": "GA001",
+   "locations": [
+    {
+     "city": "Shanghai",
+     "country": "China",
+     "facility": "Shanghai General Hospital",
+     "state": "Shanghai Municipality",
+     "status": ""
+    }
+   ],
+   "max_age": "70 Years",
+   "max_age_years": 70,
+   "min_age": "18 Years",
+   "min_age_years": 18,
+   "nct_id": "NCT07943312",
+   "official_title": "A Clinical Study to Evaluate the Safety and Efficacy of GA001 Injection in Patients With Retinitis Pigmentosa",
+   "phase_label": "Phase 2",
+   "phase_rank": 2,
+   "phases": [
+    "PHASE2"
+   ],
+   "prev_status": null,
+   "primary_completion": "2029-11-25",
+   "results_seen_at": null,
+   "sex": "ALL",
+   "sponsor": "GenAns Biotechnology Co., Ltd",
+   "sponsor_class": "INDUSTRY",
+   "start_date": "2027-04-01",
+   "status": "NOT_YET_RECRUITING",
+   "status_changed_at": null,
+   "status_label": "Not yet recruiting",
+   "study_type": "INTERVENTIONAL",
+   "summary": "This Phase II clinical trial evaluates the safety, tolerability, and efficacy of GA001 Injection in patients with retinitis pigmentosa.",
+   "title": "GA001 Injection in Retinitis Pigmentosa",
+   "url": "https://clinicaltrials.gov/study/NCT07943312",
+   "us_states": [],
+   "why_stopped": ""
+  },
+  "NCT07944170": {
+   "acronym": "NEU 02-25",
+   "active": true,
+   "approaches": [
+    "Natural history / observational"
+   ],
+   "completion": "2036-10-21",
+   "conditions": [
+    "Inherited Retinal Dystrophies",
+    "Retinitis Pigmentosa (RP)",
+    "Stargardt Disease",
+    "Cone Rod Dystrophy",
+    "Rod Dystrophy",
+    "Cone Dystrophy"
+   ],
+   "countries": [
+    "Italy"
+   ],
+   "eligibility_text": "Inclusion Criteria:\n\n* Patients with clinically confirmed inherited retinal dystrophy\n* Age between 18 and 90 years\n* Male or female patients\n* Available recordings of mfERG and mfPhNR, SD-OCT and OCT-A, Visual Acuity (BCVA) and Visual Field (VF)\n* Phakic and pseudophakic eyes\n* Informed consent freely granted and acquired before data collection\n\nExclusion Criteria:\n\n* Patients underwent cataract surgery 6 months before data acquisition\n* Patients with any other ophthalmological diseases affecting cornea, lens, optic nerve and acquired retinal diseases (i.e. central serous chorioretinopathy, retinal vein occlusion, age-related macular degeneration) at the time of data acquisition\n* Patients with diabetes and\\\\or any other systemic condition affecting the macular function and structure\n* Patients who underwent to macular laser procedures before data acquisition\n* Concomitant treatment with any systemic or ocular drug influencing macular structure and function at the time of data acquisition",
+   "enrollment": 18,
+   "first_posted": "2026-11-18",
+   "first_seen": "2026-11-20T17:18:44+00:00",
+   "gene_agnostic": false,
+   "genes": [],
+   "has_results": false,
+   "healthy_volunteers": false,
+   "interventions": [],
+   "is_treatment": false,
+   "keywords": [
+    "inherited retinal dystrophies",
+    "Multifocal Electroretinogram",
+    "Multifocal Photopic Negative Response",
+    "Spectral Domain-Optical Coherence Tomography",
+    "Optical Coherence Tomography-Angiography",
+    "Best Correct Visual Acuity",
+    "Central Retinal Thickness"
+   ],
+   "last_update": "2026-11-18",
+   "lead": "NEU 02-25",
+   "locations": [
+    {
+     "city": "Roma",
+     "country": "Italy",
+     "facility": "IRCCS Fondazione G. B. Bietti, Via Santo Stefano Rotondo 6, Presidio Britannico",
+     "state": "RM",
+     "status": "RECRUITING"
+    }
+   ],
+   "max_age": "90 Years",
+   "max_age_years": 90,
+   "min_age": "18 Years",
+   "min_age_years": 18,
+   "nct_id": "NCT07944170",
+   "official_title": "Retinal Morpho-functional Evaluation of Patients Affected by Inherited Retinal Dystrophies",
+   "phase_label": "Observational",
+   "phase_rank": -1,
+   "phases": [],
+   "prev_status": null,
+   "primary_completion": "2025-12-10",
+   "results_seen_at": null,
+   "sex": "ALL",
+   "sponsor": "Fondazione G.B. Bietti, IRCCS",
+   "sponsor_class": "OTHER",
+   "start_date": "2025-12-10",
+   "status": "RECRUITING",
+   "status_changed_at": null,
+   "status_label": "Recruiting now",
+   "study_type": "OBSERVATIONAL",
+   "summary": "The present study aims to perform a detailed morpho-anatomical and electro-functional characterization of patients affected by IRD, to investigate on the features of specific retinal layers (outer and inner) and to identify the functional involvement of macular elements located in specific areas. Through a systematic approach to anatomical and functional pattern classifications, this study seeks to refine the phenotypic understanding of IRD and to contribute to a deeper comprehension of its pathophysiological underpinnings, for exploring whether subretinal factors are involving in the etiopathogenesis.",
+   "title": "Retinal Morpho-functional Evaluation of Patients Affected by Inherited Retinal Dystrophies",
+   "url": "https://clinicaltrials.gov/study/NCT07944170",
+   "us_states": [],
    "why_stopped": ""
   }
  }
