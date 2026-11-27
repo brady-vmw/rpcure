@@ -94,6 +94,22 @@ import build
 store.reset(); assert store.get_run(r2)["summary"]["new_results"] == ["NCT00000006"]
 assert r2 == r1 + "-2", (r1, r2)
 
+# a later run on the same day (delayed cron) folds into that day's run instead of adding an empty week
+n_runs = len(store.list_runs())
+r3 = refresh.run(trials=trials2, papers=norm_p[:3])
+assert r3 == r2 and len(store.list_runs()) == n_runs, (r3, r2)
+s3 = store.get_run(r3)["summary"]
+assert s3["new_trials"] == ["NCT00000008"] and s3["new_results"] == ["NCT00000006"]
+assert sorted(s3["new_papers"]) == ["41000001", "41000002"]
+m = refresh.merge_summaries(
+    {"new_trials": ["A"], "status_changes": [{"nct_id": "B", "from": "X", "to": "Y"}], "new_results": [],
+     "updated": ["C"], "new_papers": ["1"], "counts": {"total_trials": 1}},
+    {"new_trials": ["D"], "status_changes": [{"nct_id": "B", "from": "Y", "to": "Z"}, {"nct_id": "C", "from": "X", "to": "Y"}],
+     "new_results": [], "updated": [], "new_papers": ["1", "2"], "counts": {"total_trials": 2}})
+assert m["new_trials"] == ["A", "D"] and m["new_papers"] == ["1", "2"] and m["counts"] == {"total_trials": 2}
+assert m["status_changes"] == [{"nct_id": "B", "from": "X", "to": "Z"}, {"nct_id": "C", "from": "X", "to": "Y"}]
+assert m["updated"] == []
+
 note = os.path.join(build.HERE, "content", "note.md")
 orig = open(note).read()
 open(note, "w").write(orig + "# Why this week matters\nOCU400's Phase 3 is **now enrolling**. Ask your specialist.\n")

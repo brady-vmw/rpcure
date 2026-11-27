@@ -64,9 +64,32 @@ def ai_summary(summary, trials_by_id, papers_by_id):
         return ""
 
 
+def merge_summaries(old, new):
+    """Combine two same-day run summaries: union of changes, latest counts."""
+    out = dict(old)
+    for key in ("new_trials", "new_results", "updated", "new_papers"):
+        out[key] = list(old.get(key, [])) + [x for x in new.get(key, []) if x not in old.get(key, [])]
+    changes = {c["nct_id"]: dict(c) for c in old.get("status_changes", [])}
+    for c in new.get("status_changes", []):
+        if c["nct_id"] in changes:
+            changes[c["nct_id"]]["to"] = c["to"]
+        else:
+            changes[c["nct_id"]] = dict(c)
+    out["status_changes"] = [c for c in changes.values() if c["from"] != c["to"]]
+    out["updated"] = [x for x in out["updated"]
+                      if x not in out["new_results"] and x not in {c["nct_id"] for c in out["status_changes"]}]
+    out["counts"] = new.get("counts", old.get("counts"))
+    return out
+
+
 def run(trials=None, papers=None):
     store.init_db()
     run_at = store.now_iso()
+    latest = (store.list_runs(limit=1) or [None])[0]
+    # A second run on the same day (for example GitHub's delayed Friday cron after a manual run)
+    # is folded into that day's run, so it does not become an empty "week" that hides the real one.
+    merge_into = latest if (latest and latest["run_at"][:10] == run_at[:10]
+                            and not latest["summary"].get("baseline")) else None
     run_id, n = run_at[:10], 2
     while store.get_run(run_id):  # more than one run on the same day
         run_id, n = f"{run_at[:10]}-{n}", n + 1
@@ -114,6 +137,15 @@ def run(trials=None, papers=None):
         },
         "ai_summary": "",
     }
+    if merge_into:
+        merged = merge_summaries(merge_into["summary"], summary)
+        merge_into["summary"] = merged
+        store.save()
+        print(f"Same-day run folded into {merge_into['id']}")
+        print(json.dumps({k: (len(v) if isinstance(v, list) else v) for k, v in merged.items()
+                          if k != "ai_summary"}, indent=2))
+        return merge_into["id"]
+
     if not first_run:
         papers_by_id = {p["pmid"]: p for p in papers}
         summary["ai_summary"] = ai_summary(summary, trials_by_id, papers_by_id)
