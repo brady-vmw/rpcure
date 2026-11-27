@@ -1701,9 +1701,537 @@
    "sort_date": "2026-09-22",
    "title": "Variants in RNU4-2 or RNU6 paralogs account for 2% of individuals with non-syndromic autosomal dominant retinitis pigmentosa in a large French cohort.",
    "url": "https://pubmed.ncbi.nlm.nih.gov/43058883/"
+  },
+  "43062973": {
+   "abstract": "Ciliopathies are a group of disorders caused by defects in cilia, and the various syndromes classified as ciliopathies have overlapping phenotypes. CEP83 is a pathogenic gene of NPHP，which is important for ciliogenesis. In this study, we report two unrelated patients presented with typical symptoms of BBS, the clinical diagnosis was confirmed. WES revealed Patient 1 carried 2 CEP83 gene variants: NM_001042399:c.907C > T (p.Arg303Ter) and NM_001042399:c.169A > C (p.Thr57Pro). WES revealed Patient 2 carried 3 CEP83 gene variants: NM_001042399:c.2050_2052del (p.Glu684del), NM_001042399:c.2024 T > C (p.Leu675Pro) and NM_001042399:c.835C > T (p. Arg279Cys). We showed that all the variants caused significantly reduced BBS2 and BBS4 signal within cilia and an increased proportion of BBS2 accumulated at the centrosome. The p.Arg303Ter, p.Thr57Pro, p.Leu675Pro, and p.Glu684del variants affected ciliogenesis or caused abnormalities in cilia length and affected the recruitment of the distal appendage protein (DAP) CEP164. The p.Thr57Pro, p.Arg303Ter and p.Leu675Pro variants affected the recruitment of RABL2 to the basal body. In conclusion, CEP83 is a previously unreported gene associated with BBS. This study revealed an association of DAP-related genes with BBS, and Rab-like small GTPase RABL2 is involved.",
+   "added_date": "2026-11-20",
+   "authors": "Fu Q, Li Y, Wang S et al.",
+   "doi": "10.1093/hmg/ddag122",
+   "epub_date": "",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [],
+   "journal": "Human molecular genetics",
+   "kind": "Case report",
+   "pmid": "43062973",
+   "pub_date": "2026 Nov 19",
+   "pubtypes": [
+    "Journal Article",
+    "Case Reports"
+   ],
+   "sort_date": "2026-11-19",
+   "title": "CEP83 compound heterozygous variants cause Bardet-Biedl syndrome.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43062973/"
+  },
+  "43062977": {
+   "abstract": "Joubert Syndrome (JBTS) is a ciliopathy and disease-causing variants in CEP290 are the leading cause of JBTS presenting with cerebello-retinal-renal phenotypes. We investigated a Brazilian child with JBTS and compound heterozygous variants in CEP290. Using patient derived fibroblasts, we characterised the c.6271-8T>G intron 46 splice site allele using RT-PCR, confirming it led to a 7 bp intronic inclusion leading to a frameshift and downstream nonsense variant p.(Asn2091Leufs*12). Patient fibroblasts displayed elongated and tortuous primary cilia and a decreased primary ciliation rate. We reviewed other Brazilian cohorts where the CEP290 c.6271-8T>G allele had been reported in homozygosity or in compound heterozygosity with a second pathogenic variant. Phenotypes associated with this allele included Leber congenital amaurosis, nephronophthisis and JBTS. Finally, we used antisense oligonucleotide (ASO) mediated exon skipping of exon 46, an 87 base pair exon which if skipped is not predicted to disrupt reading frame or CEP290 protein structure, in patient fibroblasts to rescue ciliary phenotypes and CEP290 protein expression at ciliary the transition zone. These findings confirm that the CEP290 c.6271-8T>G is a pathogenic splice-site variant and pathogenic alleles within or disrupting exon 46 splicing including c.6271-8T>G are amenable to targeted ASO mediated exon skipping as a future therapeutic strategy.",
+   "added_date": "2026-11-20",
+   "authors": "Dewhurst RM, Collins C, Dhondurao Sudhindar P et al.",
+   "doi": "10.1093/hmg/ddag124",
+   "epub_date": "",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [
+    "CEP290"
+   ],
+   "journal": "Human molecular genetics",
+   "kind": "Research",
+   "pmid": "43062977",
+   "pub_date": "2026 Nov 19",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-11-19",
+   "title": "Targeted antisense oligonucleotide mediated exon skipping therapies for a recurrent CEP290 mutation.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43062977/"
+  },
+  "43063168": {
+   "abstract": "OBJECTIVES: Persons with Visual Impairment (VI) are more at risk to be without academic qualification. This is classically attributed to limited access to visual information, considered difficult due to reduced visual acuity. However, in some cases, visual acuity is preserved but visual field is reduced. Given the importance of visuo-spatial skills in learning, we assessed the accuracy of perceptual visuo-spatial judgements relative to visual field extent and visual acuity to question their respective contribution to the functional repercussions in VI. METHODS: 97 patients were administered the elementary visuo-spatial perception (EVSP) test during their clinical assessment. We put a focus on two diseases of our sample: Retinitis Pigmentosa (N = 19) and Albinism (N = 18), with mainly restriction of visual field extent in the former, and visual acuity loss in the latter. In addition, we investigated the correlation between the visuo-spatial performance and these two distinctive factors of VI in the whole sample. RESULTS: The results indicated higher prevalence of visuo-spatial perception deficit in the whole sample of VI compared to typically developing individuals. Even if most pathologies affect both peripheral and central vision, which makes it complicated to fully disentangle between these two factors, the focus on the Retinitis Pigmentosa and the Albinism groups suggested that visuo-spatial perception is less impacted by a low visual acuity than by peripheral visual field restriction. Additionally, we found that visuospatial perception performance was significantly correlated with visual field extent and not with visual acuity in the whole sample. CONCLUSIONS: Visual field extent matters for visuo-spatial processing and probably for academic achievement. Further investigations are needed to understand how impaired visuo-spatial perceptual skills may explain academic difficulties in VI.",
+   "added_date": "2026-11-20",
+   "authors": "Drissi H, Jauze M, Perrier E et al.",
+   "doi": "10.1371/journal.pone.0363153",
+   "epub_date": "2026 Nov 20",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [],
+   "journal": "PloS one",
+   "kind": "Research",
+   "pmid": "43063168",
+   "pub_date": "2026",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-11-20",
+   "title": "Visuo-spatial perception deficit in ophthalmological disorders: Visual field extent matters.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43063168/"
+  },
+  "43067349": {
+   "abstract": "Toxic accumulation of mutant proteins within the secretory pathway contributes to genetically and clinically distinct proteinopathies, including inherited retinal disease. We identify a cargo receptor entrapment complex whose disruption clears accumulated mutant proteins and ameliorates disease phenotypes in the kidney and eye. The complex comprises transmembrane emp24 domain (TMED)7, TMED2, TMED9, and TMED10, and it retains structurally and functionally diverse mutant proteins in the early secretory pathway through TMED7 binding to the Golgi protein GRASP55. Disrupting this interaction-dependent entrapment mechanism promotes the clearance of accumulated cargoes. In vivo inducible genetic deletion of TMED7 or treatment with the small-molecule BRD7635 reverses histopathological hallmarks and rescues functional deficits across distinct proteinopathies, including mitigation of vision loss in a mouse model of retinitis pigmentosa. Together, these findings reveal a shared mechanism of mutant protein entrapment that can be therapeutically targeted across distinct diseases.",
+   "added_date": "2026-11-21",
+   "authors": "Riedl Khursigara M, Goss AC, Kost-Alimova M et al.",
+   "doi": "10.1016/j.neuron.2026.10.023",
+   "epub_date": "2026 Nov 19",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [],
+   "journal": "Neuron",
+   "kind": "Research",
+   "pmid": "43067349",
+   "pub_date": "2026 Nov 19",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-11-19",
+   "title": "Disrupting a cargo receptor entrapment complex is a therapeutic node for distinct proteinopathies.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43067349/"
+  },
+  "43067481": {
+   "abstract": "Retinal deposits represent a structurally convergent but biologically heterogeneous manifestation of numerous inherited retinal diseases and frequently pose a diagnostic challenge because similar funduscopic phenotypes may arise from distinct genetic and molecular mechanisms. We performed a structured narrative review of the literature to synthesize the genetic causes of sub-retinal, sub-retinal pigment epithelium, and intraretinal deposit phenotypes, with emphasis on molecular pathophysiology, anatomical localization on optical coherence tomography, characteristic imaging features, and natural history. Across disease groups, deposits were found to result from diverse mechanisms, including visual cycle dysfunction, impaired photoreceptor outer segment processing, extracellular matrix and Bruch membrane abnormalities, lipid metabolic defects, and crystalline metabolite accumulation. Despite overlapping clinical appearances such as vitelliform material, flecks, drusen-like lesions, or crystalline deposits, optical coherence tomography allows consistent compartmental classification relative to the retinal pigment epithelium, which in turn correlates with underlying biology and genotype. Visual cycle-related flecked retina disorders demonstrate progressive rod dysfunction distinct from stationary phenotypes, while sub-retinal pigment epithelium deposits in monogenic macular dystrophies may mimic age-related macular degeneration, but differ in age of onset, inheritance pattern, and complication risk. Recognition of these genotype-deposit correlations and application of a compartment-based classification may improve differential diagnosis; guide targeted genetic testing and support the development of imaging biomarkers relevant to emerging gene-directed therapies.",
+   "added_date": "2026-11-21",
+   "authors": "Issa M, Raad E, Bruneau S et al.",
+   "doi": "10.1016/j.survophthal.2026.11.016",
+   "epub_date": "2026 Nov 22",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [],
+   "journal": "Survey of ophthalmology",
+   "kind": "Review",
+   "pmid": "43067481",
+   "pub_date": "2026 Nov 22",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
+   "sort_date": "2026-11-22",
+   "title": "Retinal deposits: A narrative review of genetic causes and their phenocopies.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43067481/"
+  },
+  "43067534": {
+   "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: Lycium barbarum L. (goji, wolfberry) is a traditional Chinese medicinal and food plant long associated with nourishment and ocular health. Lycium barbarum glycopeptide (LbGP), a purified glycopeptide fraction derived from Lycium barbarum polysaccharides, has shown retinal and neuroprotective potential, but its metabolic mechanism in inherited retinal degeneration remains unclear. AIM OF THE STUDY: To determine whether LbGP treatment is associated with glycolytic remodeling, lactate metabolism, and protein lactylation in experimental models of retinitis pigmentosa (RP). MATERIALS AND METHODS: Public single-cell RNA sequencing data from PRPF31-mutant and control human retinal organoids were integrated with retinal proteomic, lactylomic, and metabolomic datasets from wild-type, vehicle-treated rd10, and LbGP-treated rd10 mice. Findings were examined using lactate measurement, ATP detection, pan-lysine lactylation immunofluorescence, cell viability assays, Western blotting, retinal structural assessment, and dark-adapted electroretinography. RESULTS: PRPF31-mutant photoreceptors showed increased glycolysis- and hypoxia-related transcription with reduced phototransduction and oxidative phosphorylation. In rd10 retinas, LbGP treatment was associated with changes in glycolysis-related enzymes, disease-associated lysine lactylation, and energy-related metabolites. Integrated multi-omics analysis nominated a glycolysis-lactate-lactylation axis involving selected glycolytic enzymes and Kla sites. LbGP increased the viability of serum-deprived 661W cells and preserved retinal structure and function in rd10 mice. It also increased the lactate production in both 661W cells and rd10 retinas. The ATP levels, pan-lysine lactylation, and the expression of PFKP and LDHA were increased by LbGP treatment in serum-deprived 661W cells, with the effect partially blocked by the glycolysis inhibitor 2-DG. CONCLUSIONS: Glycolytic remodeling and protein lactylation may represent candidate mechanisms associated with LbGP-mediated retinal protection in RP models, supporting further pharmacological validation of LbGP as a Lycium barbarum-derived intervention for retinal degeneration.",
+   "added_date": "2026-11-21",
+   "authors": "Guo T, Zhou Z, Tang J et al.",
+   "doi": "10.1016/j.jep.2026.122688",
+   "epub_date": "2026 Nov 21",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [],
+   "journal": "Journal of ethnopharmacology",
+   "kind": "Research",
+   "pmid": "43067534",
+   "pub_date": "2026 Nov 21",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-11-21",
+   "title": "Multi-omics analysis links Lycium barbarum glycopeptide-mediated retinal protection to glycolytic remodeling and protein lactylation in retinitis pigmentosa models.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43067534/"
+  },
+  "43067996": {
+   "abstract": "Autoimmune retinopathy (AIR), a retinopathy involving an autoimmune response, is broadly categorized into paraneoplastic AIR (pAIR), in which an immune response against a tumor attacks the retina, and nonparaneoplastic AIR (npAIR), in which no tumor is identified. Recent findings indicate that both types can be further classified into three clusters based on clinical presentation. Case 1 involved a 39-year-old woman who presented after noticing the rapid onset of visual field defects. Her initial best-corrected visual acuity (BCVA) was 1.2 in both eyes; visual field testing revealed ring scotomas bilaterally, and multimodal imaging analysis showed retinal damage corresponding to the areas of visual field loss. Blood tests ruled out conditions such as sarcoidosis and tuberculosis. Although pAIR was suspected and a systemic workup was performed, no abnormalities were detected. Following disease onset, treatments including methylprednisolone pulse therapy, sub-Tenon's injection of triamcinolone acetonide, adalimumab, and methotrexate were administered, but no improvement was observed. Disease progression was slow; her BCVA was maintained for nine months after onset, and progression of visual field constriction (ring scotomas) was mild. Testing for paraneoplastic neurological syndrome-associated antibodies yielded negative results for all markers; consequently, she was diagnosed with \"possible npAIR\" (Cluster C), presenting with findings resembling retinitis pigmentosa (RP). Case 2 was a 51-year-old woman who presented with abnormal genital bleeding, was diagnosed with endometrial cancer, and underwent surgery. She had begun experiencing photopsia two months before surgery and sought consultation after noticing a visual disturbance near the center of her right eye postoperatively. At the initial visit, her BCVA was 1.2 in the right eye and 1.5 in the left eye; visual field testing revealed ring scotomas in both eyes. Multimodal imaging analysis showed retinal damage corresponding to the areas of visual field loss. Testing for paraneoplastic neurological syndrome-associated antibodies was positive for anti-recoverin antibodies; she was diagnosed with \"probable pAIR,\" specifically Cluster C, presenting with findings resembling RP. Although Cluster C is typically considered a unilateral condition, the high likelihood that AIR can manifest bilaterally suggests that bilateral Cluster C cases associated with AIR may also occur.",
+   "added_date": "2026-11-22",
+   "authors": "Fukushima A, Nagasato D, Tabuchi H",
+   "doi": "10.7759/cureus.118342",
+   "epub_date": "2026 Oct 21",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [],
+   "journal": "Cureus",
+   "kind": "Case report",
+   "pmid": "43067996",
+   "pub_date": "2026 Oct",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
+   "sort_date": "2026-10-21",
+   "title": "Autoimmune Retinopathy Presenting With Findings of Degenerative Retinal Diseases in Both Eyes: A Report of Two Cases.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43067996/"
+  },
+  "43070598": {
+   "abstract": "PURPOSE: The purpose of this study was to identify whether retinitis pigmentosa (RP) has an impact on sleep and mood, and whether disease severity exacerbates this. METHODS: Eighty-seven patients with an RP phenotype of inherited retinal dystrophy were recruited from Oxford University Hospital NHS Trust. Three hundred three healthy controls were also recruited from the participating centers. Subjective sleep quality was assessed using the Pittsburgh Sleep Quality Index (PSQI). Anxiety and depression (e.g. \"mood\") was quantified using the Hospital Anxiety and Depression Scale (HADS) and daytime sleepiness using the Epworth Sleepiness Scale (ESS). Mann-Whitney U testing was used for between-group statistical comparisons. Spearman's rho coefficient was used to explore correlations between factors. RESULTS: Individuals with RP had significantly worse global sleep quality (PSQI; P = 0.0375) compared with controls. This was due primarily to altered sleep efficiency (P = 0.0034). Regression analyses of participants with RP suggest the driver for poorer sleep was visual acuity (P = 0.0197), particularly in sleep duration (P = 0.0066). Poor visual acuity significantly correlated with poor rod and cone responses and loss of visual field. However, only decreased visual acuity was significant for poorer sleep. Across all groups, increased PSQI (e.g. worsened sleep) correlated with significantly worsened HADS (r = 0.2755, P < 0.0001). HADS scores were not significantly increased in RP participants versus controls. CONCLUSIONS: Our study identified poorer sleep in patients with RP, which correlated with reduced visual acuity. Levels of anxiety and depression were similar between groups.",
+   "added_date": "2026-11-23",
+   "authors": "Foster VS, Purbrick RMJ, Alexander I et al.",
+   "doi": "10.1167/iovs.67.13.43",
+   "epub_date": "",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [],
+   "journal": "Investigative ophthalmology & visual science",
+   "kind": "Research",
+   "pmid": "43070598",
+   "pub_date": "2026 Nov 2",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-11-02",
+   "title": "Sleep and Mood in Retinitis Pigmentosa.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43070598/"
+  },
+  "43070599": {
+   "abstract": "PURPOSE: The purpose of this study was to present a detailed longitudinal description of retinal phenotypes in Swiss patients heterozygous for the pathogenic PRPH2 c.422A>G p.(Tyr141Cys) variant. METHODS: This retrospective cohort study includes 14 patients followed at the University Hospital Bern for up to 33 years. Patient histories include best corrected visual acuity, fundus imaging, fundus autofluorescence imaging, spectral-domain optical coherence tomography (SD-OCT), high-resolution optical coherence tomography, and full-field electroretinography (ffERG). RESULTS: All patients originate from the same Sensler district in Western Switzerland, but no common ancestry could be documented. The mean age at presentation was 48.5 years, ranging from 37 to 70 years. At initial visit, patients were classified according to the previously reported clinical phenotypes \"vitelliform central mottled,\" \"flecks,\" \"butterfly-shaped,\" and \"atrophy.\" The earliest retinal changes identified in an asymptomatic family member were sparse flecks in the mid-periphery. Confluent flecks extending over the entire mid-periphery were also observed in patients, in which the macula was mildly affected. In the macula, initial \"flecks\" and \"vitelliform central mottled\" clinical phenotypes both typically evolved into \"butterfly-shaped\" pattern dystrophy. At late stages, atrophy was observed in the macula and the mid-periphery. Scotopic ffERG identified decreased rod-specific function already at early disease stage, and extinguished responses at late stage. CONCLUSIONS: Initial clinical diagnosis typically was late-onset macular dystrophy or Stargardt-like macular dystrophy. Multimodal imaging of the mid-periphery suggests early disruption of rod outer segments, prior to macular changes. Early decrease in rod function further supports a clinical diagnosis of a rod-cone dystrophy associated with the heterozygous pathogenic PRPH2 c.422A>G p.(Tyr141Cys) variant.",
+   "added_date": "2026-11-23",
+   "authors": "Schmidt M, Buhler VMM, Stocker AB et al.",
+   "doi": "10.1167/iovs.67.13.42",
+   "epub_date": "",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [
+    "PRPH2"
+   ],
+   "journal": "Investigative ophthalmology & visual science",
+   "kind": "Research",
+   "pmid": "43070599",
+   "pub_date": "2026 Nov 2",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-11-02",
+   "title": "Longitudinal Analysis of a Swiss Cohort Harboring the Pathogenic PRPH2 c.422A>G p.(Tyr141Cys) Variant.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43070599/"
+  },
+  "43082753": {
+   "abstract": "Background: Prominin-1 (Prom1)-related Inherited Retinal Dystrophies (IRDs) comprise heterogeneous cone-rod dystrophies, retinitis pigmentosa, and Stargardt-like disease. Although Prom1-associated IRDs have traditionally been considered photoreceptor-driven disorders, our findings support an underappreciated role for RPE dysfunction in driving retinal degeneration. As Prom1-macular dystrophies phenocopy key features of atrophic age-related macular degeneration, we hypothesized that disease initiates in the RPE and investigated how Prom1 loss compromises RPE integrity. Methods: We crossed Prom1fl/+ mice with RPE65-CreERT2 to generate our experimental mouse model (RPE.Prom1-cKO). RPE flatmounts were stained for Prom1, Phalloidin, LC3B, ZO-1, and RPE65. Mouse retinal sections were assessed for epithelial-mesenchymal transition (EMT) and accumulation of neutral lipid-rich debris. RPE autofluorescence, transmission electron microscopy (TEM), optical coherence tomography (OCT), and electroretinography (ERG) were used to evaluate pathologic changes. Results: In RPE from RPE.Prom1-cKO mice, we observed reduced labeling of Prom1, LC3, and RPE65 labeling, with increased Vimentin immunoreactivity, consistent with impaired autophagy and EMT. TEM revealed vacuole-like structures containing unprocessed outer segments in the RPE. Autofluorescence spectra indicated increased lipofuscin, and OCT displayed punctate RPE hyper-reflective foci associated with RPE thinning. ERG recordings showed a significant reduction in scotopic a-, b-, and c-waves. Conclusions: Our data show that RPE-specific loss of Prom1 is sufficient to cause intrinsic RPE pathology and photoreceptor degeneration in mice. While not excluding photoreceptor-intrinsic contributions in other genetic contexts, our results identify an important RPE-driven disease mechanism underlying Prom1-associated retinal degeneration. This work refines models of Prom1-IRD pathogenesis and supports therapeutic strategies to preserve RPE function and slow retinal degeneration over time.",
+   "added_date": "2026-11-25",
+   "authors": "Bhattacharya S, Huo W, Wade S et al.",
+   "doi": "10.3390/cells15222094",
+   "epub_date": "2026 Nov 17",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [],
+   "journal": "Cells",
+   "kind": "Lab or animal study",
+   "pmid": "43082753",
+   "pub_date": "2026 Nov 17",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-11-17",
+   "title": "Inducible RPE-Specific Prominin-1 Disruption in Mouse Reveals RPE-Driven Mechanisms of Retinal Degeneration.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43082753/"
+  },
+  "43086010": {
+   "abstract": "",
+   "added_date": "2026-11-25",
+   "authors": "Souza Mendes B, Sumodhee D, Wong WM et al.",
+   "doi": "10.1136/bjo-2026-330005",
+   "epub_date": "2026 Nov 25",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [],
+   "journal": "The British journal of ophthalmology",
+   "kind": "Research",
+   "pmid": "43086010",
+   "pub_date": "2026 Nov 25",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-11-25",
+   "title": "Inherited retinal disease care pathway in the UK: a healthcare professional perspective.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43086010/"
+  },
+  "43086571": {
+   "abstract": "",
+   "added_date": "2026-11-25",
+   "authors": "Akiyama M, Fujinami K, Oishi A et al.",
+   "doi": "10.1007/s10384-026-01428-y",
+   "epub_date": "2026 Nov 26",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [],
+   "journal": "Japanese journal of ophthalmology",
+   "kind": "Review",
+   "pmid": "43086571",
+   "pub_date": "2026 Nov 26",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
+   "sort_date": "2026-11-26",
+   "title": "Toward genomic medicine: advancing clinical practice in inherited retinal dystrophy in Japan.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43086571/"
+  },
+  "43086572": {
+   "abstract": "Autosomal dominant inherited retinal dystrophies (AD-IRDs) constitute a clinically and genetically heterogeneous group of disorders in Japan, including retinitis pigmentosa (RP), and the disease category of \"macular dystrophies\" caused by numerous pathogenic variants across more than 25 genes. Although AD-IRDs represent a smaller proportion of IRDs when compared with autosomal recessive or X-linked forms, their clinical significance is substantial owing to high variable penetrance, marked intrafamilial variability, and the frequent presence of late-onset or mild phenotypes that remain underdiagnosed.The introduction of next-generation sequencing (NGS) enabled multigene testing and improved diagnostic yields in RP cohorts, with subsequent advances increasing detection rates to approximately 45%, particularly for AD-IRDs. More recently, IRD-specific variant interpretation frameworks have further enhanced diagnostic accuracy and nationwide genomic integration.These advances have clarified the genetic spectrum of AD-IRDs in Japan, with recurrent pathogenic variants in hotspots identified in RHO, RP1, RP1L1, PRPH2, and GUCY2D as major contributors. In parallel, deep phenotyping using multimodal retinal imaging, electrophysiology, and refined genotype-phenotype correlation analyses has revealed population-specific variant distributions associated with characteristic clinical patterns in Japanese cohorts. In addition, emerging therapeutic approaches have now been developed, including gene editing, allele-specific suppression, antisense oligonucleotides, RNA editing, and regenerative cell transplantation strategies.This review summarizes the large-scale cohort studies, molecular functions, phenotypes, and ethnic characteristics of Japanese AD-IRDs and discusses future directions toward precision medicine.",
+   "added_date": "2026-11-25",
+   "authors": "Nakajima I, Ueda-Consolvo T, Akiba R et al.",
+   "doi": "10.1007/s10384-026-01427-z",
+   "epub_date": "2026 Nov 26",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [],
+   "journal": "Japanese journal of ophthalmology",
+   "kind": "Review",
+   "pmid": "43086572",
+   "pub_date": "2026 Nov 26",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
+   "sort_date": "2026-11-26",
+   "title": "Autosomal dominant inherited retinal dystrophies in Japan: clinical characteristics, genetics, and implications for precision medicine.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43086572/"
+  },
+  "43086573": {
+   "abstract": "Inherited retinal dystrophies (IRDs) comprise a heterogeneous group of disorders that lead to progressive retinal degeneration and vision loss. Their inheritance patterns include autosomal dominant, autosomal recessive, X-linked (XL), digenic, and mitochondrial. Ethnic differences in genetic backgrounds and clinical presentations have been increasingly recognized. This review summarizes the current clinical and genetic characteristics of IRDs with XL, digenic, and mitochondrial inheritance patterns in the Japanese population. Among XL-IRDs, RPGR is the most common causative gene, followed by RP2. These genes are the major causes of X-linked retinitis pigmentosa, and variants in RPGR or RP2 typically result in an early-onset, progressive, and severe clinical course, with many affected individuals progressing to legal blindness in the third to fourth decades of life. By contrast, CHM, RS1, CACNA1F, NYX, OPSIN-LCR, OFD1, and IDH3G have been reported less frequently but were associated with distinct and important clinical features. Several genotype-phenotype correlations and possible founder variants have also been described. Digenic inheritance, particularly involving PRPH2 and ROM1 or interactions between RP1 and EYS, highlights the complex genetic architecture bridging monogenic and polygenic disease mechanisms. Additionally, mitochondrial DNA-associated disorders may exhibit variable retinal and systemic involvement. Understanding the clinical features and genetic spectrum of these disorders in specific populations is essential for accurate diagnosis, genetic counseling, and the development of precision medicine-based treatments. This review provides an overview of the current landscape of XL, digenic, and mitochondrial IRDs in Japan.",
+   "added_date": "2026-11-25",
+   "authors": "Edo A, Asano S, Numa S et al.",
+   "doi": "10.1007/s10384-026-01423-3",
+   "epub_date": "2026 Nov 26",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [],
+   "journal": "Japanese journal of ophthalmology",
+   "kind": "Review",
+   "pmid": "43086573",
+   "pub_date": "2026 Nov 26",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
+   "sort_date": "2026-11-26",
+   "title": "Inherited retinal dystrophies with X-linked, digenic, and mitochondrial inheritance in Japan: clinical and genetic characteristics.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43086573/"
+  },
+  "43086711": {
+   "abstract": "BACKGROUND: EFEMP1-associated maculopathy is a rare autosomal dominant retinal disorder that can resemble age-related macular degeneration. Genetically confirmed cases with detailed multimodal imaging and functional phenotyping remain uncommon. We describe the only molecularly confirmed case identified through the Irish national inherited retinal disease registry at the time of review. CASE PRESENTATION: A 43-year-old man of Bengali ancestry, assessed in Ireland, presented with a 3-year history of progressive visual loss that had accelerated in the left eye during the preceding 3 months. Multimodal imaging demonstrated bilateral, nearly confluent posterior-pole and peripapillary drusenoid deposits, central hypoautofluorescence, outer-retinal disruption and sub-retinal pigment epithelium material, without haemorrhage, angiographic leakage or intra- or subretinal fluid. Formal perimetry demonstrated dense bilateral central field defects. Full-field electroretinography showed bilateral pan-retinal rod-predominant dysfunction, suggesting possible functional involvement beyond the macula, although this finding requires confirmation. A 28-gene macular-dystrophy panel identified the heterozygous pathogenic EFEMP1 variant NM_001039348.3:c.1033 C > T, p.(Arg345Trp). Accelerated unilateral visual decline prompted an empirical trial comprising three intravitreal bevacizumab injections administered at monthly intervals to the left eye because occult choroidal neovascularisation could not be definitively excluded. Visual acuity and optical coherence tomography findings remained unchanged and treatment was discontinued. Anatomical and visual findings remained stable at the 6-month follow-up. CONCLUSIONS: EFEMP1-associated maculopathy should be considered in adults younger than the typical age of onset of age-related macular degeneration who exhibit extensive radial or peripapillary drusen. Genetic testing can establish the diagnosis, inform counselling and help prevent unnecessary treatment. The rod-predominant pan-retinal dysfunction observed in this patient suggests a potentially broader functional phenotype, although confirmation in additional cases is required.",
+   "added_date": "2026-11-25",
+   "authors": "Farnan R, Stephenson KA, Duignan ES et al.",
+   "doi": "10.1186/s12886-026-05277-8",
+   "epub_date": "2026 Sep 3",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [],
+   "journal": "BMC ophthalmology",
+   "kind": "Case report",
+   "pmid": "43086711",
+   "pub_date": "2026 Sep 3",
+   "pubtypes": [
+    "Journal Article",
+    "Case Reports"
+   ],
+   "sort_date": "2026-09-03",
+   "title": "EFEMP1-associated maculopathy diagnosed through the Irish inherited retinal disease registry: a case report.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43086711/"
+  },
+  "43087070": {
+   "abstract": "BACKGROUND: Usher syndrome (USH) is an inherited disorder characterized by hearing loss, progressive retinal degeneration and variable vestibular dysfunction. It is categorized into three major clinical subtypes, and Type I (USH1) is the most severe which characterized by severe to profound congenital sensorineural deafness, vestibular hypofunction, and prepubertal onset retinitis pigmentosa. Six genes have been reported to be associated with USH1 and MYO7A mutation is found in 29-60% of cases. CASE PRESENTATION: We report an 11-year-old child presented with hearing loss, peripheral retinal dysplasia and noninfectious uveitis. Next generation sequencing revealed two novel heterozygous variants of MYO7A, c.1990A > C and c.1630_1632del, confirming the molecular diagnosis of USH. CONCLUSION: We report a previously undescribed phenotype caused by two novel mutations in MYO7A, which expands the mutation spectrum and contributes to explore the underlying pathogenesis of USH. Further studies are needed to confirm this finding.",
+   "added_date": "2026-11-26",
+   "authors": "Fu H, Xiao F, Li W et al.",
+   "doi": "10.1186/s13256-026-06567-x",
+   "epub_date": "2026 Sep 3",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [
+    "MYO7A"
+   ],
+   "journal": "Journal of medical case reports",
+   "kind": "Case report",
+   "pmid": "43087070",
+   "pub_date": "2026 Sep 3",
+   "pubtypes": [
+    "Journal Article",
+    "Case Reports"
+   ],
+   "sort_date": "2026-09-03",
+   "title": "Two novel mutations of MYO7A complicated with peripheral retinal dysplasia in a patient with Usher syndrome: a case report.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43087070/"
+  },
+  "43088387": {
+   "abstract": "Protein homeostasis (proteostasis) is essential for retinal integrity and visual function. The retina's high metabolic activity and continuous protein turnover make it vulnerable to protein misfolding and aggregation, endoplasmic reticulum (ER) stress, impaired ubiquitin-proteasome and autophagy-lysosomal pathways, mitochondrial dysfunction, oxidative injury, and neuroinflammation. These disturbances contribute to inherited retinal dystrophies, including rhodopsin-associated retinitis pigmentosa, age-related macular degeneration (AMD), diabetic retinopathy, vitreoretinal amyloidoses, and retinal abnormalities associated with Alzheimer's disease, Parkinson's disease, and prion disorders. Rhodopsin misfolding is a well-characterized inherited retinal proteinopathy, whereas AMD involves amyloid-associated changes and progressive retinal pigment epithelium and photoreceptor degeneration. Proteostasis failure and cellular stress can also affect retinal ganglion cells; mitochondrial dysfunction in Leber hereditary optic neuropathy illustrates their vulnerability to impaired bioenergetics. This review examines shared mechanisms of retinal proteinopathy, including protein aggregation, ER stress and the unfolded protein response, oxidative and mitochondrial injury, defective protein clearance, and neuroinflammation. It also discusses therapies aimed at restoring proteostasis and the potential of retinal imaging and molecular measures as accessible biomarkers of neurodegenerative processes, while noting that correspondence between retinal and brain pathology requires further investigation.",
+   "added_date": "2026-11-26",
+   "authors": "Surguchov A",
+   "doi": "10.3390/brainsci16111271",
+   "epub_date": "2026 Nov 19",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [],
+   "journal": "Brain sciences",
+   "kind": "Review",
+   "pmid": "43088387",
+   "pub_date": "2026 Nov 19",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
+   "sort_date": "2026-11-19",
+   "title": "Retinal Conformational Diseases: From Protein Misfolding to Neurodegeneration.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43088387/"
+  },
+  "43089324": {
+   "abstract": "Background/Objectives: Syndromic retinitis pigmentosa (SRP) presents a significant diagnostic challenge due to marked clinical and genetic heterogeneity. This study aimed to characterize the molecular spectrum of SRP in the previously understudied Bulgarian population, to define its regional allelic architecture and to relate the genetic findings to the main clinical forms of the disease. Methods: A single-centre, retrospective cohort study included 31 patients from 28 unrelated families diagnosed with SRP at the Department of Ophthalmology, University Hospital \"Alexandrovska,\" Sofia, Bulgaria. The clinical diagnosis was established by ophthalmological and systemic assessment. Molecular diagnosis was established using whole-exome sequencing of nuclear and mitochondrial DNA and/or targeted inherited retinal disease panel sequencing, complemented by copy number variation analysis. Variants were filtered according to rarity and sequencing quality and classified according to ACMG criteria. Results: The underlying etiology was resolved in all 31 patients across ten ciliary and mitochondrial loci (USH2A, USH1C, ADGRV1, CDH23, IFT54, BBS1, BBS4, BBS10, MKKS, and MT-ATP6). Usher syndrome accounted for 77.41% of cases, followed by Bardet-Biedl syndrome (16.13%), Senior-Løken syndrome spectrum (3.23%), and NARP syndrome (3.23%). Six novel variants were identified. A diagnostic latency of approximately 30 years was observed between the clinical diagnosis and the genetic verification, although the first manifestations, mostly extraocular (congenital hearing loss or polydactyly), appeared in childhood. The allelic landscape demonstrated regional enrichment of the Slavic founder USH2A variant p.(Trp3955*) and the p.(Gly3142*) nonsense variant, while the Western European c.2299delG allele was less prominent. Conclusions: This study defines the molecular spectrum of SRP in a Bulgarian cohort and demonstrates a distinct regional allelic architecture. Recognition of early extraocular manifestations and regional variant frequencies may facilitate earlier diagnosis, improve genetic counseling, and support multidisciplinary management and mutation-specific therapeutic approaches.",
+   "added_date": "2026-11-26",
+   "authors": "Kaneva Y, Kamenarova K, Oscar A et al.",
+   "doi": "10.3390/genes17111328",
+   "epub_date": "2026 Oct 23",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [],
+   "journal": "Genes",
+   "kind": "Research",
+   "pmid": "43089324",
+   "pub_date": "2026 Oct 23",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-10-23",
+   "title": "Molecular Spectrum of Syndromic Retinitis Pigmentosa in a Bulgarian Cohort.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43089324/"
+  },
+  "43089371": {
+   "abstract": "BACKGROUND: Late-Onset Retinal Degeneration (L-ORD) is an inherited retinal dystrophy (IRD) that typically manifests with delayed dark adaptation by the fifth decade of life and progresses to initial central visual impairment after age 60 years. Here, we describe the clinical and molecular characterisation of two C1QTNF5 missense variants identified in individuals with IRD that do not share the characteristic retinal phenotype of L-ORD and exhibit variable age of onset and disease severity. METHODS: Probands from two unrelated families underwent genetic testing and comprehensive ophthalmic phenotyping, including multimodal retinal imaging and electrophysiological assessment. This allowed comparison to the previously reported ophthalmic phenotype in two additional families for which the genetic cause of IRD had been previously reported. Genetic analysis was performed using next-generation sequencing, with variants classified according to ACMG/AMP guidelines. In silico analyses assessed evolutionary conservation, predicted pathogenicity, and structural consequences. To experimentally assess variant effects, wild-type and mutant C1QTNF5 constructs were expressed in hTERT-RPE1 cells, and protein folding, stability, and secretion were evaluated. RESULTS: A de novo heterozygous variant, c.548G>A p.(G183E) in C1QTNF5 in a proband, was classified as likely pathogenic. The genetic cause of IRD in the other unrelated probands was C1QTNF5 c.538C>G, p.(Q180E), a known pathogenic variant. The missense variants affect highly conserved residues and are absent from population databases. Structural modelling of both variants predicted destabilisation of C1QTNF5 for both variants, although significantly less severe than for previously identified pathogenic L-ORD variants. In vitro analyses revealed reduced stability of both mutant proteins expressed alone, but when co-expressed with wild-type (WT) C1QTNF5, differences between these variants were observed. In contrast to L-ORD variants, C1QTNF5 containing p.G183E or p.Q180E, could multimerise, generating the expected ratio of trimer and high molecular weight C1QTNF5 multimers. C1QTNF5 p.Q180E/WT co-assembly destabilised the protein and decreased the amount of total C1QTNF5 secreted, but p.G183E was secreted at an equivalent level to WT C1QTNF5. CONCLUSIONS: These findings expand the variant and mechanistic spectrum of C1QTNF5-associated retinal disease and highlight C1QTNF5 protein misfolding as a key pathogenic mechanism. Integrating clinical phenotyping with structural and functional analyses is critical for accurate variant interpretation and molecular diagnosis in C1QTNF5-associated retinal disease.",
+   "added_date": "2026-11-26",
+   "authors": "Stanton CM, Leese SK, Kadonoff H et al.",
+   "doi": "10.3390/genes17111375",
+   "epub_date": "2026 Oct 31",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [],
+   "journal": "Genes",
+   "kind": "Research",
+   "pmid": "43089371",
+   "pub_date": "2026 Oct 31",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-10-31",
+   "title": "Extending the Genotypes and Phenotypes of C1QTNF5-Associated Retinal Disease.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43089371/"
+  },
+  "43097433": {
+   "abstract": "The interphotoreceptor matrix (IPM) is a proteoglycan-rich extracellular matrix in the retina that supports photoreceptor structure and function. Mutations in the gene encoding interphotoreceptor matrix proteoglycan 2 (IMPG2), a key IPM component, can cause rod-cone dystrophy with early macular involvement or an adult-onset vitelliform macular dystrophy, each leading to vision loss that is presently untreatable. Impg2Q244Ter/Q244Ter knockout (Impg2-KO) mice were previously developed as a testbed for therapeutic development for both forms of IMPG2-associated retinal degeneration, but the model's utility is limited by its slow degenerative phenotype. To accelerate interventional preclinical experiments, we identified early biomarkers of retinal pathology in Impg2-KO mice. While Impg2-KO mice did not begin to exhibit retinal thinning and functional deficits until postnatal day 90 (P90) or later, they presented with highly penetrant vitelliform-like subretinal lesions, mislocalized IMPG1, truncated cone matrix sheaths, and reactive gliosis by P60 or earlier. Each early disease biomarker was quantifiable, persisted for months to years, was potentially therapeutically resolvable, and differed sufficiently between WT and Impg2-KO mice to serve as a sensitive outcome measure. This work identified multiple early disease biomarkers in Impg2-KO mice, establishing a robust, clinically relevant model for evaluating vision-preserving therapeutics for patients with IMPG2 mutations.",
+   "added_date": "2026-11-26",
+   "authors": "Descant KD, Pinilla I, Kipp DW et al.",
+   "doi": "10.1172/jci.insight.209078",
+   "epub_date": "2026 Nov 26",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [],
+   "journal": "JCI insight",
+   "kind": "Lab or animal study",
+   "pmid": "43097433",
+   "pub_date": "2026 Nov 26",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-11-26",
+   "title": "Identification of early disease biomarkers in a mouse model of IMPG2-associated retinal degeneration.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43097433/"
+  },
+  "43098448": {
+   "abstract": "PURPOSE: To characterize genotype-specific multimodal imaging phenotypes and expand the mutational spectrum of CNG channel-related inherited retinal diseases in a Chinese cohort, assess candidate structural biomarkers, and explore cross-sectional associations between age and ellipsoid zone (EZ) width in CNGA1- and CNGB1-associated retinitis pigmentosa (RP). DESIGN: Multicenter cross-sectional observational study. PARTICIPANTS: 101 patients (202 eyes) with inherited retinal disease associated with biallelic or presumed biallelic variants in CNGA1, CNGB1, CNGA3, or CNGB3, and 35 age- and sex- matched healthy controls. METHODS: Genomic variants and best-corrected visual acuity (BCVA; logarithm of the minimum angle of resolution [logMAR]) were assessed. Ultra-widefield fundus autofluorescence and spectral-domain optical coherence tomography (OCT) were analyzed. Mixed-effects models and exploratory segmented regression examined structure-function and age-EZ width associations. MAIN OUTCOME MEASURES: Genotype-specific imaging patterns, BCVA, EZ width, retinal and choroidal thickness, and variant spectrum. RESULTS: Sixty-two distinct variants were identified across four CNG genes, including two exon-level deletions. CNGA1 c.253del and CNGB1 c.217+5G>C were the most frequent variants in their respective genes. Rod-dominant genotypes exhibited centripetal hypoautofluorescence with a parafoveal hyperautofluorescent ring, whereas CNGA3-ACHM showed increased foveal autofluorescence. OCT-defined foveal hypoplasia (FH) morphology differed across genotype groups: CNGA1-RP and CNGB1-RP predominantly showed low-grade classical FH morphology, whereas the small CNGA3-ACHM and CNGB3-ACHM cohorts more frequently showed atypical FH morphology with outer retinal disruption. Both CNGA1-RP and CNGB1-RP demonstrated reduced parafoveal retinal and choroidal thickness versus controls (P < .001). In CNGA1-RP, EZ width showed the strongest single-predictor association with BCVA (R² = 0.68) and remained associated after adjustment for age and central foveal thickness (β per 1000 μm, -0.260 logMAR; 95% confidence interval, -0.353 to -0.168; P < .001). Exploratory segmented regression suggested an age-associated EZ width threshold near 41 years; the age-group difference was larger in the CNGA1-RP than in the CNGB1-RP group (interaction P = .030). CONCLUSIONS: CNG channel-related retinopathies had distinct genotype-specific imaging patterns. EZ width merits further evaluation as a candidate structural biomarker, particularly in CNGA1-associated RP. The exploratory age-associated pattern in EZ width near 41 years requires longitudinal validation before informing progression estimates or therapeutic timing.",
+   "added_date": "2026-11-26",
+   "authors": "Wang MY, Wei JJ, Duan C et al.",
+   "doi": "10.1016/j.ajo.2026.11.024",
+   "epub_date": "2026 Nov 26",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [],
+   "journal": "American journal of ophthalmology",
+   "kind": "Research",
+   "pmid": "43098448",
+   "pub_date": "2026 Nov 26",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-11-26",
+   "title": "Genotype-Phenotype Correlations and Age-Related Structural Differences in Cyclic Nucleotide-Gated Channel-Related Retinopathies.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43098448/"
+  },
+  "43098541": {
+   "abstract": "BACKGROUND: Patients with inherited retinal diseases (IRDs) experience significant emotional distress, but their mental health remains both understudied and insufficiently addressed within the context of vision care. We aim to further understand the breadth and depth of the psychological state and needs of patients with IRDs. METHODS: Fifty-two adults diagnosed with an IRD were recruited from the Retinal Dystrophy Clinic at the University of Michigan Kellogg Eye Center. Inclusion criteria required a genetic or phenotypic diagnosis in one of three IRD subtypes (macular dystrophy, rod-cone dystrophy, cone/cone-rod dystrophy). Consecutive sampling methodology was used. Michigan Vision Anxiety Questionnaire (MVAQ), Patient Health Questionnaire (PHQ-9), Generalised Anxiety Disorder Assessment (GAD-7) and in-depth interview data were collected and analysed using cross-sectional psychometric and qualitative analysis. Study duration < 1 year. RESULTS: Participants reported elevated symptoms of depression, generalised anxiety and vision-specific anxiety, with small-to-moderate effect sizes compared to scale reference values. Vision-specific anxiety was moderately correlated with general emotional distress. Thematic analysis of interviews (n = 47) identified four candidate 'phenotypes of distress': future-oriented anxiety, loss and grief, overwhelmed/dysregulated and adaptive/high coping. CONCLUSIONS: The findings support the idea that vision distress is a partially independent dimension of psychological distress not fully captured by traditional depression and anxiety measures and the candidate phenotypes illustrate the varied ways individuals experience and manage distress related to vision loss. This study should inform future research building psychological interventions for patients with IRDs.",
+   "added_date": "2026-11-26",
+   "authors": "Stout JR, Kao KD, Zmejkoski A et al.",
+   "doi": "10.1111/ceo.70188",
+   "epub_date": "2026 Nov 26",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [],
+   "journal": "Clinical & experimental ophthalmology",
+   "kind": "Research",
+   "pmid": "43098541",
+   "pub_date": "2026 Nov 26",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "sort_date": "2026-11-26",
+   "title": "Candidate Distress Phenotypes of Patients With Inherited Retinal Diseases.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43098541/"
+  },
+  "43099709": {
+   "abstract": "BACKGROUND: Bardet-Biedl syndrome is a rare autosomal recessive ciliopathy that may be diagnosed clinically in resource-limited settings where molecular testing is unavailable. Autoimmune pernicious anemia has been rarely described in association with BBS, and its relationship to BBS-related immune dysregulation remains uncertain. CASE PRESENTATION: We report an 18-year-old Pakistani woman of Pashtun ethnicity from a consanguineous family who presented with four months of progressive fatigue, weakness, pallor, and exertional dyspnea. Evaluation revealed severe macrocytic anemia due to vitamin B12 deficiency, with positive anti-intrinsic factor and anti-parietal cell antibodies confirming autoimmune pernicious anemia. Further history identified childhood-onset retinal dystrophy progressing to blindness, postaxial polydactyly, developmental delay, primary amenorrhea, bilaterally small kidneys, diabetes mellitus, parental consanguinity, and a similarly affected sibling. She fulfilled all six major and two minor clinical diagnostic criteria for Bardet-Biedl syndrome; molecular confirmation could not be arranged because of resource limitations. She improved after packed red cell transfusion and intramuscular cyanocobalamin and was discharged on lifelong vitamin B12 replacement. CONCLUSIONS: This case documents a rare co-occurrence of autoimmune pernicious anemia in a patient clinically fulfilling all major criteria for Bardet-Biedl syndrome in a resource-limited setting where molecular confirmation was unavailable. While a single clinical case cannot establish causality or exclude overlapping conditions, the observation is biologically plausible in light of emerging evidence linking ciliary dysfunction to immune dysregulation. Clinicians managing patients with suspected or confirmed BBS should maintain vigilance for autoimmune pernicious anemia when evaluating unexplained macrocytic anemia or vitamin B12 deficiency.",
+   "added_date": "2026-11-27",
+   "authors": "Imran J, Ali M",
+   "doi": "10.1186/s13256-026-06593-9",
+   "epub_date": "2026 Sep 7",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [],
+   "journal": "Journal of medical case reports",
+   "kind": "Review",
+   "pmid": "43099709",
+   "pub_date": "2026 Sep 7",
+   "pubtypes": [
+    "Journal Article",
+    "Case Reports",
+    "Review"
+   ],
+   "sort_date": "2026-09-07",
+   "title": "Autoimmune pernicious anemia in clinically diagnosed Bardet-Biedl syndrome: a case report and brief literature review.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43099709/"
+  },
+  "43100420": {
+   "abstract": "Inherited retinal diseases are leading candidates for gene therapy, but photoreceptor-directed adeno-associated virus (AAV) vectors still require subretinal injection, which treats only part of the retina and carries surgical risk. Intravitreal delivery is simple and panretinal, yet inner-retinal barriers block most capsids, and capsids selected in one species rarely translate. Mapping retinal glycans across seven mammals, we found heparan sulfate (HS) marking the inner limiting membrane and terminal N-acetylglucosamine (GlcNAc) enriched on photoreceptor segments. These invariants defined a two-part design principle, attenuated HS binding with strong terminal GlcNAc engagement, implemented as a sequential in vitro selection, Conserved Receptor-Selection Technology (CReST). Its lead GlcNAc-selected capsid, AAV2.IvtB, increased retinal transgene expression 6.5-fold over AAV2.7m8 in mice and photoreceptor transduction 2.5-fold in pigs, acting through terminal GlcNAc engagement. It partially preserved photoreceptors in rd10 mice and suppressed laser-induced choroidal neovascularization. CReST is a receptor-guided, animal-free route to capsids with a defined, conserved mechanism.",
+   "added_date": "2026-11-27",
+   "authors": "Wang JH, Cui M, Zhao W et al.",
+   "doi": "10.64898/2026.11.17.767272",
+   "epub_date": "2026 Nov 18",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "genes": [],
+   "journal": "bioRxiv : the preprint server for biology",
+   "kind": "Preprint (not yet peer-reviewed)",
+   "pmid": "43100420",
+   "pub_date": "2026 Nov 18",
+   "pubtypes": [
+    "Journal Article",
+    "Preprint"
+   ],
+   "sort_date": "2026-11-18",
+   "title": "Biochemical selection on conserved glycans yield a cross-species AAV capsid for efficient panretinal intravitreal delivery.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43100420/"
   }
  },
  "runs": [
+  {
+   "id": "2026-11-27",
+   "run_at": "2026-11-27T17:18:35+00:00",
+   "summary": {
+    "ai_summary": "",
+    "baseline": false,
+    "counts": {
+     "active_trials": 132,
+     "countries_recruiting": 26,
+     "phase3_active": 15,
+     "recruiting": 56,
+     "total_trials": 347
+    },
+    "new_papers": [
+     "43098541",
+     "43098448",
+     "43097433",
+     "43086573",
+     "43086572",
+     "43086571",
+     "43086010",
+     "43067481",
+     "43067534",
+     "43063168",
+     "43088387",
+     "43067349",
+     "43062977",
+     "43062973",
+     "43100420",
+     "43082753",
+     "43070599",
+     "43070598",
+     "43089371",
+     "43089324",
+     "43067996",
+     "43099709",
+     "43087070",
+     "43086711"
+    ],
+    "new_results": [],
+    "new_trials": [
+     "NCT07962981",
+     "NCT07960381",
+     "NCT07963085"
+    ],
+    "status_changes": [],
+    "updated": [
+     "NCT02018692",
+     "NCT02617966",
+     "NCT07941544",
+     "NCT07509229"
+    ]
+   }
+  },
   {
    "id": "2026-11-20-2",
    "run_at": "2026-11-20T20:32:35+00:00",
@@ -9232,7 +9760,7 @@
    ],
    "is_treatment": true,
    "keywords": [],
-   "last_update": "2025-10-06",
+   "last_update": "2026-11-25",
    "lead": "Alga Dunaliella Bardawil powder",
    "locations": [
     {
@@ -9261,7 +9789,7 @@
    "sex": "ALL",
    "sponsor": "Sheba Medical Center",
    "sponsor_class": "OTHER_GOV",
-   "start_date": "2026-03-01",
+   "start_date": "2027-03-01",
    "status": "NOT_YET_RECRUITING",
    "status_changed_at": null,
    "status_label": "Not yet recruiting",
@@ -11004,7 +11532,7 @@
     "Stargardt's Disease",
     "Dark Adaptation"
    ],
-   "last_update": "2026-11-12",
+   "last_update": "2026-11-23",
    "lead": "Rod and Cone Mediated Function in Retinal Disease",
    "locations": [
     {
@@ -11035,7 +11563,7 @@
    "status_changed_at": null,
    "status_label": "Recruiting now",
    "study_type": "OBSERVATIONAL",
-   "summary": "Background:\n\nRetinal diseases cause the loss of rod and cone photoreceptors. Symptoms include vision loss and night blindness. Researchers want to learn about rod and cone function in healthy people and people with retinal disease. They want to know if how well a person sees in the dark can test the severity of retinal disease.\n\nObjectives:\n\nTo find out if how well a person sees in the dark can test the severity of retinal disease. To find out if this can help detect retinal disease and track its changes.\n\nEligibility:\n\nPeople ages 5 and older with:\n\nRetinal disease OR\n\n20/20 vision or better with or without correction in at least one eye\n\nDesign:\n\nParticipants will be screened with medical and eye history and eye exam. Those with retinal disease will also have:\n\nEye imaging: Drops dilate the eye and pictures are taken of it.\n\nVisual field testing: Participants look into a bowl and press a button when they see light.\n\nElectroretinogram (ERG): An electrode is taped to the forehead. Participants sit in the\n\ndark with their eyes patched for 30 minutes. Then they get numbing drops and contact\n\nlenses. Participants watch lights while retina signals are recorded.\n\nVisit 1 will be 3-8 hours. Participants will have up to 6 more visits over 6-12 months. Visits include:\n\nEye exam and imaging\n\nTime course of dark adaptation: Participants view a background light for 5 minutes then\n\npush a button when they see colored light.\n\nDark adapted sensitivity: Participants sit in the dark for 45 minutes. They push a button when\n\nthey see colored light.\n\nFor participants with retinal disease, ERG and visual field testing",
+   "summary": "Background:\n\nRetinal diseases cause the loss of rod and cone photoreceptors. Symptoms include vision loss and night blindness. Researchers want to learn about rod and cone function in healthy people and people with retinal disease. They want to know if how well a person sees in the dark can test the severity of retinal disease.\n\nObjectives:\n\nTo find out if how well a person sees in the dark can test the severity of retinal disease. To find out if this can help detect retinal disease and track its changes.\n\nEligibility:\n\nPeople ages 5 and older with:\n\nRetinal disease OR\n\n20/20 vision or better with or without correction in at least one eye\n\nDesign:\n\nParticipants will be screened with medical and eye history and eye exam. Those with retinal disease will also have:\n\nEye imaging: Drops dilate the eye and pictures are taken of it.\n\nVisual field testing: Participants look into a bowl and press a button when they see light.\n\nElectroretinogram (ERG): An electrode is taped to the forehead. Participants sit in the\n\ndark with their eyes patched for 30 minutes. Then they get numbing drops and contact\n\nlenses. Participants watch lights while retina signals are recorded.\n\nVisit 1 will be 3-8 hours. Participants will have up to 6 more visits over 6-12 months. Visits include:\n\nEye exam and imaging\n\nTime course of dark adaptation: Participants view a background light for 5 minutes then\n\npush a button when they see colored light.\n\nDark adapted sensitivity: Participants sit in the dark for 45 minutes. They push a button when\n\nthey see colored light.\n\nFor participants with retinal disease, ERG and visual field testing\n\n...",
    "title": "Rod and Cone Mediated Function in Retinal Disease",
    "url": "https://clinicaltrials.gov/study/NCT02617966",
    "us_states": [
@@ -33202,7 +33730,7 @@
     "Supplement / diet",
     "Drug / neuroprotection"
    ],
-   "completion": "2029-04-30",
+   "completion": "2029-11-30",
    "conditions": [
     "Retinitis Pigmentosa"
    ],
@@ -33235,7 +33763,7 @@
     "retinoid cycle",
     "beta carotene"
    ],
-   "last_update": "2026-07-27",
+   "last_update": "2026-11-25",
    "lead": "9-cis beta-Carotene-rich extract of Dunaliella alga",
    "locations": [
     {
@@ -33259,12 +33787,12 @@
     "PHASE2"
    ],
    "prev_status": null,
-   "primary_completion": "2028-04-30",
+   "primary_completion": "2028-11-30",
    "results_seen_at": null,
    "sex": "ALL",
    "sponsor": "Sheba Medical Center",
    "sponsor_class": "OTHER_GOV",
-   "start_date": "2026-07-26",
+   "start_date": "2026-12-01",
    "status": "ENROLLING_BY_INVITATION",
    "status_changed_at": null,
    "status_label": "Enrolling by invitation",
@@ -34362,7 +34890,7 @@
     "Azoospermia",
     "Stromal Vascular Fraction"
    ],
-   "last_update": "2026-11-17",
+   "last_update": "2026-11-23",
    "lead": "Umbilical Cord Mesenchymal Stem Cells",
    "locations": [
     {
@@ -34544,6 +35072,215 @@
    "summary": "The present study aims to perform a detailed morpho-anatomical and electro-functional characterization of patients affected by IRD, to investigate on the features of specific retinal layers (outer and inner) and to identify the functional involvement of macular elements located in specific areas. Through a systematic approach to anatomical and functional pattern classifications, this study seeks to refine the phenotypic understanding of IRD and to contribute to a deeper comprehension of its pathophysiological underpinnings, for exploring whether subretinal factors are involving in the etiopathogenesis.",
    "title": "Retinal Morpho-functional Evaluation of Patients Affected by Inherited Retinal Dystrophies",
    "url": "https://clinicaltrials.gov/study/NCT07944170",
+   "us_states": [],
+   "why_stopped": ""
+  },
+  "NCT07960381": {
+   "acronym": "",
+   "active": true,
+   "approaches": [
+    "Retinal implant",
+    "Electrical stimulation"
+   ],
+   "completion": "2029-08-31",
+   "conditions": [
+    "Retinal Degeneration",
+    "Retinitis Pigmentosa (RP)",
+    "Geographic Atrophy Secondary to Age-related Macular Degeneration (AMD-GA)"
+   ],
+   "countries": [],
+   "eligibility_text": "Inclusion Criteria:\n\nA. For Screening Patients with Geographic Atrophy secondary to Age-related Macular Degeneration (AMD-GA) for the trial:\n\nInclusion Criteria:\n\n1. Is between 60 and 90 years old at the date of inclusion;\n2. Has a confirmed diagnosis of geographic atrophy due to AMD in both eyes;\n3. Has best corrected visual acuity of the study eye of LogMAR 1.3 (20/400; NCT03333954) or worse measured by ETDRS (less than 22 letters);\n4. Has an atrophic patch in the study eye including the fovea of at least the implant size (\\>= 6 mm in minimum diameter);\n5. In the non-study eye, has visual acuity of 20/200 (logMAR 1.0) or worse and an atrophy size 8 mm² or greater.\n6. Must have already undergone intraocular lens (IOL) implantation in the candidate eye(s).\n7. Willing and able to give informed consent for participation in the trial.\n8. Able to commit to the requirements of the study during the full period (understanding of the requirements of the study and acceptance of the time involved in participating)\n9. Completed the following tests and obtained required scores:\n\n   * A. Test score equal to or less than 5 for the Michigan Alcoholism Screening Test (MAST).\n   * B. Test score equal to or less than 19 for Beck Depression Inventory-II (BDI-II).\n   * C. Test score equal to or less than 15 for Beck Anxiety Inventory (BAI).\n   * D. Test result indicates low to mid-range in neuroticism (T \\<50) and high in conscientiousness (T\\> 50) for NEO Five-Factor Inventory (NEO-FFI).\n   * E. Test score equal to or greater than 24 for Mini-Mental State Exam (MMSE-r).\n\nB. For Screening Retinitis Pigmentosa (RP) Patients for the trial:\n\nInclusion Criteria:\n\n1. Must be between 25 and 90 years old at the time of enrolment.\n2. Have a confirmed history of Retinitis Pigmentosa (RP).\n3. You need to be qualified for one of the criteria below:\n\n   * A. Have a candidate eye of severe visual impairment with central visual acuity (macula region, or area within 3 mm/5 deg visual angle diameter from fovea) ranging between 2.3 (hand motion) to 2.9 LogMAR (light perception) as determined by an Acuity E (Tumbling E) or Grating Acuity test. If both eyes are candidate, the worse seeing eye is selected for retinal prosthesis implantation.\n   * B. If the visual acuity of both eyes is larger than 2.9 LogMAR (i.e., there is no light perception), then it needs to be evaluated by the physician to decide if it's safe and beneficial to implant.\n4. You must have already undergone intraocular lens (IOL) implantation in the candidate eyes.\n5. Fluorescein angiography (FA) showing retinal vascular perfusion in all four quadrants of macula.\n6. History/ memory of former useful form vision (e.g. was able to read normal print without magnifying glass).\n7. Preserved inner retinal organization in the macula (bipolar-amacrine-ganglion cell network) identified by high-resolution OCT.\n8. Central atrophic zone should be at least 24 mm2 measured by fundus autofluorescence\n9. Have eyes with an axial length ranged from 21 to 26 mm.\n10. Willing and able to give informed consent for participation in the trial.\n11. Able to commit to the requirements of the study during the full period (understanding of the requirements of the study and acceptance of the time involved in participating).\n12. Completed the following tests and obtained required scores:\n\n    * A. Test score equal to or less than 5 for the Michigan Alcoholism Screening Test (MAST).\n    * B. Test score equal to or less than 19 for Beck Depression Inventory-II (BDI-II).\n    * C. Test score equal to or less than 15 for Beck Anxiety Inventory (BAI).\n    * D. Test result indicates low to mid-range in neuroticism (T \\<50) and high in conscientiousness (T\\> 50) for NEO Five-Factor Inventory (NEO-FFI).\n    * E. Test score equal to or greater than 24 for Mini-Mental State Exam (MMSE-r).\n\nExclusion Criteria:\n\nA. For Screening late-stage Patients with Geographic Atrophy secondary to Age-related Macular Degeneration (AMD-GA) for the trial:\n\nExclusion Criteria:\n\n1. Has a highly myopic study eye (\\>26 mm AP);\n2. Has a highly hyperopic study eye (\\<21 mm AP);\n3. Has a refraction of study eye higher than + 4 dpt or lower than - 4 dpt for patients with IOL;\n4. Has no light perception in either eye;\n5. Has a history of documented choroidal neovascularization in either eye;\n6. Has any signs of exudative AMD including exudative AMD with detachment of retinal pigment epithelium in the central visual field of the study eye;\n7. Has an implanted telescope in one eye;\n8. Has a black IOL in the study eye;\n9. Has any disease (other than study allowed diseases) or condition that affects retinal function of the study eye or the visual system (e.g., central retinal artery/vein occlusion, end-stage diabetic retinopathy, Proliferative Diabetic Retinopathy (PDR), diabetic macular edema (DME), severe Non-Proliferative Diabetic Retinopathy (NPDR), retinal detachment, infectious or inflammatory retinal disease, severe glaucoma, optic neuropathy, etc.);\n10. Has any disease or condition that prevents adequate examination (including OCT) of the study eye including but not limited to media opacities that cannot be resolved prior to implantation. Note that this criterion is also important for the function of the implant;\n11. Suffers from nystagmus or other ocular motility disorders;\n12. Has any disease or condition that precludes the understanding or communication of the informed consent, study requirements or test protocols (e.g., deafness, severe multiple sclerosis, amyotrophic lateral sclerosis, severe neuritis, etc.);\n13. Has epileptic seizures;\n14. Has a known sensitivity to the contact materials of the implant (iridium oxide, silicone);\n15. Has a known allergy to anaesthetic drugs;\n16. Presents with hypotonia in the study eye (\\<7 mmHg);\n17. Presents with hypertonia in the study eye (\\>23 mmHg with treatment);\n18. Has active cancer or a history of intraocular, optic nerve or brain cancer and metastasis;\n19. Is an immune-suppressed subject (e.g., due to HIV positive diagnosis, etc.);\n20. Is a known carrier of multi-resistant microorganisms;\n21. Is receiving anticoagulation therapy that cannot be adapted to allow eye surgery;\n22. Is participating in another investigational drug or device study that may interfere with current device study;\n23. Has significant recurrent or chronic inflammations or infections. Specifically, patients with the following disorders are excluded:\n\n    A. Severe chronic and consuming diseases that frequently associated with infection (e.g. Crohn disease, Whipple's disease); B. Active inflammation in the area of the eye (e.g. herpes of cornea and/or conjunctiva, recurrent blepharoconjunctivitis, hordeolum, chalazion);\n24. Has a severe psychological disorder;\n25. Does not have the mental capacity to legally sign the informed consent;\n26. Has severe renal, cardiac, hepatic, etc. organ diseases (ASA IV or worse);\n27. Has head dimensions that are incompatible with the Glasses;\n28. Has too high and/or unrealistic expectations (e.g., believes that a benefit is guaranteed or expects normal vision after surgery);\n29. Eye rubbing proclivity, which might predispose to device displacement.\n30. Has any active implantable medical device (AIMD), including but not limited to cardiac pacemakers, implantable cardioverter defibrillators (ICDs), neurostimulators, cochlear implants, implantable infusion pumps, or any other electronically active implanted medical device.\n\nB. For Screening Retinitis Pigmentosa (RP) Patients for the trial:\n\nExclusion Criteria:\n\n1. Retina that is too thin (central foveal thickness \\< 50 um or, average central 0.5 mm foveal thickness \\<100 um) as shown via Optical Coherence Tomography (OCT) to expect required functionality of inner retina and /or OCT shows no layering of the inner retina in the central region.\n2. OCT showing significant (total area \\> 1 mm2) retina oedema and/or subretinal scar tissue within target region for implant.\n3. Heavily (total area \\> 1 mm2) clumped pigmentation within target region for implant.\n4. Any other disease or condition that affects retinal function of the study eye, including but not limited to:\n\n   * A. Central retinal artery/vein occlusion (CRAO or CRVO);\n   * B. Diabetic retinopathy;\n   * C. Current or prior retinal detachment;\n   * D. Infectious or inflammatory retinal disease;\n   * E. Trauma.\n5. Any other disease or condition that affects visual function, including but not limited to:\n\n   * A. History of glaucoma;\n   * B. Uveitis;\n   * C. Optic neuropathies;\n   * D. Any confirmed damage to the optic nerve and/or visual cortex.\n6. Ocular structures or conditions that could prevent the implantation of the HARP4K RPS, inadequate healing from the surgery or would prevent the system from functioning.\n7. Any other disease or condition of the anterior segment of the study eye that prevents adequate eye examination and visualization of the retina, including but not limited to:\n\n   * A. Trauma;\n   * B. Lid malposition;\n   * C. Corneal degeneration.\n8. History of Amblyopia in the eye to be implanted.\n9. Any systemic diseases that might imply considerable risks with regards to the surgical interventions and anaesthesia (e.g. cardiovascular/pulmonary diseases, severe metabolic diseases).\n10. Known allergy or contraindication to anticipated pre-operative, intra operative or post-operative medications.\n11. Any neurological and/or psychiatric diseases or psychological disorder that would prevent the patient to commit to the requirements of the study. The psychological suitability of the patient will be assessed by qualified mental health professional during the screening via a Psychological Evaluation Screening Protocol that evaluates the psychological status of the patient.\n12. Too high and unrealistic expectation after the patient has been given a full explanation (i.e. the patient expects the restoration of pre-blindness vision).\n13. Women who are pregnant or nursing, or women of childbearing potential who are not willing to use a medically acceptable means of birth control for the duration of the study, or women unwilling to perform a pregnancy test before entering the study.\n14. Participating in another investigational drug or device study or biological therapeutic study in the past 12 months.\n15. Eye rubbing proclivity, which might predispose to device displacement.\n16. Patients with ocular hypertension (IOP \\> 23 mmHg).\n17. Patients with ocular hypotony (IOP \\< 7 mmHg).\n18. Has any active implantable medical device (AIMD), including but not limited to cardiac pacemakers, implantable cardioverter defibrillators (ICDs), neurostimulators, cochlear implants, implantable infusion pumps, or any other electronically active implanted medical device.",
+   "enrollment": 5,
+   "first_posted": "2026-11-25",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "gene_agnostic": false,
+   "genes": [],
+   "has_results": false,
+   "healthy_volunteers": false,
+   "interventions": [
+    {
+     "description": "Participants will undergo surgical implantation of the HARP4K Retinal Prosthesis System in the subretinal space of the worse-seeing eligible eye. The investigational system comprises a retinal implant containing approximately 4,000 stimulation microelectrodes, external eyeglasses providing wireless power and communication, and a computer-based fitting console. Following postoperative recovery, the device will be activated and individually configured to deliver electrical stimulation to surviving retinal neurons.",
+     "name": "Subretinal implantation of HARP4K retinal prosthesis",
+     "type": "DEVICE"
+    }
+   ],
+   "is_treatment": true,
+   "keywords": [
+    "HARP4K Retinal Prosthesis",
+    "Retinitis Pigmentosa",
+    "Geographic Atrophy (AMD-GA)"
+   ],
+   "last_update": "2026-11-25",
+   "lead": "Subretinal implantation of HARP4K retinal prosthesis",
+   "locations": [],
+   "max_age": "90 Years",
+   "max_age_years": 90,
+   "min_age": "25 Years",
+   "min_age_years": 25,
+   "nct_id": "NCT07960381",
+   "official_title": "An Early Feasibility Study of the Iridium Medical Technology Company HARP4K Retinal Prosthesis System (HARP4K RPS).",
+   "phase_label": "N/A",
+   "phase_rank": -1,
+   "phases": [
+    "NA"
+   ],
+   "prev_status": null,
+   "primary_completion": "2029-08-01",
+   "results_seen_at": null,
+   "sex": "ALL",
+   "sponsor": "Iridium Medical Technology Co., Ltd.",
+   "sponsor_class": "INDUSTRY",
+   "start_date": "2027-04-01",
+   "status": "NOT_YET_RECRUITING",
+   "status_changed_at": null,
+   "status_label": "Not yet recruiting",
+   "study_type": "INTERVENTIONAL",
+   "summary": "This study is testing a new retinal implant called the HARP4K Retinal Prosthesis System in people with severe vision loss caused by advanced retinal diseases, including age-related macular degeneration and retinitis pigmentosa. Up to five participants will receive the implant and be followed to assess its safety and how well it works. The main aim of the study is to determine whether the device and the implantation procedure can be used safely. The study will also explore whether the implant may help improve vision and quality of life. The information collected will help researchers decide whether the device should be evaluated in a larger future clinical study.",
+   "title": "Early Feasibility Study of the HARP4K Retinal Prosthesis System in People With Advanced Retinal Degeneration.",
+   "url": "https://clinicaltrials.gov/study/NCT07960381",
+   "us_states": [],
+   "why_stopped": ""
+  },
+  "NCT07962981": {
+   "acronym": "",
+   "active": true,
+   "approaches": [
+    "Drug / neuroprotection"
+   ],
+   "completion": "2028-12",
+   "conditions": [
+    "Inherited Retinal Degeneration",
+    "Cystoid Macular Edema"
+   ],
+   "countries": [
+    "United States"
+   ],
+   "eligibility_text": "Inclusion Criteria:\n\n1. Males or females age 3 to 12 years\n2. Diagnosis of inherited retinal degeneration with molecular confirmation of disease (i.e. proven disease-causing variants in genes that are associated with the participant's clinical phenotype) from a Clinical Laboratory Improvement Amendments (CLIA)-certified lab\n3. Cystoid macular edema (CME) as judged by the investigator on SD-OCT that is treatment naive or currently untreated at time of enrollment\n4. Female subjects ≥ 11 years of age must have a negative urine/serum pregnancy test.\n5. Parental/guardian permission (informed consent) and if appropriate, child assent.\n6. Reasonably able to cooperatively complete study procedures without use of sedation/anesthesia including SD-OCT and fluorescein angiography\n\nExclusion Criteria:\n\n1. Subjects who have previously failed either investigational medication class (topical or oral CAI or topical NSAID)\n2. Subjects currently receiving treatment for IRD-related CME, regardless of medication class\n3. Subjects with x-linked retinoschisis (XLRS) due to mutation in retinoschisin1 (RS1) gene\n4. Hypersensitivity to any of the investigational drugs\n5. Hypersensitivity to fluorescein including if previously administered IV or PO\n6. Any history of corneal denervation due to infection or surgical intervention\n7. Diabetes mellitus (type 1 or 2)\n8. Ocular surface disease (i.e. dry eye syndrome, Sjogren syndrome)\n9. Rheumatoid arthritis\n10. Clinically significant ocular surface changes (i.e. punctate epithelial erosions) due to contact lens wear upon screening and/or unwilling to discontinue contact lens use during trial period\n11. Intraocular surgery within prior 6 months\n12. History of bleeding tendencies or concomitant medications that prolong bleeding time\n13. Moderate to severe renal disease defined as estimated glomerular filtration rate (eGFR) \\<60 milliliters(mL)/min/1.73m² using an age-appropriate formula\n14. Pregnant or lactating female subjects\n15. Subjects unwilling or unable to complete study procedures",
+   "enrollment": 20,
+   "first_posted": "2026-11-27",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "gene_agnostic": false,
+   "genes": [],
+   "has_results": false,
+   "healthy_volunteers": false,
+   "interventions": [
+    {
+     "description": "Nonsteroidal anti-inflammatory drug (NSAID). Three times daily to one or both eyes.",
+     "name": "Nepafenac 0.1% Ophthalmic Suspension",
+     "type": "DRUG"
+    },
+    {
+     "description": "Carbonic Anhydrase Inhibitor (CAI). Three times daily to one or both eyes.",
+     "name": "Brinzolamide 1%",
+     "type": "DRUG"
+    }
+   ],
+   "is_treatment": true,
+   "keywords": [],
+   "last_update": "2026-11-27",
+   "lead": "Nepafenac 0.1% Ophthalmic Suspension",
+   "locations": [
+    {
+     "city": "Philadelphia",
+     "country": "United States",
+     "facility": "Children's Hospital of Philadelphia",
+     "state": "Pennsylvania",
+     "status": ""
+    }
+   ],
+   "max_age": "12 Years",
+   "max_age_years": 12,
+   "min_age": "3 Years",
+   "min_age_years": 3,
+   "nct_id": "NCT07962981",
+   "official_title": "Optimizing Treatment of Cystoid Macular Edema in Pediatric Inherited Retinal Disease",
+   "phase_label": "Phase 2",
+   "phase_rank": 2,
+   "phases": [
+    "PHASE2"
+   ],
+   "prev_status": null,
+   "primary_completion": "2028-12",
+   "results_seen_at": null,
+   "sex": "ALL",
+   "sponsor": "Erin O'Neil",
+   "sponsor_class": "OTHER",
+   "start_date": "2026-12",
+   "status": "NOT_YET_RECRUITING",
+   "status_changed_at": null,
+   "status_label": "Not yet recruiting",
+   "study_type": "INTERVENTIONAL",
+   "summary": "The best treatment option for cystoid macular edema (CME) in children with inherited retinal disease (IRD) is not known. The purpose of this study is to investigate two potential eye drops which are used in the treatment CME to determine which is most helpful to pediatric participants in decreasing edema. All participants will be randomized to receive one of two possible study drugs and use them in one or both eyes for a period of up to 6 months.",
+   "title": "Optimizing Treatment of Cystoid Macular Edema in Pediatric Inherited Retinal Disease",
+   "url": "https://clinicaltrials.gov/study/NCT07962981",
+   "us_states": [
+    "Pennsylvania"
+   ],
+   "why_stopped": ""
+  },
+  "NCT07963085": {
+   "acronym": "AURORA",
+   "active": true,
+   "approaches": [
+    "Gene therapy"
+   ],
+   "completion": "2033-06",
+   "conditions": [
+    "Leber Congenital Amaurosis (LCA)"
+   ],
+   "countries": [],
+   "eligibility_text": "Inclusion Criteria:\n\n1. Males and females ≥ 3 years of age at Screening.\n2. A diagnosis of retinal dystrophy caused by pathogenic or likely pathogenic biallelic mutations in GUCY2D based on testing by a Clinical Laboratory Improvement Amendments (CLIA)-approved or International Organization for Standardization (ISO) 15189-accredited laboratory.\n3. At Screening, at least one eye must have a modified MLMT® score between 0 and 6 (ie, must be able to pass the modified MLMT® at a level of 400 lux or lower but unable to pass the modified MLMT® at levels below 1 lux).\n4. BCVA at Screening of worse than 0.30 logMAR (approximately 20/40) and better than light perception in each eye.\n5. Photoreceptor (outer nuclear layer) structure identifiable by the Investigator on the Screening macular optical coherence tomography (OCT) scan in both eyes.\n6. Women of childbearing potential and fertile men must be willing to use protocol-required contraception methods or abstain from sexual intercourse from the time of informed consent until 6 months following the completion of study treatment administration.\n7. Signed and dated written informed consent by the subject or legal guardian/representative (and assent in the case of minors when age-appropriate), in accordance with the local regulations.\n\nExclusion Criteria:\n\nPatients are excluded from the study if any of the following criteria apply:\n\n1. History of potentially confounding concomitant systemic disease(s) in which the disease itself, or the treatment for the disease, can alter ocular function in the opinion of the Investigator (eg, malignancies whose treatment could affect central nervous system function, diabetes or sickle cell disease with advanced retinopathy, immunodeficiency \\[acquired or congenital\\] with risk of opportunistic infection, rheumatologic diseases requiring chronic immunosuppressive therapy).\n2. Presence of active, uncontrolled, or clinically significant infectious disease that may be exacerbated by protocol-required corticosteroid therapy (eg, hepatitis B, hepatitis C, tuberculosis).\n3. Current or anticipated use of anticoagulation therapy for which discontinuation prior to ATSN-101 administration is contraindicated in the opinion of the Investigator/Surgeon and prescribing physician.\n4. History of treatment in a prior gene or cell therapy study.\n5. Women who are pregnant, trying to become pregnant, or lactating.\n6. Hypersensitivity to any component of ATSN-101, including excipients (sodium acetate, sodium citrate, sodium chloride, potassium chloride, calcium chloride, magnesium chloride, polysorbate 20).\n7. Contraindications to any of the NIMPs (non-Investigational Medicinal Product) to be administered during the study.\n8. Any patient who, in the judgment of the Investigator, is not a candidate for appropriate weight-based steroid regimen.\n9. Vaccination or anticipated vaccination within the 4 weeks prior to surgery.\n10. Any patient who, in the judgment of the Investigator, is likely to be noncompliant during the study, or unable to cooperate with the study procedures.\n11. Presence of lens, cornea, or other media opacities in either eye at Screening that, in the opinion of the Investigator, may preclude adequate visualization and testing of the retina.\n12. Presence of any retinal condition at Screening that, in the opinion of the Investigator, is clinically significant or may confound visual acuity (eg, epiretinal membrane, vitreomacular traction) in either eye.\n13. Presence at Screening, or a history of, herpes simplex virus, varicella-zoster virus, or cytomegalovirus infections (eg, keratitis, uveitis, retinitis) in either eye.\n14. History of eye condition(s) in either eye that would increase the risk of visual loss due to a subretinal injection, in the opinion of the Investigator (eg, advanced glaucoma, optic neuropathy, uveitis, corneal transplant).\n15. History of any intraocular surgery in either eye within 6 months prior to Screening or any non-study, planned intraocular surgery anticipated in either eye during the first 12 months of the study (laser treatment is allowed as long as it occurs at least 2 weeks before study surgery).",
+   "enrollment": 30,
+   "first_posted": "2026-11-27",
+   "first_seen": "2026-11-27T17:18:35+00:00",
+   "gene_agnostic": false,
+   "genes": [
+    "GUCY2D"
+   ],
+   "has_results": false,
+   "healthy_volunteers": false,
+   "interventions": [
+    {
+     "description": "Sub-retinal injection",
+     "name": "ATSN-101-1",
+     "type": "GENETIC"
+    }
+   ],
+   "is_treatment": true,
+   "keywords": [
+    "GUCY2D",
+    "LCA",
+    "Leber Congenital Amaurosis",
+    "AURORA"
+   ],
+   "last_update": "2026-11-27",
+   "lead": "ATSN-101-1",
+   "locations": [],
+   "max_age": "",
+   "max_age_years": null,
+   "min_age": "3 Years",
+   "min_age_years": 3,
+   "nct_id": "NCT07963085",
+   "official_title": "A Phase 3, Randomized, Controlled Study to Evaluate the Efficacy and Safety of ATSN-101 Gene Therapy in Subjects With Biallelic GUCY2D Mutation-Associated Retinal Dystrophy (AURORA)",
+   "phase_label": "Phase 3",
+   "phase_rank": 3,
+   "phases": [
+    "PHASE3"
+   ],
+   "prev_status": null,
+   "primary_completion": "2028-12",
+   "results_seen_at": null,
+   "sex": "ALL",
+   "sponsor": "Atsena Therapeutics Inc.",
+   "sponsor_class": "INDUSTRY",
+   "start_date": "2027-03",
+   "status": "NOT_YET_RECRUITING",
+   "status_changed_at": null,
+   "status_label": "Not yet recruiting",
+   "study_type": "INTERVENTIONAL",
+   "summary": "The goal of this clinical trial is to learn if the gene therapy ATSN-101 can safely improve vision in people 3 years of age and older with an inherited retinal disease caused by changes in both copies of the GUCY2D gene. The main questions it aims to answer are:\n\nDoes ATSN-101 improve functional vision, meaning the ability to move through a mobility course at different light levels? Specifically, are more participants who receive ATSN-101 able to improve by 2 or more levels on a modified multi-luminance mobility test® (modified MLMT®) in the study eye after 12 months, compared with participants in the control group?\n\nDoes ATSN-101 improve the retina's sensitivity to light? Specifically, how much does sensitivity to white light in the study eye change after 12 months, as measured by a dark-adapted full-field stimulus test (FST), compared with the control group?\n\nHow much does each participant's score on the modified MLMT® change, on average, from the start of the study to 12 months, compared with the control group?\n\nIs ATSN-101 safe and well tolerated?\n\nResearchers will compare participants who receive ATSN-101 right away to a control group that receives no treatment for the first 12 months, to see if the treatment improves functional vision and light sensitivity more than no treatment. After 12 months, participants in the control group can choose to receive ATSN-101 if they still meet the study requirements.\n\nParticipants will:\n\nBe assigned by chance (randomly) to receive ATSN-101 or to the no-treatment control group\n\nIf assigned to ATSN-101, each eye will receive a one-time injection under the retina (subretinal injection). One eye is treated first and the second eye is treated 7 to 21 days after the later. The therapy uses a viral carrier (AAV - adeno associated virus) to deliver a working copy of the GUCY2D gene to light-sensing cells in the eye\n\nComplete eye exams, vision tests, light-sensitivity tests, mobility courses, and questionnaires about vision and quality of life during study visits\n\nBe followed for 12 months to check changes in vision and if there are any side effects (safety), and then, if treated with ATSN-101, for 4 more years to check long-term effects (safety).\n\nIf assigned to the control group, have the option to cross over after 12 months and receive ATSN-101 in each eye, followed by another 12 months and then 4 years of follow-up\n\nParticipation lasts up to about 5 years for those treated with ATSN-101 from the start (63 months, including up to 3 months of screening). Control group participants who cross over to treatment will be in the study for up to about 6 years (75 months).",
+   "title": "A Study of ATSN-101 Gene Therapy Testing if ATSN-101 is Safe and Helps Improve Vision in People With an Inherited Retina Disease Linked to the GUCY2D Gene",
+   "url": "https://clinicaltrials.gov/study/NCT07963085",
    "us_states": [],
    "why_stopped": ""
   }
